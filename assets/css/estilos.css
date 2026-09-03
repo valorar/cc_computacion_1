@@ -291,9 +291,11 @@ details > div { padding: 0 1rem 1rem; }
 
 @media (max-width: 760px) {
   body { font-size: 1rem; }
-  .boton_menu { display: inline-flex; align-items: center; }
-  .navegacion { position: absolute; inset: 100% 0 auto; display: none; border-bottom: 1px solid var(--linea); background: var(--papel_claro); }
-  .navegacion.abierta { display: block; }
+  .boton_menu { display: none; align-items: center; flex: 0 0 auto; }
+  .js .boton_menu { display: inline-flex; }
+  .navegacion { position: absolute; inset: 100% 0 auto; display: block; border-bottom: 1px solid var(--linea); background: var(--papel_claro); }
+  .js .navegacion { display: none; }
+  .js .navegacion.abierta { display: block; }
   .navegacion ul { width: min(calc(100% - 2rem), var(--ancho)); margin: 0.6rem auto; display: grid; }
   .navegacion a { padding: 0.8rem; }
   .hero_rejilla, .encabezado_seccion, .bloque, .rejilla_tema { grid-template-columns: 1fr; }

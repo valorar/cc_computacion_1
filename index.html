@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Aula de Ciencias de la Computación I para 1.º de Bachillerato, curso 2026-2027.">
+  <title>Ciencias de la Computación I</title>
+  <meta name="theme-color" content="#f4f0e6">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/estilos.css">
+  <script src="assets/js/navegacion.js" defer></script>
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+  <div class="barra_progreso" aria-hidden="true"><span data_progreso></span></div>
+
+  <header class="cabecera">
+    <div class="cabecera_interior">
+      <a class="marca" href="index.html" aria-label="Inicio de Ciencias de la Computación I">
+        <span class="marca_codigo">CC1</span>
+        <span>Ciencias de la Computación I<small>1.º Bachillerato · 2026–2027</small></span>
+      </a>
+      <button class="boton_menu" type="button" aria-expanded="false" aria-controls="navegacion_principal" data_boton_menu>Menú</button>
+      <nav class="navegacion" id="navegacion_principal" aria-label="Navegación principal" data_navegacion>
+        <ul>
+          <li><a href="index.html" aria-current="page">Inicio</a></li>
+          <li><a href="programa.html">Programa</a></li>
+          <li><a href="tema1.html">Tema 1</a></li>
+          <li><a href="#forma_de_trabajo">Cómo trabajamos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <section class="hero">
+      <div class="contenedor hero_rejilla">
+        <div>
+          <p class="etiqueta">Aula · laboratorio · cuaderno de consulta</p>
+          <h1>Aprender computación, haciéndola.</h1>
+          <p class="hero_intro">Un curso para comprender las máquinas, crear con ellas y tomar decisiones responsables sobre la tecnología que nos rodea.</p>
+        </div>
+        <div class="hero_lateral">
+          <p>La teoría orienta. La práctica demuestra. Todo el trabajo evaluable se realiza en el aula de informática.</p>
+          <div class="acciones">
+            <a class="boton" href="tema1.html">Empezar el tema 1</a>
+            <a class="boton boton_secundario" href="programa.html">Ver el programa</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="franja_datos" aria-label="Datos básicos del curso">
+      <ul class="contenedor lista_datos">
+        <li><strong>Nivel</strong><span>1.º de Bachillerato</span></li>
+        <li><strong>Curso</strong><span>2026–2027</span></li>
+        <li><strong>Espacio</strong><span>Aula de informática</span></li>
+        <li><strong>Evaluación</strong><span>70% práctica · 30% Moodle</span></li>
+      </ul>
+    </section>
+
+    <section class="seccion" id="forma_de_trabajo">
+      <div class="contenedor">
+        <div class="encabezado_seccion">
+          <span class="numero_seccion">01 / MÉTODO</span>
+          <div>
+            <h2>Una clase es un ciclo de trabajo</h2>
+            <p class="subtitulo">Las explicaciones son breves y tienen una misión: dar las herramientas necesarias para empezar a investigar, construir y corregir.</p>
+          </div>
+        </div>
+
+        <div class="pasos">
+          <article class="paso">
+            <div><h3>Orientarse</h3><p>Leemos la pregunta guía y revisamos solo la teoría imprescindible para comprender el reto.</p></div>
+          </article>
+          <article class="paso">
+            <div><h3>Probar</h3><p>Manipulamos datos, sistemas, documentos o código. El error se trata como información, no como fracaso.</p></div>
+          </article>
+          <article class="paso">
+            <div><h3>Construir</h3><p>Cada práctica produce una evidencia real y conservable: archivo, programa, informe, publicación o registro de pruebas.</p></div>
+          </article>
+          <article class="paso">
+            <div><h3>Comprobar</h3><p>Una lista de control, pruebas automáticas o una rúbrica breve permite saber qué funciona y qué debe revisarse.</p></div>
+          </article>
+          <article class="paso">
+            <div><h3>Explicar</h3><p>El cuestionario autocorregible de Moodle comprueba si sabemos interpretar y aplicar, no solo recordar palabras.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion" id="ruta">
+      <div class="contenedor">
+        <div class="encabezado_seccion">
+          <span class="numero_seccion">02 / RUTA</span>
+          <div>
+            <h2>Tres evaluaciones, una sola progresión</h2>
+            <p class="subtitulo">Primero comprendemos los fundamentos; después producimos información; finalmente desarrollamos soluciones con Python.</p>
+          </div>
+        </div>
+
+        <div class="ruta">
+          <article class="tramo">
+            <div class="tramo_fecha">SEP—DIC 2026</div>
+            <div><h3>Comprender la máquina</h3><p>Historia de la computación, arquitectura, componentes, sistemas operativos, lenguajes y utilidades.</p></div>
+            <a class="tramo_enlace" href="tema1.html">Abrir tema 1 →</a>
+          </article>
+          <article class="tramo">
+            <div class="tramo_fecha">ENE—MAR 2027</div>
+            <div><h3>Transformar información</h3><p>Documentos, hojas de cálculo, bases de datos, comunicación, colaboración y publicación web accesible.</p></div>
+            <a class="tramo_enlace" href="programa.html#evaluacion_2">Ver recorrido →</a>
+          </article>
+          <article class="tramo">
+            <div class="tramo_fecha">ABR—MAY 2027</div>
+            <div><h3>Programar soluciones</h3><p>Python desde el primer contacto con el código: datos, decisiones, repeticiones, funciones, pruebas y depuración.</p></div>
+            <a class="tramo_enlace" href="programa.html#evaluacion_3">Ver recorrido →</a>
+          </article>
+        </div>
+
+        <aside class="aviso">
+          <strong>El acuerdo de aula</strong>
+          <p>No hay deberes para casa ni notas basadas en observaciones informales. El trabajo, la ayuda del profesor y la evaluación suceden en clase; cada calificación queda respaldada por una entrega o por Moodle.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="seccion" id="evaluacion">
+      <div class="contenedor columnas_dos">
+        <div>
+          <span class="etiqueta">Evaluación transparente</span>
+          <h2>La nota refleja lo que produces y comprendes</h2>
+        </div>
+        <div>
+          <ul class="lista_comprobacion">
+            <li>Las prácticas obligatorias permiten alcanzar un 10.</li>
+            <li>Las voluntarias solo se abren al completar las obligatorias.</li>
+            <li>Una voluntaria incompleta o que no mejora la media se ignora.</li>
+            <li>No existen notas mínimas ni filtros entre apartados.</li>
+            <li>La calificación máxima siempre es 10.</li>
+          </ul>
+          <a class="boton boton_secundario" href="programa.html#calificacion">Consultar el cálculo completo</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie_interior">
+      <p><strong>Ciencias de la Computación I</strong><br><small>1.º de Bachillerato · Comunidad de Madrid</small></p>
+      <p><a href="programa.html">Programa</a> · <a href="tema1.html">Tema 1</a><br><small>Sitio estático portable a Moodle.</small></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Programa de Ciencias de la Computación I para 1.º de Bachillerato, curso 2026-2027.">
+  <title>Programa | Ciencias de la Computación I</title>
+  <meta name="theme-color" content="#f4f0e6">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/estilos.css">
+  <script src="assets/js/navegacion.js" defer></script>
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+  <div class="barra_progreso" aria-hidden="true"><span data_progreso></span></div>
+
+  <header class="cabecera">
+    <div class="cabecera_interior">
+      <a class="marca" href="index.html" aria-label="Inicio de Ciencias de la Computación I">
+        <span class="marca_codigo">CC1</span>
+        <span>Ciencias de la Computación I<small>1.º Bachillerato · 2026–2027</small></span>
+      </a>
+      <button class="boton_menu" type="button" aria-expanded="false" aria-controls="navegacion_principal" data_boton_menu>Menú</button>
+      <nav class="navegacion" id="navegacion_principal" aria-label="Navegación principal" data_navegacion>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="programa.html" aria-current="page">Programa</a></li>
+          <li><a href="tema1.html">Tema 1</a></li>
+          <li><a href="#metodologia">Cómo trabajamos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <nav class="migas contenedor" aria-label="Migas de pan">
+      <ol><li><a href="index.html">Inicio</a></li><li aria-current="page">Programa</li></ol>
+    </nav>
+
+    <section class="hero hero_programa">
+      <div class="contenedor hero_rejilla">
+        <div>
+          <p class="etiqueta">Programa provisional · curso 2026–2027</p>
+          <h1>El mapa antes del viaje.</h1>
+          <p class="hero_intro">Bloques oficiales, temas propuestos, metodología y reglas de evaluación en un único documento consultable.</p>
+        </div>
+        <aside class="hero_lateral" aria-label="Naturaleza del programa">
+          <p>La secuencia concreta es una propuesta docente. Los cinco bloques proceden del currículo oficial de la Comunidad de Madrid.</p>
+          <div class="acciones"><a class="boton" href="tema1.html">Ver el tema piloto</a><a class="boton boton_secundario" href="#calificacion">Cómo se califica</a></div>
+        </aside>
+      </div>
+    </section>
+
+    <nav class="indice_pagina" aria-label="Índice del programa">
+      <ul class="contenedor">
+        <li><a href="#principios">Principios</a></li>
+        <li><a href="#evaluacion_1">1.ª evaluación</a></li>
+        <li><a href="#evaluacion_2">2.ª evaluación</a></li>
+        <li><a href="#evaluacion_3">3.ª evaluación</a></li>
+        <li><a href="#metodologia">Metodología</a></li>
+        <li><a href="#calificacion">Calificación</a></li>
+        <li><a href="#alineacion">Currículo</a></li>
+      </ul>
+    </nav>
+
+    <section class="seccion" id="principios">
+      <div class="contenedor">
+        <div class="encabezado_seccion">
+          <span class="numero_seccion">01 / DISEÑO</span>
+          <div><h2>Principios que organizan el curso</h2><p class="subtitulo">La web no es un libro para memorizar: es el punto de partida del trabajo en el aula.</p></div>
+        </div>
+        <div class="columnas_dos">
+          <ul class="lista_comprobacion">
+            <li>El 100% de las clases se desarrolla en el aula de informática.</li>
+            <li>No se envía trabajo evaluable para casa.</li>
+            <li>Las introducciones teóricas son breves y orientadas a la acción.</li>
+            <li>La teoría de cada tema permanece reunida en páginas HTML claras y visuales.</li>
+          </ul>
+          <ul class="lista_comprobacion">
+            <li>Cada práctica deja una evidencia material que se puede conservar y revisar.</li>
+            <li>Cada tema termina con una prueba autocorregible y calificada en Moodle.</li>
+            <li>Python se utiliza directamente; no hay una unidad aislada de pseudocódigo.</li>
+            <li>Privacidad, accesibilidad, seguridad y autoría se integran en tareas reales.</li>
+          </ul>
+        </div>
+        <aside class="aviso" aria-label="Aviso sobre la temporalización"><strong>Temporalización abierta</strong><p>Las fechas son orientativas y se ajustarán al calendario oficial del centro, los días no lectivos y el ritmo real del grupo. El orden mantiene la cobertura curricular, pero no obliga a dedicar el mismo tiempo a todos los temas.</p></aside>
+      </div>
+    </section>
+
+    <section class="seccion" aria-labelledby="titulo_programa">
+      <div class="contenedor">
+        <div class="encabezado_seccion">
+          <span class="numero_seccion">02 / PROGRAMA</span>
+          <div><h2 id="titulo_programa">Evaluaciones, bloques y temas</h2><p class="subtitulo">Los nombres de los bloques son oficiales. Los temas y su distribución por evaluaciones constituyen la propuesta didáctica del curso.</p></div>
+        </div>
+
+        <article class="evaluacion" id="evaluacion_1">
+          <header class="evaluacion_cabecera">
+            <div class="evaluacion_numero">E1</div>
+            <div><h2>Comprender la máquina</h2><p>Del 14 de septiembre al 21 de diciembre de 2026, aproximadamente.</p></div>
+          </header>
+
+          <section class="bloque">
+            <div><p class="bloque_nombre">Bloque A · Oficial</p><h3>Ciencias de la computación. Evolución histórica</h3></div>
+            <ol class="temas">
+              <li class="tema_item"><h3 class="tema_titulo" data_numero="01"><a href="tema1.html">Ideas que hicieron posible la computación</a></h3><p>De calcular a computar; Lovelace, Boole, Turing y von Neumann; algoritmo, computabilidad y decidibilidad; revolución digital e impacto social. Prácticas: línea de evidencias, depuración de instrucciones y análisis de un impacto tecnológico.</p></li>
+            </ol>
+          </section>
+
+          <section class="bloque">
+            <div><p class="bloque_nombre">Bloque B · Oficial</p><h3>Los sistemas informáticos</h3></div>
+            <ol class="temas">
+              <li class="tema_item"><h3 class="tema_titulo" data_numero="02">Cómo funciona un ordenador</h3><p>Hardware, software y usuarios; tipos de ordenadores; arquitectura de von Neumann; CPU, memoria, almacenamiento, entrada/salida y comunicaciones. Prácticas: diagnóstico del equipo y modelo funcional.</p></li>
+              <li class="tema_item"><h3 class="tema_titulo" data_numero="03">Por dentro: componentes, conexiones y arranque</h3><p>Placa base, procesador, RAM, buses, conectores, puertos, alimentación, protección ante fallos, BIOS/UEFI, secuencia de arranque y cargador. Prácticas: inventario técnico y resolución de averías simuladas.</p></li>
+            </ol>
+          </section>
+
+          <section class="bloque">
+            <div><p class="bloque_nombre">Bloque C · Oficial</p><h3>Software de sistema y de utilidad</h3></div>
+            <ol class="temas">
+              <li class="tema_item"><h3 class="tema_titulo" data_numero="04">El sistema operativo y los archivos</h3><p>Núcleo, interfaz gráfica y línea de comandos; procesos, usuarios, permisos, sistemas de archivos y organización segura de la información. Prácticas: operaciones reproducibles y comparación de interfaces.</p></li>
+              <li class="tema_item"><h3 class="tema_titulo" data_numero="05">Lenguajes, aplicaciones y utilidades</h3><p>Lenguajes de bajo y alto nivel; paradigmas principales; software libre y propietario; instalación, requisitos, pruebas y selección argumentada de herramientas. Rutina transversal: primeros contactos breves con Python.</p></li>
+            </ol>
+          </section>
+        </article>
+
+        <article class="evaluacion" id="evaluacion_2">
+          <header class="evaluacion_cabecera">
+            <div class="evaluacion_numero">E2</div>
+            <div><h2>Transformar y difundir información</h2><p>Desde enero hasta Semana Santa de 2027, aproximadamente.</p></div>
+          </header>
+
+          <section class="bloque">
+            <div><p class="bloque_nombre">Bloque D · Oficial</p><h3>Elaboración y difusión de la información</h3></div>
+            <ol class="temas">
+              <li class="tema_item"><h3 class="tema_titulo" data_numero="06">Documentos que comunican</h3><p>Procesadores de texto, estructura, estilos, tablas, referencias, formatos, exportación, accesibilidad, licencias y verificación de fuentes. Producto: documento académico reproducible y accesible.</p></li>
+              <li class="tema_item"><h3 class="tema_titulo" data_numero="07">Hojas de cálculo: datos que responden</h3><p>Tipos de datos, fórmulas, referencias, funciones, validación, filtros, gráficos y construcción de modelos. Producto: hoja verificable que responde a una pregunta real.</p></li>
+              <li class="tema_item"><h3 class="tema_titulo" data_numero="08">Bases de datos: ordenar para consultar</h3><p>Tablas, campos, registros, claves, relaciones, formularios, consultas e informes; calidad y privacidad de los datos. Producto: pequeña base de datos con consultas útiles.</p></li>
+              <li class="tema_item"><h3 class="tema_titulo" data_numero="09">Presentar y coordinar un proyecto</h3><p>Presentaciones eficaces, narración visual, herramientas colaborativas, almacenamiento en la nube, versiones, reparto de tareas y publicación compartida.</p></li>
+              <li class="tema_item"><h3 class="tema_titulo" data_numero="10">La web como documento público</h3><p>HTML semántico, CSS, estructura de un sitio, enlaces relativos, imágenes, diseño adaptable, accesibilidad, validación y publicación. Producto: micrositio estático.</p></li>
+              <li class="tema_item"><h3 class="tema_titulo" data_numero="11">Internet: evolución, servicios y riesgos</h3><p>Web 1.0, 2.0 y 3.0; redes sociales, nube, IoT, inteligencia artificial y Big Data; oportunidades, huella digital, sesgos, seguridad y efectos sociales.</p></li>
+            </ol>
+          </section>
+        </article>
+
+        <article class="evaluacion" id="evaluacion_3">
+          <header class="evaluacion_cabecera">
+            <div class="evaluacion_numero">E3</div>
+            <div><h2>Programar soluciones</h2><p>Después de Semana Santa hasta finales de mayo de 2027, aproximadamente.</p></div>
+          </header>
+
+          <section class="bloque">
+            <div><p class="bloque_nombre">Bloque E · Oficial</p><h3>Programación</h3></div>
+            <ol class="temas">
+              <li class="tema_item"><h3 class="tema_titulo" data_numero="12">Python: datos, expresiones y conversación</h3><p>Entorno de desarrollo, programas e instrucciones, variables, tipos, operadores, entrada, salida y lectura de errores. Del primer día al código ejecutable, sin unidad previa de pseudocódigo.</p></li>
+              <li class="tema_item"><h3 class="tema_titulo" data_numero="13">Tomar decisiones y repetir</h3><p>Condiciones, selección, operadores lógicos, bucles, invariantes sencillos, trazas y control de casos límite.</p></li>
+              <li class="tema_item"><h3 class="tema_titulo" data_numero="14">Colecciones para trabajar con muchos datos</h3><p>Cadenas, listas y otras colecciones adecuadas al proyecto; recorridos, búsqueda, acumulación y transformación.</p></li>
+              <li class="tema_item"><h3 class="tema_titulo" data_numero="15">Funciones, pruebas y depuración</h3><p>Descomposición, parámetros, retorno, contratos sencillos, casos de prueba, errores, depuración y mejora progresiva del código.</p></li>
+              <li class="tema_item"><h3 class="tema_titulo" data_numero="16">Proyecto de integración en Python</h3><p>Definir un problema abordable, dividirlo, implementar una solución, probarla, documentarla y presentar evidencias de su funcionamiento.</p></li>
+            </ol>
+          </section>
+        </article>
+      </div>
+    </section>
+
+    <section class="seccion" id="metodologia">
+      <div class="contenedor">
+        <div class="encabezado_seccion">
+          <span class="numero_seccion">03 / AULA</span>
+          <div><h2>Metodología de trabajo</h2><p class="subtitulo">Aprender haciendo no significa trabajar sin guía: cada reto ofrece contexto, recursos, criterios y una forma concreta de comprobar el resultado.</p></div>
+        </div>
+        <div class="pasos">
+          <article class="paso"><div><h3>Inicio breve</h3><p>Pregunta guía, demostración o caso real y localización de la teoría necesaria.</p></div></article>
+          <article class="paso"><div><h3>Práctica guiada</h3><p>Primer intento con pasos, archivos o ejemplos proporcionados y comprobaciones frecuentes.</p></div></article>
+          <article class="paso"><div><h3>Práctica autónoma</h3><p>Aplicación a un caso nuevo con una entrega individual o colaborativa claramente identificada.</p></div></article>
+          <article class="paso"><div><h3>Verificación</h3><p>Pruebas automáticas, lista de control o rúbrica breve. El profesor ayuda y da retroalimentación, pero la observación informal no aporta nota.</p></div></article>
+          <article class="paso"><div><h3>Evaluación Moodle</h3><p>Preguntas autocorregibles de interpretación, aplicación, diagnóstico y predicción vinculadas al tema.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion" id="calificacion">
+      <div class="contenedor">
+        <div class="encabezado_seccion">
+          <span class="numero_seccion">04 / NOTA</span>
+          <div><h2>Dos evidencias, sin filtros ocultos</h2><p class="subtitulo">No hay una nota mínima exigible en ningún apartado. Se aplican únicamente los pesos.</p></div>
+        </div>
+        <div class="formula"><code>nota = prácticas × 0,70 + evaluaciones Moodle × 0,30</code></div>
+        <div class="columnas_dos">
+          <div><h3>Prácticas · 70%</h3><p>Las obligatorias permiten obtener por sí solas un 10. Todas generan una entrega material y se corrigen mediante pruebas, listas de control o rúbricas breves definidas de antemano.</p></div>
+          <div><h3>Moodle · 30%</h3><p>Cada tema tiene una evaluación autocorregible con nota registrada. Las preguntas priorizan interpretar, aplicar, localizar errores y predecir resultados frente a la memorización literal.</p></div>
+        </div>
+        <aside class="aviso" aria-label="Regla de las prácticas voluntarias"><strong>Cómo mejoran la nota las voluntarias</strong><p>Solo se puede acceder a ellas después de completar todas las obligatorias. Si existen <em>N</em> prácticas obligatorias, se toman las <em>N</em> mejores calificaciones entre las obligatorias y las voluntarias terminadas. Una voluntaria incompleta o que no mejora la media se ignora. Nunca reduce la nota ni permite superar 10.</p></aside>
+      </div>
+    </section>
+
+    <section class="seccion" id="alineacion">
+      <div class="contenedor">
+        <div class="encabezado_seccion">
+          <span class="numero_seccion">05 / CURRÍCULO</span>
+          <div><h2>Alineación curricular</h2><p class="subtitulo">El diseño se apoya en la Orden 1736/2023. Antes de cerrar cada práctica se completará su correspondencia exacta con contenidos y criterios.</p></div>
+        </div>
+        <div class="tabla_responsiva">
+          <table>
+            <caption class="etiqueta">Cobertura general prevista</caption>
+            <thead><tr><th>Bloque oficial</th><th>Temas</th><th>Criterios asociados, en síntesis</th></tr></thead>
+            <tbody>
+              <tr><td>A. Evolución histórica</td><td>1</td><td>1.1: interpretar el desarrollo histórico y sus ideas fundamentales.</td></tr>
+              <tr><td>B. Sistemas informáticos</td><td>2–3</td><td>1.2–1.3 y 2.1: reconocer subsistemas, arquitectura, componentes, interconexiones y funciones.</td></tr>
+              <tr><td>C. Software de sistema y utilidad</td><td>4–5</td><td>2.1: comprender y seleccionar elementos de sistema, lenguajes y aplicaciones.</td></tr>
+              <tr><td>D. Elaboración y difusión</td><td>6–11</td><td>3.1–3.3: producir, organizar, colaborar y publicar información verificada.</td></tr>
+              <tr><td>E. Programación</td><td>12–16</td><td>4.1–4.3: identificar problemas, estructurar soluciones, programar, probar y depurar.</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="nota">Esta tabla resume los criterios para facilitar la lectura. La redacción normativa completa prevalece siempre sobre esta síntesis.</p>
+      </div>
+    </section>
+
+    <section class="seccion fuentes" id="fuentes">
+      <div class="contenedor lectura">
+        <h2>Fuentes curriculares y de contraste</h2>
+        <ol>
+          <li><a href="https://www.bocm.es/boletin/CM_Orden_BOCM/2023/05/31/BOCM-20230531-18.PDF">Orden 1736/2023, de 19 de mayo, Anexo IV, Ciencias de la Computación</a>. Fuente normativa principal.</li>
+          <li><a href="https://www.bocm.es/boletin/CM_Orden_BOCM/2022/07/26/BOCM-20220726-1.PDF">Decreto 64/2022, de 20 de julio</a>. Marco de ordenación y currículo de Bachillerato en la Comunidad de Madrid.</li>
+          <li><a href="https://www.picuino.com/es/ley-ciencias-computacion-bach.html">Picuino: transcripción navegable del currículo</a>. Recurso secundario de consulta.</li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie_interior">
+      <p><strong>Ciencias de la Computación I</strong><br><small>Programa provisional · curso 2026–2027</small></p>
+      <p><a href="index.html">Inicio</a> · <a href="tema1.html">Tema 1</a><br><small>Versión preparada para impresión.</small></p>
+    </div>
+  </footer>
+</body>
+</html>

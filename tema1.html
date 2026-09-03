@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tema 1: ideas que hicieron posible la computación. Ciencias de la Computación I.">
+  <title>Tema 1: Ideas que hicieron posible la computación</title>
+  <meta name="theme-color" content="#f4f0e6">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/estilos.css">
+  <script src="assets/js/navegacion.js" defer></script>
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+  <div class="barra_progreso" aria-hidden="true"><span data_progreso></span></div>
+
+  <header class="cabecera">
+    <div class="cabecera_interior">
+      <a class="marca" href="index.html" aria-label="Inicio de Ciencias de la Computación I">
+        <span class="marca_codigo">CC1</span>
+        <span>Ciencias de la Computación I<small>1.º Bachillerato · 2026–2027</small></span>
+      </a>
+      <button class="boton_menu" type="button" aria-expanded="false" aria-controls="navegacion_principal" data_boton_menu>Menú</button>
+      <nav class="navegacion" id="navegacion_principal" aria-label="Navegación principal" data_navegacion>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="programa.html">Programa</a></li>
+          <li><a href="tema1.html" aria-current="page">Tema 1</a></li>
+          <li><a href="#practicas">Prácticas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <nav class="migas contenedor" aria-label="Migas de pan">
+      <ol><li><a href="index.html">Inicio</a></li><li><a href="programa.html#evaluacion_1">1.ª evaluación</a></li><li aria-current="page">Tema 1</li></ol>
+    </nav>
+
+    <section class="hero hero_tema">
+      <div class="contenedor hero_rejilla">
+        <div>
+          <p class="etiqueta">Tema 1 · Bloque A · Primera evaluación</p>
+          <h1>Ideas que hicieron posible la computación</h1>
+          <p class="hero_intro">No es una colección de fechas. Es la historia de cuatro cambios de idea: representar, ordenar, automatizar y decidir qué puede resolverse.</p>
+          <ul class="meta_tema" aria-label="Datos del tema">
+            <li>4–5 sesiones</li>
+            <li>3 prácticas obligatorias</li>
+            <li>1 evaluación Moodle</li>
+            <li>Trabajo en el aula</li>
+          </ul>
+        </div>
+        <aside class="hero_lateral" aria-label="Objetivos del tema">
+          <p><strong>Al terminar podrás:</strong></p>
+          <ul>
+            <li>relacionar una necesidad con un avance computacional;</li>
+            <li>distinguir algoritmo, programa y máquina;</li>
+            <li>explicar por qué no todo problema es computable;</li>
+            <li>valorar beneficios y daños con evidencias.</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="seccion">
+      <div class="contenedor rejilla_tema">
+        <nav class="indice_lateral" aria-label="Índice del tema">
+          <strong>En esta página</strong>
+          <ol>
+            <li><a href="#pregunta">Pregunta guía</a></li>
+            <li><a href="#calcular_computar">1. Calcular y computar</a></li>
+            <li><a href="#cuatro_ideas">2. Cuatro ideas</a></li>
+            <li><a href="#algoritmo_programa">3. Algoritmo y programa</a></li>
+            <li><a href="#limites">4. Los límites</a></li>
+            <li><a href="#revolucion">5. Revolución digital</a></li>
+            <li><a href="#resumen">Resumen</a></li>
+            <li><a href="#practicas">Prácticas</a></li>
+            <li><a href="#evaluacion_moodle">Evaluación Moodle</a></li>
+          </ol>
+        </nav>
+
+        <article class="articulo_tema">
+          <div class="pregunta_guia" id="pregunta">
+            <span class="etiqueta">Pregunta guía</span><br>
+            Si un problema puede explicarse con precisión, ¿siempre puede resolverlo un ordenador?
+          </div>
+
+          <section id="calcular_computar">
+            <span class="etiqueta">01 / EL CAMBIO</span>
+            <h2>De calcular números a transformar información</h2>
+            <p>Una calculadora ejecuta operaciones. Un ordenador de propósito general puede recibir instrucciones y representar como datos cosas muy distintas: números, texto, imágenes, sonido, posiciones o decisiones.</p>
+            <p>La diferencia decisiva no es únicamente la velocidad. Es que la misma máquina puede cambiar de tarea cuando cambia el <strong>programa</strong>. Hoy un teléfono puede servir de cámara, mapa, reproductor y traductor porque cada problema se transforma en datos y operaciones.</p>
+            <aside class="idea_clave" aria-label="Primera idea clave"><strong>Idea clave</strong>Computar es representar información y aplicar sobre ella un procedimiento que una máquina puede ejecutar.</aside>
+            <details>
+              <summary>Prueba de comprensión: ¿un ábaco es un ordenador?</summary>
+              <div><p>Ayuda a representar números y realizar cálculos, pero no es un ordenador de propósito general con un programa almacenado. Es un antecedente importante porque muestra que representar bien un problema facilita resolverlo.</p></div>
+            </details>
+          </section>
+
+          <section id="cuatro_ideas">
+            <span class="etiqueta">02 / CONEXIONES</span>
+            <h2>Cuatro ideas, no cuatro biografías</h2>
+            <p>No necesitamos memorizar una lista de vidas y fechas. Necesitamos comprender qué problema intelectual ayudó a resolver cada aportación.</p>
+
+            <div class="linea_tiempo">
+              <article class="hito">
+                <time>Siglo XIX · Ada Lovelace</time>
+                <p><strong>Una máquina puede seguir operaciones.</strong> <span>Sus notas sobre la máquina analítica anticipan que una máquina programable podría manipular símbolos, no solo cantidades.</span></p>
+              </article>
+              <article class="hito">
+                <time>Siglo XIX · George Boole</time>
+                <p><strong>El razonamiento puede expresarse con reglas.</strong> <span>Verdadero y falso se combinan mediante operaciones lógicas. Esa lógica puede materializarse en circuitos.</span></p>
+              </article>
+              <article class="hito">
+                <time>Siglo XX · Alan Turing</time>
+                <p><strong>Podemos estudiar qué significa “calcular”.</strong> <span>Su máquina teórica reduce un procedimiento a estados, símbolos y reglas, y permite razonar sobre las capacidades y límites de la computación.</span></p>
+              </article>
+              <article class="hito">
+                <time>Siglo XX · Arquitectura de von Neumann</time>
+                <p><strong>Datos e instrucciones pueden compartir memoria.</strong> <span>La CPU toma instrucciones y datos almacenados, opera con ellos y guarda resultados: una organización que sigue presente en muchos sistemas.</span></p>
+              </article>
+            </div>
+
+            <section class="mini_laboratorio" aria-labelledby="titulo_laboratorio_logico">
+              <span class="pildora">MINUTO DE LABORATORIO · SIN NOTA</span>
+              <h3 id="titulo_laboratorio_logico">Prueba una regla lógica</h3>
+              <p>Un sistema permite entrar solo si se cumplen dos condiciones. Cambia los interruptores y observa el resultado de la operación <code>AND</code>.</p>
+              <div class="interruptores">
+                <label class="interruptor"><input id="tiene_usuario" type="checkbox"> Usuario válido</label>
+                <label class="interruptor"><input id="tiene_clave" type="checkbox"> Contraseña válida</label>
+              </div>
+              <p class="resultado_logico" aria-live="polite" data_resultado_logico>Activa JavaScript para probar los interruptores. La regla es verdadera únicamente cuando ambas condiciones lo son.</p>
+              <noscript><p><strong>Sin JavaScript:</strong> FALSO AND FALSO = FALSO; VERDADERO AND FALSO = FALSO; FALSO AND VERDADERO = FALSO; VERDADERO AND VERDADERO = VERDADERO.</p></noscript>
+            </section>
+          </section>
+
+          <section id="algoritmo_programa">
+            <span class="etiqueta">03 / PRECISIÓN</span>
+            <h2>Algoritmo, programa y máquina</h2>
+            <p>Estas palabras están relacionadas, pero no son intercambiables.</p>
+            <div class="comparacion">
+              <div><h3>Algoritmo</h3><p>Procedimiento finito y preciso para resolver una clase de problemas. No depende necesariamente de un lenguaje de programación.</p></div>
+              <div><h3>Programa</h3><p>Expresión ejecutable de una solución mediante las reglas de un lenguaje y para un entorno concreto.</p></div>
+            </div>
+            <p>La <strong>máquina</strong> interpreta o ejecuta instrucciones. Si una instrucción es ambigua para una persona, puede preguntar; una máquina aplicará exactamente la regla disponible o producirá un error.</p>
+
+            <aside class="idea_clave" aria-label="Prueba de precisión"><strong>Una prueba útil</strong>Un procedimiento está suficientemente definido cuando otra persona puede ejecutarlo con los mismos datos y obtener el mismo resultado sin adivinar pasos.</aside>
+
+            <h3>Ejemplo: buscar el mayor</h3>
+            <ol>
+              <li>Tomar el primer número como mayor provisional.</li>
+              <li>Compararlo con el siguiente.</li>
+              <li>Si el siguiente es mayor, sustituir el mayor provisional.</li>
+              <li>Repetir hasta que no queden números.</li>
+              <li>Devolver el mayor provisional.</li>
+            </ol>
+            <p>Este algoritmo incluye datos de entrada, un estado que cambia, una condición, una repetición y un resultado. Más adelante lo escribiremos directamente en Python.</p>
+          </section>
+
+          <section id="limites">
+            <span class="etiqueta">04 / FRONTERA</span>
+            <h2>No todo problema tiene un algoritmo</h2>
+            <p>Un problema es <strong>computable</strong> cuando existe un procedimiento efectivo capaz de resolver todas sus instancias válidas. Un problema de respuesta «sí/no» es <strong>decidible</strong> cuando existe un algoritmo que siempre termina y responde correctamente.</p>
+            <p>Puede sorprender que existan problemas bien formulados que ningún algoritmo general puede decidir. El ejemplo clásico pregunta si cualquier programa terminará o continuará para siempre. Podemos analizar programas concretos, pero no existe un método universal que acierte para todos.</p>
+            <aside class="aviso" aria-label="Aclaración sobre límites computacionales"><strong>Esto no significa</strong><p>«Los ordenadores todavía no son bastante potentes». Aumentar la velocidad o la memoria no elimina un límite lógico. Conviene diferenciar un problema imposible en general de otro que simplemente resulta demasiado costoso con los recursos actuales.</p></aside>
+            <details>
+              <summary>¿Y la inteligencia artificial?</summary>
+              <div><p>Un sistema de IA puede generar una respuesta útil o estimar una probabilidad, pero eso no convierte en decidible un problema que no lo es. Además, una respuesta plausible no equivale a una demostración de corrección.</p></div>
+            </details>
+          </section>
+
+          <section id="revolucion">
+            <span class="etiqueta">05 / CONSECUENCIAS</span>
+            <h2>La revolución digital cambia capacidades y responsabilidades</h2>
+            <p>La miniaturización, las redes, los sensores, la robótica y la inteligencia artificial han llevado la computación fuera del ordenador de sobremesa. Un sistema puede observar el entorno, compartir datos y actuar sobre objetos físicos.</p>
+            <p>Ese poder produce beneficios y también daños posibles. Un análisis serio evita dos respuestas fáciles: «la tecnología siempre mejora la sociedad» y «la tecnología siempre es peligrosa».</p>
+
+            <div class="tabla_responsiva">
+              <table>
+                <thead><tr><th>Pregunta</th><th>Qué debemos investigar</th></tr></thead>
+                <tbody>
+                  <tr><td>¿Qué problema intenta resolver?</td><td>Necesidad real, usuarios y situación anterior.</td></tr>
+                  <tr><td>¿Qué datos utiliza?</td><td>Origen, calidad, consentimiento, seguridad y posibles sesgos.</td></tr>
+                  <tr><td>¿Quién gana capacidad?</td><td>Beneficiarios directos, propietarios y grupos excluidos.</td></tr>
+                  <tr><td>¿Qué puede salir mal?</td><td>Errores, abuso, dependencia, desigualdad e impacto ambiental.</td></tr>
+                  <tr><td>¿Cómo lo sabemos?</td><td>Evidencias contrastables y límites de las fuentes.</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section id="resumen">
+            <span class="etiqueta">06 / SALIDA</span>
+            <h2>Lo esencial en seis frases</h2>
+            <ol>
+              <li>La computación transforma problemas en representaciones y operaciones.</li>
+              <li>Una máquina programable cambia de tarea al cambiar sus instrucciones.</li>
+              <li>La lógica booleana permite combinar condiciones verdaderas y falsas.</li>
+              <li>Un algoritmo debe ser preciso, finito y ejecutable paso a paso.</li>
+              <li>Hay límites lógicos que una máquina más rápida no puede eliminar.</li>
+              <li>Todo avance computacional debe analizarse también por sus efectos humanos.</li>
+            </ol>
+            <p class="nota"><strong>Antes de continuar:</strong> intenta explicar cada frase con un ejemplo propio. Si solo puedes repetirla, todavía no la has convertido en una idea útil.</p>
+          </section>
+
+          <section id="practicas">
+            <span class="etiqueta">07 / EVIDENCIAS</span>
+            <h2>Prácticas del tema</h2>
+            <p>Las tres prácticas son obligatorias y se realizan íntegramente durante las clases. Los documentos definitivos de entrega se publicarán en Moodle.</p>
+
+            <article class="practica">
+              <div class="practica_cabecera"><h3>Mapa de ideas con evidencias</h3><span class="practica_codigo">P01 · OBLIGATORIA</span></div>
+              <p>Construye una línea que conecte cinco avances con el problema que ayudaron a resolver. No se puntúa acumular fechas, sino justificar relaciones.</p>
+              <dl>
+                <dt>Producto</dt><dd><code>apellido_nombre_p01.pdf</code>, una página accesible con fuentes enlazadas.</dd>
+                <dt>Tiempo</dt><dd>Una sesión; trabajo individual con contraste por parejas.</dd>
+                <dt>Comprobación</dt><dd>5 relaciones explicadas, fuentes identificadas, autoría de imágenes, legibilidad y conclusión propia.</dd>
+              </dl>
+            </article>
+
+            <article class="practica">
+              <div class="practica_cabecera"><h3>Un algoritmo que sobrevive a otro equipo</h3><span class="practica_codigo">P02 · OBLIGATORIA</span></div>
+              <p>Escribe instrucciones para una tarea manipulable en el aula. Otro equipo debe ejecutarlas literalmente, registrar ambigüedades y devolverte los fallos para que publiques una versión corregida.</p>
+              <dl>
+                <dt>Producto</dt><dd><code>apellido_nombre_p02.zip</code> con versión inicial, registro de prueba y versión revisada.</dd>
+                <dt>Tiempo</dt><dd>Una sesión; escritura individual y prueba cruzada por parejas.</dd>
+                <dt>Comprobación</dt><dd>Entrada definida, pasos ordenados, terminación, casos especiales, evidencia de prueba y mejoras justificadas.</dd>
+              </dl>
+            </article>
+
+            <article class="practica">
+              <div class="practica_cabecera"><h3>Radiografía de un impacto digital</h3><span class="practica_codigo">P03 · OBLIGATORIA</span></div>
+              <p>Analiza un caso actual —sensor, recomendador, robot, plataforma o sistema de IA— desde el problema que resuelve hasta sus beneficios, daños posibles y medidas de mejora.</p>
+              <dl>
+                <dt>Producto</dt><dd><code>apellido_nombre_p03.html</code>, informe breve navegable y basado en evidencias.</dd>
+                <dt>Tiempo</dt><dd>Una o dos sesiones; trabajo individual.</dd>
+                <dt>Comprobación</dt><dd>Problema y actores, datos utilizados, dos beneficios, dos riesgos, tres fuentes contrastadas y propuesta razonada.</dd>
+              </dl>
+            </article>
+
+            <aside class="nota" aria-label="Condición de las prácticas voluntarias"><strong>Prácticas voluntarias:</strong> permanecerán bloqueadas hasta completar todas las obligatorias de la evaluación. Una voluntaria terminada solo se aplicará si mejora la media de prácticas.</aside>
+          </section>
+
+          <section id="evaluacion_moodle">
+            <span class="etiqueta">08 / COMPRENDER</span>
+            <h2>Evaluación Moodle del tema</h2>
+            <p>Al finalizar el tema habrá una prueba autocorregible y calificada en Moodle. Sus preguntas presentarán casos, secuencias e interpretaciones: elegir la mejor explicación, detectar una instrucción ambigua, aplicar una regla lógica o distinguir un límite de recursos de un límite de computabilidad.</p>
+            <ul class="lista_comprobacion">
+              <li>Nota registrada en Moodle y vinculada al tema.</li>
+              <li>Sin nota mínima ni condición de aprobado.</li>
+              <li>Forma parte del 30% correspondiente a evaluaciones Moodle.</li>
+              <li>No sustituye las prácticas ni requiere trabajo en casa.</li>
+            </ul>
+            <span class="boton" aria-disabled="true">Disponible próximamente en Moodle</span>
+          </section>
+
+          <section class="fuentes" id="fuentes">
+            <h2>Fuentes y ampliación</h2>
+            <ol>
+              <li><a href="https://www.bocm.es/boletin/CM_Orden_BOCM/2023/05/31/BOCM-20230531-18.PDF">Orden 1736/2023, Anexo IV</a>. Currículo oficial de Ciencias de la Computación en Bachillerato.</li>
+              <li><a href="https://www.picuino.com/es/ley-ciencias-computacion-bach.html">Picuino: currículo navegable</a>. Consulta secundaria de bloques y contenidos.</li>
+            </ol>
+          </section>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie_interior">
+      <p><strong>Tema 1 · Ideas que hicieron posible la computación</strong><br><small>Bloque A · Primera evaluación</small></p>
+      <p><a href="programa.html#evaluacion_1">Volver al programa</a> · <a href="index.html">Inicio</a><br><small>Siguiente tema: pendiente de publicación.</small></p>
+    </div>
+  </footer>
+</body>
+</html>

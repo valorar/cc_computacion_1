@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="CC1">
+  <rect width="64" height="64" fill="#f4bc3b"/>
+  <rect x="3" y="3" width="58" height="58" fill="none" stroke="#17211d" stroke-width="6"/>
+  <text x="32" y="39" text-anchor="middle" font-family="monospace" font-size="23" font-weight="700" fill="#17211d">CC1</text>
+</svg>

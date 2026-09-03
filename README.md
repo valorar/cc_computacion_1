@@ -14,7 +14,7 @@ Cada evaluación separa las prácticas `obligatorias` de las `voluntarias`.
 
 - `index.html`: portada y explicación breve de la forma de trabajo.
 - `programa.html`: temporalización, bloques, temas, metodología y evaluación.
-- `tema1.html`: tema piloto sobre las ideas que hicieron posible la computación.
+- `evaluacion_1/temas/tema_01.html`: tema piloto sobre las ideas que hicieron posible la computación.
 
 Los estilos comunes están en `assets/css/estilos.css` y la mejora progresiva de navegación en `assets/js/navegacion.js`. Las páginas funcionan sin dependencias externas y utilizan enlaces relativos.
 

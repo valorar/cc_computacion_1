@@ -1,6 +1,8 @@
 (() => {
   "use strict";
 
+  document.documentElement.classList.add("js");
+
   const botonMenu = document.querySelector("[data_boton_menu]");
   const navegacion = document.querySelector("[data_navegacion]");
 

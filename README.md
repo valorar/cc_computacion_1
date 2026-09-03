@@ -10,6 +10,14 @@ Sitio web de la asignatura **Ciencias de la Computación I**, 1.º de Bachillera
 
 Cada evaluación separa las prácticas `obligatorias` de las `voluntarias`.
 
+## Páginas disponibles
+
+- `index.html`: portada y explicación breve de la forma de trabajo.
+- `programa.html`: temporalización, bloques, temas, metodología y evaluación.
+- `tema1.html`: tema piloto sobre las ideas que hicieron posible la computación.
+
+Los estilos comunes están en `assets/css/estilos.css` y la mejora progresiva de navegación en `assets/js/navegacion.js`. Las páginas funcionan sin dependencias externas y utilizan enlaces relativos.
+
 ## Publicación y privacidad
 
 El repositorio está preparado para alojar un sitio estático en GitHub Pages. No deben incluirse datos del alumnado, calificaciones, credenciales, soluciones, bancos de preguntas ni materiales restringidos al profesorado.

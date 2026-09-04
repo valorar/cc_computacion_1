@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Práctica 10 de la 2.ª evaluación: Detectives de anomalías relacionales">
+  <title>E2 · P10: Detectives de anomalías relacionales</title>
+  <meta name="theme-color" content="#f4f0e6">
+  <link rel="icon" href="../../assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../assets/css/estilos.css">
+  <script src="../../assets/js/navegacion.js" defer></script>
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<div class="barra_progreso" aria-hidden="true"><span data_progreso></span></div>
+<header class="cabecera"><div class="cabecera_interior">
+  <a class="marca" href="../../index.html" aria-label="Inicio de Ciencias de la Computación I"><span class="marca_codigo">CC1</span><span>Ciencias de la Computación I<small>1.º Bachillerato · 2026–2027</small></span></a>
+  <button class="boton_menu" type="button" aria-expanded="false" aria-controls="navegacion_principal" data_boton_menu>Menú</button>
+  <nav class="navegacion" id="navegacion_principal" aria-label="Navegación principal" data_navegacion><ul>
+    <li><a href="../../index.html">Inicio</a></li><li><a href="../../programa.html">Programa</a></li><li><a href="index.html">Prácticas E2</a></li><li><a href="practica_10.html" aria-current="page">Práctica</a></li>
+  </ul></nav>
+</div></header>
+<main id="contenido">
+  <nav class="migas contenedor" aria-label="Migas de pan"><ol><li><a href="../../index.html">Inicio</a></li><li><a href="../../programa.html#evaluacion_2">2.ª evaluación</a></li><li><a href="index.html">Prácticas</a></li><li aria-current="page">Práctica 10</li></ol></nav>
+  <section class="hero hero_tema hero_practica"><div class="contenedor hero_rejilla"><div>
+    <p class="etiqueta">E2_P10 · Autocorregible en Moodle</p><h1>Detectives de anomalías relacionales</h1><p class="hero_intro">Pasar de una tabla plana a un esquema de tres tablas que evite inserciones, borrados y actualizaciones problemáticas.</p>
+    <ul class="meta_tema" aria-label="Datos de la práctica"><li>2 sesiones de 55 min</li><li>Parejas con entrega individual</li><li>Autocorregible en Moodle</li><li>Trabajo en el aula</li></ul>
+  </div><aside class="hero_lateral" aria-label="Producto de la práctica 10"><p><strong>Producto</strong><br>ODB individual con tablas normalizadas, relaciones y consultas que demuestran equivalencia y ausencia de huérfanos.</p><p><strong>Archivo</strong><br><code>apellido_nombre_10_inventario_normalizado.odb</code></p></aside></div></section>
+  <section class="seccion"><div class="contenedor rejilla_tema">
+    <nav class="indice_lateral" aria-label="Índice de la práctica"><strong>En esta página</strong><ol><li><a href="#mision">Misión</a></li><li><a href="#preparacion">Preparación</a></li><li><a href="#procedimiento">Procedimiento</a></li><li><a href="#comprobacion">Comprobación</a></li><li><a href="#evaluacion">Evaluación</a></li><li><a href="#apoyo">Apoyo teórico</a></li></ol></nav>
+    <article class="articulo_tema articulo_practica">
+      <section id="mision"><span class="etiqueta">01 / MISIÓN</span><h2>El encargo</h2><p>Un inventario ficticio creció en una hoja única y ahora muestra categorías repetidas, responsables inconsistentes y actualizaciones contradictorias. La pareja diagnostica las anomalías y cada estudiante reconstruye un modelo normalizado.</p><div class="aviso"><strong>Reto</strong><p>Pasar de una tabla plana a un esquema de tres tablas que evite inserciones, borrados y actualizaciones problemáticas.</p></div><dl class="ficha_evaluacion"><dt>Entrega</dt><dd>Completa la actividad autocorregible de Moodle y conserva apellido_nombre_10_inventario_normalizado.odb en tu carpeta de trabajo hasta cerrar la evaluación. No se sube para corrección manual.</dd><dt>Nombre</dt><dd><code>apellido_nombre_10_inventario_normalizado.odb</code></dd><dt>Modalidad</dt><dd><span class="pildora modalidad_auto">Autocorregible en Moodle</span></dd></dl></section>
+      <section id="preparacion"><span class="etiqueta">02 / ANTES DE EMPEZAR</span><h2>Prepara el puesto</h2><ul class="lista_comprobacion"><li>Descargar inventario_plano.csv y las tarjetas de casos.</li><li>Abrir una pizarra compartida local o papel para proponer dependencias, sin datos personales.</li><li>Crear una base nueva y conservar el CSV intacto.</li></ul><p class="nota"><strong>Material de partida:</strong> los archivos, fichas, datos o casos citados se publican adjuntos a la actividad Moodle correspondiente. En las autocorregibles pertenecen a la variante cerrada asignada y no deben sustituirse por datos propios.</p></section>
+      <section id="procedimiento"><span class="etiqueta">03 / CONSTRUIR</span><h2>Procedimiento de trabajo</h2><ol class="pasos_practica"><li>Marcar en pareja atributos, clave candidata y tres anomalías concretas de la tabla plana.</li><li>Separar Entidad, Categoria y Ubicacion hasta eliminar grupos repetidos y dependencias impropias.</li><li>Elegir claves primarias y definir foráneas con integridad referencial.</li><li>Importar valores únicos y después las referencias, registrando errores.</li><li>Crear una consulta unida que reconstruya las columnas informativas del original.</li><li>Crear consultas de control para duplicados y registros huérfanos.</li><li>Aplicar dos cambios de las tarjetas y comprobar que se realizan una sola vez.</li></ol><p class="nota"><strong>Gestión del tiempo:</strong> reserva los últimos diez minutos para nombrar, guardar y comprobar la entrega. El trabajo evaluable se termina en el aula.</p></section>
+      <section id="comprobacion"><span class="etiqueta">04 / VERIFICAR</span><h2>Antes de entregar</h2><ul class="lista_comprobacion"><li>El modelo no repite descripciones dependientes en la tabla principal.</li><li>La consulta de reconstrucción conserva el número de entidades del CSV.</li><li>Los controles de duplicados y huérfanos devuelven cero.</li><li>Cada cambio de prueba requiere modificar un único registro maestro.</li><li>Tipos y obligatoriedad impiden valores incompatibles.</li></ul><div class="columnas_dos"><div><h3>Accesibilidad</h3><p>Diagramas y nombres no dependen de códigos de color; tablas y consultas emplean vocabulario completo y consistente.</p></div><div><h3>Privacidad</h3><p>Inventario y responsables son entidades ficticias codificadas; no se modelan empleados ni información identificable.</p></div></div></section>
+      <section id="evaluacion"><span class="etiqueta">05 / EVALUACIÓN</span><h2>Autocorregible en Moodle</h2><p>Cuestionario 10 · Pruebas del modelo normalizado</p>
+<div class="aviso"><strong>Protocolo de autocorrección</strong><p>Al abrir la actividad, Moodle entrega un caso cerrado con datos, nombres, identificadores y parámetros fijados. La nota procede exclusivamente de respuestas objetivas derivadas de ese caso. Moodle no inspecciona el archivo creado ni ejecuta programas: el artefacto se conserva como cuaderno de trabajo y no requiere corrección docente.</p></div>
+<dl class="ficha_evaluacion"><dt>Cómo se corrige</dt><dd>Automáticamente en Moodle, sin depender de complementos externos.</dd><dt>Categoría de nota</dt><dd>Prácticas (70% de la evaluación); no forma parte de los cuestionarios teóricos del 30%.</dd><dt>Preguntas</dt><dd>9 ítems: arrastrar y soltar, numérica, opción múltiple.</dd><dt>Intentos</dt><dd>2</dd><dt>Calificación</dt><dd>Mejor intento; 10 puntos, corrección automática.</dd><dt>Evidencia</dt><dd>Exige resultados de las tarjetas de cambio, recuentos de control y clasificación de campos basada en el esquema construido.</dd><dt>Retroalimentación</dt><dd>Identifica el tipo de anomalía o restricción que debe revisarse y propone una operación de prueba; no entrega el esquema resuelto.</dd></dl>
+<div class="aviso"><strong>Importante</strong><p>La página pública no contiene respuestas ni claves. La actividad y su retroalimentación se alojarán dentro del aula Moodle.</p></div></section>
+      <section id="apoyo"><span class="etiqueta">06 / CONSULTA</span><h2>Apoyo teórico</h2><p>Consulta únicamente los apartados necesarios para desbloquear el siguiente paso.</p><ul class="enlaces_teoria"><li><a href="../temas/tema_08.html">Tema 8: Bases de datos: ordenar para consultar</a><br><small>Dependencias y normalización práctica</small></li><li><a href="../temas/tema_08.html">Tema 8: Bases de datos: ordenar para consultar</a><br><small>Integridad y consultas de control</small></li></ul></section>
+    </article>
+  </div></section>
+</main>
+<footer class="pie"><div class="contenedor pie_interior"><p><strong>E2 · Práctica 10</strong><br><small>Autocorregible en Moodle · 2 sesiones</small></p><p><a href="practica_09.html">← Práctica 09</a> · <a href="practica_11.html">Práctica 11 →</a><br><small><a href="index.html">20 prácticas de la evaluación</a> · <a href="../../programa.html#evaluacion_2">Programa</a></small></p></div></footer>
+</body></html>

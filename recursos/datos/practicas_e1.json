@@ -1,0 +1,1337 @@
+[
+  {
+    "numero": 1,
+    "titulo": "Museo vivo de máquinas precursoras",
+    "tema_numeros": [
+      1
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Parejas con entrega individual",
+    "relato": "El museo del instituto ha recibido fichas sin ordenar sobre hitos anteriores al ordenador electrónico. Cada pareja actuará como equipo de documentación y cada estudiante dejará una traza individual verificable.",
+    "reto": "Reconstruye una cronología razonada de seis artefactos o ideas y decide qué problema computacional resolvía cada uno.",
+    "producto": "Cronología digital con fichas breves, fuentes y captura final.",
+    "archivo": "01_cronologia_apellido_nombre.pdf",
+    "preparacion": [
+      "Abre la plantilla de cronología y la página de recursos facilitada en Moodle.",
+      "Crea una carpeta llamada practica_01 y guarda allí las capturas y la plantilla."
+    ],
+    "pasos": [
+      "Explora las seis fuentes asignadas y localiza fecha, autoría, función y limitación de cada hito.",
+      "Registra cada dato junto a la URL o referencia de la fuente.",
+      "Ordena los hitos y redacta para cada uno una relación causa_efecto de una frase.",
+      "Contrasta dos fechas dudosas en una segunda fuente y anota la discrepancia sin resolverla por intuición.",
+      "Exporta la cronología a PDF y consulta el archivo para comprobar que se lee.",
+      "Con el PDF abierto, completa en Moodle los ítems que piden ordenar, emparejar y reconocer datos de tu propia investigación."
+    ],
+    "comprobaciones": [
+      "La cronología contiene seis hitos y no hay dos sin fecha.",
+      "Cada ficha distingue función de limitación.",
+      "Las dos discrepancias incluyen referencias consultables.",
+      "El PDF abre, conserva el orden y no muestra datos personales innecesarios."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 1,
+        "seccion": "De los instrumentos de cálculo a las máquinas programables"
+      }
+    ],
+    "entrega": "Sube 01_cronologia_apellido_nombre.pdf y completa la actividad Moodle indicada antes de terminar la última sesión.",
+    "moodle": {
+      "actividad": "Cuestionario 01: reconstrucción del museo",
+      "tipos_pregunta": [
+        "arrastrar_soltar",
+        "emparejamiento",
+        "respuesta_corta_con_variantes"
+      ],
+      "numero_items": 9,
+      "intentos": 2,
+      "calificacion": "Mejor intento; 70 % de los ítems y entrega del PDF para completar.",
+      "retroalimentacion": "Tras cada intento se muestran pistas conceptuales y la sección que conviene revisar, nunca la clave completa.",
+      "evidencia": "Las respuestas se basan en las fechas, funciones, limitaciones y fuentes visibles en la cronología entregada."
+    },
+    "rubrica": [],
+    "accesibilidad": "Plantilla con estilos de título, lectura lineal y alternativa textual a imágenes; se admite cronología en tabla accesible.",
+    "privacidad": "Usa solo fuentes públicas y no incluyas cuentas, rostros ni nombres de otras personas."
+  },
+  {
+    "numero": 2,
+    "titulo": "Mensajes para una máquina sin ambigüedad",
+    "tema_numeros": [
+      1,
+      5
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Individual con contraste por parejas",
+    "relato": "Una sonda escolar solo obedece instrucciones literales y ha interpretado mal varias órdenes humanas. Tu misión es convertir una tarea cotidiana en un procedimiento ejecutable y detectar dónde aparece la ambigüedad.",
+    "reto": "Especifica, prueba y depura un algoritmo para clasificar diez archivos simulados sin escribir código.",
+    "producto": "Diagrama o lista numerada del algoritmo más registro de tres pruebas.",
+    "archivo": "02_algoritmo_apellido_nombre.pdf",
+    "preparacion": [
+      "Descarga el paquete de nombres de archivo y la plantilla de pruebas.",
+      "Activa la visualización de extensiones en el gestor de archivos o usa la simulación proporcionada."
+    ],
+    "pasos": [
+      "Define entradas, resultado esperado y reglas de clasificación antes de mover nada.",
+      "Redacta instrucciones atómicas con decisiones explícitas y criterio de parada.",
+      "Ejecuta manualmente el algoritmo sobre el caso normal y registra cada decisión.",
+      "Pide a una pareja que lo ejecute sin explicaciones orales y marca cualquier interpretación distinta.",
+      "Corrige el algoritmo y pruébalo con un nombre sin extensión y otro con dos puntos.",
+      "Exporta el registro y responde en Moodle usando exclusivamente lo observado en tus pruebas."
+    ],
+    "comprobaciones": [
+      "Existe un resultado esperado para los diez casos.",
+      "El procedimiento incluye condición de parada y tratamiento del caso sin extensión.",
+      "La revisión identifica al menos una ambigüedad real o justifica con evidencia que no apareció.",
+      "Las respuestas Moodle coinciden con el registro exportado."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 1,
+        "seccion": "Algoritmos, automatización y precisión"
+      },
+      {
+        "tema": 5,
+        "seccion": "Lenguajes e instrucciones"
+      }
+    ],
+    "entrega": "Sube 02_algoritmo_apellido_nombre.pdf y completa la actividad Moodle indicada antes de terminar la última sesión.",
+    "moodle": {
+      "actividad": "Cuestionario 02: auditoría del algoritmo",
+      "tipos_pregunta": [
+        "opcion_multiple",
+        "cloze",
+        "respuesta_corta_con_variantes"
+      ],
+      "numero_items": 8,
+      "intentos": 2,
+      "calificacion": "Mejor intento; se exige el registro y al menos 6 de 8 ítems correctos.",
+      "retroalimentacion": "Retroalimentación específica por tipo de ambigüedad tras cada intento y explicación global al cierre.",
+      "evidencia": "Incluye códigos de prueba y resultados que solo se obtienen ejecutando el procedimiento sobre el paquete dado."
+    },
+    "rubrica": [],
+    "accesibilidad": "Puede usarse lista numerada en vez de diagrama; instrucciones disponibles en texto y con alto contraste.",
+    "privacidad": "Trabaja con archivos ficticios; no uses nombres reales, rutas personales ni documentos propios."
+  },
+  {
+    "numero": 3,
+    "titulo": "Laboratorio de representación digital",
+    "tema_numeros": [
+      1,
+      2
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Parejas, respuestas individuales",
+    "relato": "El panel de una instalación artística recibe texto, color y sonido, pero únicamente almacena bits. Debéis investigar cómo cambia la representación cuando varían la codificación, la resolución o la frecuencia de muestreo.",
+    "reto": "Produce y compara pequeñas muestras digitales para relacionar parámetros observables con tamaño y fidelidad.",
+    "producto": "Hoja de laboratorio con capturas y mediciones de cuatro experimentos.",
+    "archivo": "03_bits_muestras_apellido_nombre.pdf",
+    "preparacion": [
+      "Abre la calculadora, un editor de texto plano y las muestras facilitadas.",
+      "Copia las muestras a practica_03 sin modificar los originales."
+    ],
+    "pasos": [
+      "Codifica tres caracteres indicados en binario con la tabla suministrada y verifica la vuelta a texto.",
+      "Crea dos imágenes del mismo motivo con dimensiones distintas y anota píxeles y tamaño de archivo.",
+      "Exporta el fragmento de audio en dos calidades con Audacity o herramienta equivalente y registra duración y bytes.",
+      "Compara resultados manteniendo una variable constante en cada experimento.",
+      "Investiga un caso límite: carácter no contemplado, imagen de un solo color o audio silencioso.",
+      "Entrega la hoja y completa los cálculos y emparejamientos de Moodle con tus medidas."
+    ],
+    "comprobaciones": [
+      "Las cuatro experiencias incluyen parámetro, predicción, medida y observación.",
+      "Los tamaños se anotan con unidad y se distinguen bits de bytes.",
+      "El caso límite fue abierto o reproducido, no solo descrito.",
+      "Las capturas permiten verificar ajustes y resultado sin revelar información personal."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 1,
+        "seccion": "Información, codificación y sistema binario"
+      },
+      {
+        "tema": 2,
+        "seccion": "Representación y almacenamiento de datos"
+      }
+    ],
+    "entrega": "Sube 03_bits_muestras_apellido_nombre.pdf y completa la actividad Moodle indicada antes de terminar la última sesión.",
+    "moodle": {
+      "actividad": "Cuestionario 03: del bit a la muestra",
+      "tipos_pregunta": [
+        "numerica",
+        "emparejamiento",
+        "opcion_multiple"
+      ],
+      "numero_items": 10,
+      "intentos": 2,
+      "calificacion": "Promedio de los intentos; tolerancia numérica indicada y entrega obligatoria.",
+      "retroalimentacion": "Muestra unidades y orienta sobre la variable que debe mantenerse constante; la solución completa solo aparece al cerrar.",
+      "evidencia": "Solicita medidas concretas del audio y las imágenes producidas, además de un código de verificación de la hoja."
+    },
+    "rubrica": [],
+    "accesibilidad": "Se ofrecen muestras visuales con descripción y una alternativa de análisis tabular para alumnado con barreras auditivas o visuales.",
+    "privacidad": "No grabes voces ni fotografíes personas; utiliza exclusivamente material sintético proporcionado."
+  },
+  {
+    "numero": 4,
+    "titulo": "Exposición interactiva: ideas que cambiaron el cálculo",
+    "tema_numeros": [
+      1
+    ],
+    "modalidad": "rubrica_docente",
+    "sesiones": 2,
+    "agrupamiento": "Equipos de 3 con roles rotatorios",
+    "relato": "La biblioteca prepara una exposición digital para alumnado de ESO y necesita una historia que no sea una simple lista de inventos. El equipo curador debe mostrar cómo una necesidad condujo a una idea y qué límite abrió el siguiente avance.",
+    "reto": "Diseña una exposición navegable de cinco estaciones que conecte aportaciones, protagonistas, contexto y consecuencias.",
+    "producto": "Presentación interactiva o sitio local con cinco estaciones, fuentes y guía de recorrido.",
+    "archivo": "04_exposicion_equipo_numero.zip",
+    "preparacion": [
+      "Crea una carpeta compartida local con subcarpetas fuentes, medios y version_final.",
+      "Reparte inicialmente los roles de documentación, diseño y verificación, y anota cuándo rotan.",
+      "Revisa el banco de recursos libres y la pauta de citación breve."
+    ],
+    "pasos": [
+      "Formula una pregunta guía y selecciona cinco estaciones que formen una cadena causal.",
+      "Contrasta cada estación con dos fuentes y registra autoría, licencia y discrepancias.",
+      "Escribe textos para público de 13 años sin perder precisión e incorpora un caso controvertido o una atribución discutida.",
+      "Construye la navegación y añade texto alternativo, títulos y orden de lectura.",
+      "Haz una prueba con otro equipo: una persona recorre la exposición sin explicación oral y registra dos incidencias.",
+      "Corrige las incidencias, comprueba enlaces en modo sin conexión y comprime solo la versión final.",
+      "Incluye una nota individual de cuatro líneas sobre tu contribución y una decisión revisada."
+    ],
+    "comprobaciones": [
+      "Las cinco estaciones se abren desde un índice y permiten volver a él.",
+      "Toda afirmación clave se puede rastrear hasta una fuente.",
+      "La prueba externa deja incidencias y cambios concretos.",
+      "El ZIP se descomprime en una carpeta y el archivo inicial está identificado.",
+      "No se publican identidades, cuentas o materiales sin licencia."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 1,
+        "seccion": "Historia, impacto social y fundamentos de la computación"
+      }
+    ],
+    "entrega": "Entrega un único 04_exposicion_equipo_numero.zip por equipo y cada integrante añade en Moodle su nota individual en texto; se evalúa con la rúbrica publicada.",
+    "moodle": null,
+    "rubrica": [
+      {
+        "criterio": "Rigor histórico y selección",
+        "peso": 30,
+        "niveles": {
+          "4": "Los hitos están bien situados, contrastados y explican con precisión su aportación y límites.",
+          "3": "La selección es pertinente y casi todos los datos están contrastados; hay imprecisiones menores.",
+          "2": "Hay algunos hitos pertinentes, pero faltan contrastes o se confunden aportaciones y fechas.",
+          "1": "Predominan datos sin comprobar, errores graves o una sucesión sin sentido histórico."
+        }
+      },
+      {
+        "criterio": "Relato causal",
+        "peso": 25,
+        "niveles": {
+          "4": "Conecta necesidades, ideas y consecuencias mediante una narrativa clara con matices y contraejemplos.",
+          "3": "Explica relaciones de causa y consecuencia claras, aunque alguna queda poco desarrollada.",
+          "2": "Enumera hechos con conexiones parciales o simplificadas.",
+          "1": "Presenta hechos aislados o afirmaciones sin relación comprensible."
+        }
+      },
+      {
+        "criterio": "Diseño comunicativo y accesibilidad",
+        "peso": 25,
+        "niveles": {
+          "4": "El recorrido guía al público, jerarquiza la información e incluye alternativas textuales y legibilidad excelente.",
+          "3": "El diseño es legible y ordenado, con alternativas textuales suficientes salvo detalles menores.",
+          "2": "La navegación o legibilidad es irregular y varias imágenes carecen de alternativa útil.",
+          "1": "El producto dificulta seguir el recorrido o excluye información esencial por su formato."
+        }
+      },
+      {
+        "criterio": "Fuentes, revisión y acabado",
+        "peso": 20,
+        "niveles": {
+          "4": "Cita todas las fuentes, distingue discrepancias y entrega un producto probado sin fallos observables.",
+          "3": "Cita las fuentes principales y el producto funciona con pocos fallos menores.",
+          "2": "Las referencias son incompletas o quedan fallos que afectan parte del recorrido.",
+          "1": "No permite rastrear las fuentes o el producto está incompleto/no funcional."
+        }
+      }
+    ],
+    "accesibilidad": "Se admiten presentación lineal, HTML local o documento accesible; todo medio visual lleva alternativa textual y el recorrido funciona con teclado.",
+    "privacidad": "Usa solo nombres de pila o roles dentro del producto; medios propios sin personas o con licencia abierta correctamente atribuida."
+  },
+  {
+    "numero": 5,
+    "titulo": "Anatomía de un ordenador en funcionamiento",
+    "tema_numeros": [
+      2,
+      3
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Parejas con ficha individual",
+    "relato": "Un servicio técnico recibe la descripción confusa de un equipo que se ralentiza al editar vídeo. Antes de recomendar cambios, debéis observar un ordenador real y relacionar cada síntoma con flujo de datos, procesamiento y almacenamiento.",
+    "reto": "Mapea componentes físicos y lógicos mientras ejecutas una carga controlada, sin abrir la carcasa.",
+    "producto": "Ficha de inspección con esquema de flujo y lecturas antes_durante_después.",
+    "archivo": "05_anatomia_apellido_nombre.pdf",
+    "preparacion": [
+      "Abre Información del sistema y el monitor de recursos del sistema operativo.",
+      "Cierra documentos personales y usa únicamente el archivo de vídeo de prueba."
+    ],
+    "pasos": [
+      "Identifica CPU, memoria, almacenamiento, gráficos y periféricos mediante herramientas del sistema.",
+      "Registra valores en reposo con unidades y hora relativa de observación.",
+      "Reproduce la carga proporcionada y toma tres lecturas durante la ejecución.",
+      "Dibuja el recorrido de entrada, procesamiento, memoria, almacenamiento y salida.",
+      "Repite con una aplicación cerrada y explica qué variable cambió sin confundir correlación con causa.",
+      "Completa Moodle con valores y relaciones obtenidos de la ficha."
+    ],
+    "comprobaciones": [
+      "Cada componente tiene función y dato observable, no solo marca comercial.",
+      "Las lecturas usan la misma herramienta y unidad.",
+      "El esquema diferencia memoria temporal de almacenamiento persistente.",
+      "La prueba termina sin forzar procesos del sistema ni instalar software."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 2,
+        "seccion": "Arquitectura funcional del ordenador"
+      },
+      {
+        "tema": 3,
+        "seccion": "Componentes internos y periféricos"
+      }
+    ],
+    "entrega": "Sube 05_anatomia_apellido_nombre.pdf y completa la actividad Moodle indicada antes de terminar la última sesión.",
+    "moodle": {
+      "actividad": "Cuestionario 05: informe del servicio técnico",
+      "tipos_pregunta": [
+        "arrastrar_soltar",
+        "numerica",
+        "opcion_multiple"
+      ],
+      "numero_items": 9,
+      "intentos": 2,
+      "calificacion": "Mejor intento; valores numéricos admiten rangos y requieren ficha adjunta.",
+      "retroalimentacion": "Explica la función implicada en los errores y remite a repetir la medición cuando un dato es incoherente.",
+      "evidencia": "Tres ítems usan valores variables leídos en el equipo y el resto exige interpretar el esquema producido."
+    },
+    "rubrica": [],
+    "accesibilidad": "La carga dispone de versión ligera; se admiten capturas ampliadas o tabla escrita y navegación por teclado.",
+    "privacidad": "Las capturas deben recortarse para ocultar usuario, número de serie, red y procesos personales."
+  },
+  {
+    "numero": 6,
+    "titulo": "CPU bajo la lupa: instrucciones y rendimiento",
+    "tema_numeros": [
+      2
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Individual",
+    "relato": "Una empresa anuncia que su procesador es el doble de rápido solo por tener más GHz. Actuarás como perito y comprobarás qué puede y qué no puede deducirse observando cargas distintas.",
+    "reto": "Mide una tarea de cálculo y otra de espera para distinguir frecuencia, núcleos, uso y tiempo.",
+    "producto": "Cuaderno de ensayo con tabla de cinco ejecuciones y conclusión prudente.",
+    "archivo": "06_cpu_apellido_nombre.pdf",
+    "preparacion": [
+      "Abre el monitor de CPU y el cronómetro sin instalar utilidades.",
+      "Descarga las dos cargas seguras preparadas por el docente."
+    ],
+    "pasos": [
+      "Anota el modelo lógico mostrado, número de núcleos visibles y frecuencia si está disponible.",
+      "Predice cuál de las dos tareas elevará más el uso y justifica la predicción.",
+      "Ejecuta cada carga dos veces, registra tiempo y porcentaje aproximado y cierra la tarea al finalizar.",
+      "Calcula la mediana o valor representativo indicado con calculadora.",
+      "Observa un caso límite al ejecutar la carga mínima y explica por qué el monitor puede no reflejarla.",
+      "Responde el informe pericial de Moodle con tus datos y adjunta el cuaderno."
+    ],
+    "comprobaciones": [
+      "Hay al menos cinco ejecuciones registradas con unidad.",
+      "La conclusión separa observación de explicación.",
+      "No se afirma que GHz por sí solo determine el rendimiento total.",
+      "Todos los procesos de prueba han terminado al cerrar la práctica."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 2,
+        "seccion": "CPU, ciclo de instrucción y rendimiento"
+      }
+    ],
+    "entrega": "Sube 06_cpu_apellido_nombre.pdf y completa la actividad Moodle indicada antes de terminar la última sesión.",
+    "moodle": {
+      "actividad": "Cuestionario 06: peritaje del procesador",
+      "tipos_pregunta": [
+        "numerica",
+        "cloze",
+        "opcion_multiple"
+      ],
+      "numero_items": 8,
+      "intentos": 2,
+      "calificacion": "Mejor intento; 25 % datos medidos, 75 % interpretación; cuaderno obligatorio.",
+      "retroalimentacion": "Indica si el error es de unidad, lectura o inferencia y propone una nueva observación.",
+      "evidencia": "Los ítems numéricos se parametrizan con los tiempos y lecturas de la tabla individual."
+    },
+    "rubrica": [],
+    "accesibilidad": "Se proporciona una tabla editable y carga de baja demanda; no se penaliza que el sistema no muestre frecuencia.",
+    "privacidad": "No compartas número de serie ni nombre del dispositivo; ejecuta solo archivos proporcionados y no eleves permisos."
+  },
+  {
+    "numero": 7,
+    "titulo": "Memoria o disco: el caso de la desaparición",
+    "tema_numeros": [
+      2,
+      3
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Parejas, entrega individual",
+    "relato": "Tras un corte simulado, unos datos permanecen y otros desaparecen. Debéis reproducir el fenómeno con archivos de prueba para asesorar a una usuaria que confunde RAM, caché y almacenamiento.",
+    "reto": "Diagnostica cuatro situaciones de persistencia y cuello de botella apoyándote en observaciones del sistema.",
+    "producto": "Informe de diagnóstico con matriz síntoma_evidencia_componente.",
+    "archivo": "07_memoria_almacenamiento_apellido_nombre.pdf",
+    "preparacion": [
+      "Crea practica_07 dentro de la carpeta de clase y abre el monitor de memoria.",
+      "Usa únicamente los archivos pequeños y la aplicación portable indicada."
+    ],
+    "pasos": [
+      "Registra memoria usada y espacio libre antes de abrir las muestras.",
+      "Abre progresivamente las muestras y observa cambios sin superar el límite indicado por el docente.",
+      "Guarda un archivo, cierra sin guardar otro y verifica qué persiste al reabrir la aplicación.",
+      "Compara copiar y abrir, anotando qué componente interviene principalmente en cada fase.",
+      "Analiza el caso límite de espacio insuficiente mediante la simulación, sin llenar el disco real.",
+      "Completa en Moodle el diagnóstico de cuatro incidencias usando la matriz."
+    ],
+    "comprobaciones": [
+      "La matriz contiene síntoma, prueba, evidencia y diagnóstico para cuatro casos.",
+      "Se distingue claramente pérdida por no guardar de fallo de almacenamiento.",
+      "La simulación de espacio insuficiente no utiliza el disco real.",
+      "La carpeta final no contiene duplicados temporales ni archivos ajenos."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 2,
+        "seccion": "Jerarquía de memoria y persistencia"
+      },
+      {
+        "tema": 3,
+        "seccion": "Almacenamiento y conexiones internas"
+      }
+    ],
+    "entrega": "Sube 07_memoria_almacenamiento_apellido_nombre.pdf y completa la actividad Moodle indicada antes de terminar la última sesión.",
+    "moodle": {
+      "actividad": "Cuestionario 07: memoria del incidente",
+      "tipos_pregunta": [
+        "emparejamiento",
+        "opcion_multiple",
+        "respuesta_corta_con_variantes"
+      ],
+      "numero_items": 10,
+      "intentos": 2,
+      "calificacion": "Último intento; el segundo se habilita tras revisar la retroalimentación y entregar el informe.",
+      "retroalimentacion": "Ofrece pistas diagnósticas en el primer intento y una explicación causal, sin revelar respuestas de otros casos.",
+      "evidencia": "Pide elegir evidencias presentes en la matriz y transcribir dos valores únicos de la observación local."
+    },
+    "rubrica": [],
+    "accesibilidad": "La experiencia puede realizarse con simulación accesible; se evitan parpadeos y se ofrecen instrucciones para lector de pantalla.",
+    "privacidad": "No inspecciones archivos de otras personas ni captures listas de procesos que revelen nombres o documentos."
+  },
+  {
+    "numero": 8,
+    "titulo": "Clínica de ordenadores: diagnóstico con evidencias",
+    "tema_numeros": [
+      2,
+      3
+    ],
+    "modalidad": "rubrica_docente",
+    "sesiones": 2,
+    "agrupamiento": "Equipos de 3",
+    "relato": "La clínica tecnológica recibe tres pacientes virtuales: uno tarda en arrancar, otro se bloquea con muchas pestañas y otro no muestra imagen. El equipo médico no puede cambiar piezas al azar: cada intervención debe derivarse de una hipótesis y una prueba segura.",
+    "reto": "Construye un dossier que modele el sistema, descarte causas y recomiende una intervención proporcionada para cada caso.",
+    "producto": "Dossier técnico con modelo anotado, árbol de diagnóstico, registros y parte para cliente.",
+    "archivo": "08_clinica_equipo_numero.pdf",
+    "preparacion": [
+      "Descarga los tres expedientes y verifica sus sumas o nombres para no mezclarlos.",
+      "Asigna roles de coordinación, pruebas y documentación, que rotarán en cada caso.",
+      "Abre las herramientas del sistema autorizadas y revisa el protocolo de parada segura."
+    ],
+    "pasos": [
+      "Modela el recorrido de datos y energía relevante en cada síntoma.",
+      "Formula al menos dos hipótesis por paciente y ordénalas por riesgo y coste de comprobación.",
+      "Ejecuta las pruebas simuladas o no invasivas y registra estado inicial, acción, resultado y decisión.",
+      "Incluye un caso en que la primera hipótesis sea refutada y explica el siguiente paso.",
+      "Redacta para cada cliente una explicación sin jerga y una recomendación con límites.",
+      "Intercambia el dossier con otro equipo, que intentará seguir un árbol sin ayuda oral.",
+      "Corrige rutas ambiguas, añade las evidencias y exporta un PDF accesible."
+    ],
+    "comprobaciones": [
+      "Los tres casos tienen hipótesis alternativas y pruebas seguras.",
+      "Cada conclusión cita una observación del registro.",
+      "El árbol contempla resultado positivo, negativo y prueba inconcluyente.",
+      "La recomendación no propone abrir equipos ni comprar componentes sin evidencia.",
+      "El PDF tiene marcadores o índice, unidades y autoría por roles."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 2,
+        "seccion": "Arquitectura y rendimiento"
+      },
+      {
+        "tema": 3,
+        "seccion": "Componentes, conexiones y diagnóstico"
+      }
+    ],
+    "entrega": "Entrega un único 08_clinica_equipo_numero.pdf; cada integrante confirma en Moodle los roles realizados. Se aplicará la rúbrica analítica.",
+    "moodle": null,
+    "rubrica": [
+      {
+        "criterio": "Modelo funcional",
+        "peso": 30,
+        "niveles": {
+          "4": "Representa con precisión CPU, memoria, almacenamiento, buses y E/S, incluidos flujos y límites.",
+          "3": "Representa todos los elementos principales y sus relaciones con imprecisiones menores.",
+          "2": "Incluye elementos básicos, pero faltan relaciones o se confunden funciones.",
+          "1": "El modelo es incompleto o contiene errores que impiden explicar el funcionamiento."
+        }
+      },
+      {
+        "criterio": "Experimentación y diagnóstico",
+        "peso": 30,
+        "niveles": {
+          "4": "Diseña pruebas controladas, registra datos comparables y justifica diagnósticos incluso en casos límite.",
+          "3": "Las pruebas son pertinentes y los diagnósticos se apoyan en datos, salvo algún control menor.",
+          "2": "Hay observaciones, pero las variables no están bien controladas o el diagnóstico es débil.",
+          "1": "Las conclusiones no proceden de pruebas reproducibles o faltan datos esenciales."
+        }
+      },
+      {
+        "criterio": "Explicación para el cliente",
+        "peso": 20,
+        "niveles": {
+          "4": "Comunica decisiones, incertidumbre y recomendaciones viables con vocabulario claro y técnicamente exacto.",
+          "3": "La explicación es clara y correcta, aunque simplifica alguna incertidumbre.",
+          "2": "Se entiende parcialmente, con tecnicismos sin explicar o recomendaciones vagas.",
+          "1": "La explicación resulta confusa, incorrecta o no ofrece recomendación utilizable."
+        }
+      },
+      {
+        "criterio": "Trazabilidad y calidad del dossier",
+        "peso": 20,
+        "niveles": {
+          "4": "El dossier está completo, ordenado, accesible y permite repetir cada prueba con sus evidencias.",
+          "3": "El dossier permite seguir casi todas las pruebas y presenta buen acabado.",
+          "2": "Faltan evidencias, unidades o pasos para repetir varias pruebas.",
+          "1": "El dossier está fragmentado, ilegible o no permite verificar el trabajo."
+        }
+      }
+    ],
+    "accesibilidad": "Se proporciona versión textual de los árboles y expedientes compatibles con lector de pantalla; los roles no dependen de destreza motora.",
+    "privacidad": "Los expedientes son ficticios y las capturas deben ocultar identificadores del equipo y nombres de usuario."
+  },
+  {
+    "numero": 9,
+    "titulo": "Detectives de puertos y cables",
+    "tema_numeros": [
+      3
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Parejas",
+    "relato": "El salón de actos necesita conectar pantalla, altavoces, red y almacenamiento, pero la caja contiene cables parecidos y adaptadores limitados. Debéis inspeccionar físicamente, sin forzar nada, y proponer conexiones compatibles.",
+    "reto": "Identifica interfaces por rasgos observables y valida una ruta de conexión para cuatro necesidades.",
+    "producto": "Inventario fotográfico o dibujado y tabla origen_conector_destino.",
+    "archivo": "09_puertos_apellido_nombre.pdf",
+    "preparacion": [
+      "Recoge el kit numerado asignado y comprueba que está completo sin conectarlo.",
+      "Abre la ficha de seguridad y la aplicación de cámara solo si usarás fotos recortadas."
+    ],
+    "pasos": [
+      "Observa forma, contactos, símbolos y simetría de cada conector sin insertarlo.",
+      "Registra un código de kit y clasifica función, dirección y posible adaptación.",
+      "Conecta únicamente las parejas autorizadas con el equipo apagado cuando se indique.",
+      "Verifica en el sistema si el dispositivo aparece y anota el mensaje exacto si falla.",
+      "Resuelve el caso límite de un conector físicamente posible pero funcionalmente inadecuado.",
+      "Entrega el inventario y responde Moodle con los códigos y observaciones de tu kit."
+    ],
+    "comprobaciones": [
+      "Ningún conector fue forzado ni manipulado por los contactos.",
+      "La tabla diferencia forma física, protocolo y función.",
+      "Cuatro rutas incluyen verificación o mensaje de fallo.",
+      "Las imágenes no muestran personas, etiquetas patrimoniales completas ni el aula."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 3,
+        "seccion": "Puertos, conectores y periféricos"
+      }
+    ],
+    "entrega": "Sube 09_puertos_apellido_nombre.pdf y completa la actividad Moodle indicada antes de terminar la última sesión.",
+    "moodle": {
+      "actividad": "Cuestionario 09: caja de conexiones",
+      "tipos_pregunta": [
+        "emparejamiento",
+        "arrastrar_soltar",
+        "opcion_multiple"
+      ],
+      "numero_items": 10,
+      "intentos": 2,
+      "calificacion": "Mejor intento; cuestionario y archivo pesan por igual dentro de la práctica.",
+      "retroalimentacion": "Explica incompatibilidades físicas, lógicas y de dirección; permite reintento tras revisar el kit.",
+      "evidencia": "Los códigos y estados detectados dependen del kit inspeccionado y de una conexión real autorizada."
+    },
+    "rubrica": [],
+    "accesibilidad": "Puede sustituirse fotografía por dibujo táctil o descripción estructurada; los conectores se identifican también por texto.",
+    "privacidad": "Evita MAC, números de serie y etiquetas de inventario; no conectes dispositivos personales."
+  },
+  {
+    "numero": 10,
+    "titulo": "Secuencia de arranque: encontrar el eslabón roto",
+    "tema_numeros": [
+      3,
+      4
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Individual con discusión en pareja",
+    "relato": "Un ordenador de prácticas no llega al escritorio y muestra pistas diferentes en cada intento simulado. Como técnico de primera línea, debes ubicar el fallo en la secuencia de arranque sin realizar cambios destructivos.",
+    "reto": "Reconstruye las etapas de encendido y diagnostica seis escenarios a partir de señales observables.",
+    "producto": "Bitácora con línea temporal y decisiones para seis simulaciones.",
+    "archivo": "10_arranque_apellido_nombre.pdf",
+    "preparacion": [
+      "Abre el simulador local de arranque y la bitácora facilitada.",
+      "Comprueba que trabajas en modo simulación y no en la configuración real del firmware."
+    ],
+    "pasos": [
+      "Ordena las etapas desde alimentación hasta sesión del sistema operativo.",
+      "Ejecuta tres escenarios guiados y anota última señal correcta, primera anómala e hipótesis.",
+      "Ejecuta tres escenarios aleatorios y selecciona una prueba segura que discrimine dos causas.",
+      "Incluye un escenario sin señal de vídeo y evita concluir automáticamente que no hay arranque.",
+      "Compara tu diagnóstico con una pareja usando solo las evidencias registradas.",
+      "Completa Moodle con el código de escenario y las rutas tomadas."
+    ],
+    "comprobaciones": [
+      "Las seis simulaciones incluyen señales y no solo diagnósticos.",
+      "Las pruebas propuestas no borran datos ni cambian el firmware.",
+      "La línea temporal diferencia firmware, cargador y sistema operativo.",
+      "El caso sin vídeo incluye al menos una hipótesis alternativa."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 3,
+        "seccion": "Firmware y proceso de arranque"
+      },
+      {
+        "tema": 4,
+        "seccion": "Carga del sistema operativo"
+      }
+    ],
+    "entrega": "Sube 10_arranque_apellido_nombre.pdf y completa la actividad Moodle indicada antes de terminar la última sesión.",
+    "moodle": {
+      "actividad": "Cuestionario 10: eslabón de arranque",
+      "tipos_pregunta": [
+        "arrastrar_soltar",
+        "cloze",
+        "opcion_multiple"
+      ],
+      "numero_items": 9,
+      "intentos": 2,
+      "calificacion": "Mejor intento; cada escenario vale lo mismo y requiere código válido de simulación.",
+      "retroalimentacion": "Señala la etapa mal ubicada y devuelve una pista de prueba segura, sin revelar el diagnóstico completo hasta el cierre.",
+      "evidencia": "Cada estudiante recibe códigos aleatorios y responde según las señales y decisiones de su bitácora."
+    },
+    "rubrica": [],
+    "accesibilidad": "El simulador es navegable con teclado y ofrece todas las señales visuales también como texto.",
+    "privacidad": "No accedas al firmware real ni fotografíes pantallas con identificadores o credenciales."
+  },
+  {
+    "numero": 11,
+    "titulo": "Presupuesto de energía y compatibilidad",
+    "tema_numeros": [
+      2,
+      3
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Parejas con cálculos individuales",
+    "relato": "Un pequeño estudio quiere reutilizar componentes y teme comprar una fuente o adaptador incompatible. Debéis auditar especificaciones simuladas y justificar una configuración segura, incluyendo margen y conectores.",
+    "reto": "Selecciona una combinación compatible y calcula consumo estimado, margen y restricciones sin probar hardware real.",
+    "producto": "Hoja de cálculo con inventario, fórmulas y alerta de incompatibilidades.",
+    "archivo": "11_compatibilidad_apellido_nombre.xlsx",
+    "preparacion": [
+      "Descarga el catálogo ficticio de componentes y la plantilla de hoja de cálculo.",
+      "Configura las celdas de potencia en vatios y porcentajes, sin datos externos obligatorios."
+    ],
+    "pasos": [
+      "Filtra componentes por zócalo, formato, memoria y conectores antes de calcular potencia.",
+      "Construye una tabla de consumo mínimo, típico y máximo con fórmulas visibles.",
+      "Calcula el margen según la regla del escenario y verifica el resultado con calculadora.",
+      "Introduce deliberadamente una combinación inválida y crea una alerta que la detecte.",
+      "Prueba los límites exactos de potencia y un valor ausente para evitar falsos seguros.",
+      "Sube la hoja y completa Moodle con valores y decisiones obtenidos de ella."
+    ],
+    "comprobaciones": [
+      "Todas las potencias muestran unidad y las celdas calculadas contienen fórmulas.",
+      "La compatibilidad no se reduce al consumo eléctrico.",
+      "La alerta detecta combinación inválida, límite y dato ausente.",
+      "La hoja no contiene enlaces externos rotos ni macros."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 2,
+        "seccion": "Consumo y rendimiento"
+      },
+      {
+        "tema": 3,
+        "seccion": "Compatibilidad, alimentación y montaje lógico"
+      }
+    ],
+    "entrega": "Sube 11_compatibilidad_apellido_nombre.xlsx y completa la actividad Moodle indicada antes de terminar la última sesión.",
+    "moodle": {
+      "actividad": "Cuestionario 11: configuración compatible",
+      "tipos_pregunta": [
+        "numerica",
+        "opcion_multiple",
+        "cloze"
+      ],
+      "numero_items": 10,
+      "intentos": 2,
+      "calificacion": "Mejor intento; tolerancia del 1 % en cálculos y archivo con fórmulas obligatorio.",
+      "retroalimentacion": "Distingue error de cálculo, unidad y restricción de compatibilidad; ofrece pista sobre la celda a revisar.",
+      "evidencia": "Usa resultados derivados de fórmulas y el identificador de la combinación asignada."
+    },
+    "rubrica": [],
+    "accesibilidad": "Plantilla compatible con LibreOffice y teclado; se facilita versión CSV para revisar datos, no para sustituir fórmulas.",
+    "privacidad": "El catálogo es ficticio; no incluye precios, inventario ni identificadores reales del centro."
+  },
+  {
+    "numero": 12,
+    "titulo": "Manual de rescate y puesta en marcha",
+    "tema_numeros": [
+      2,
+      3,
+      4
+    ],
+    "modalidad": "rubrica_docente",
+    "sesiones": 2,
+    "agrupamiento": "Equipos de 3",
+    "relato": "Una asociación recibe equipos desmontados y necesita un manual para voluntariado sin experiencia. No montaréis hardware real: crearéis un protocolo seguro y lo validaréis con un tablero de componentes y fallos simulados.",
+    "reto": "Diseña y valida una guía que lleve desde la comprobación de compatibilidad hasta el primer arranque y diagnóstico inicial.",
+    "producto": "Manual ilustrado con lista de comprobación, mapa de conexiones y árbol de fallos.",
+    "archivo": "12_rescate_equipo_numero.pdf",
+    "preparacion": [
+      "Recoge el tablero o simulador asignado y confirma que no está conectado a corriente.",
+      "Revisa fichas técnicas ficticias, símbolos de seguridad y plantilla accesible.",
+      "Asigna roles rotatorios de montaje lógico, observación y auditoría."
+    ],
+    "pasos": [
+      "Selecciona los componentes compatibles y justifica cada interfaz y requisito energético.",
+      "Ordena el protocolo previo, conexiones, primera puesta en marcha y comprobaciones posteriores.",
+      "Añade advertencias observables y condiciones explícitas para detenerse y pedir ayuda.",
+      "Valida la guía sobre dos configuraciones: una correcta y otra con fallos múltiples.",
+      "Construye un árbol para ausencia de energía, ausencia de vídeo y dispositivo no detectado.",
+      "Entrega la guía a otro equipo para que ejecute la simulación sin explicación oral.",
+      "Incorpora sus incidencias, cita recursos y exporta la versión final accesible."
+    ],
+    "comprobaciones": [
+      "La guía nunca pide manipular un equipo conectado ni forzar conectores.",
+      "Cada conexión del mapa tiene origen, destino y finalidad.",
+      "Las tres familias de fallo contienen prueba segura y rama inconcluyente.",
+      "La validación registra versión inicial, incidencia y corrección.",
+      "El documento final mantiene etiquetas legibles al imprimir en escala de grises."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 2,
+        "seccion": "Arquitectura funcional"
+      },
+      {
+        "tema": 3,
+        "seccion": "Componentes, conexiones y arranque"
+      },
+      {
+        "tema": 4,
+        "seccion": "Relación entre firmware y sistema operativo"
+      }
+    ],
+    "entrega": "Entrega un único 12_rescate_equipo_numero.pdf y la lista de roles en el comentario de Moodle; corrección mediante rúbrica analítica.",
+    "moodle": null,
+    "rubrica": [
+      {
+        "criterio": "Arquitectura y compatibilidad",
+        "peso": 30,
+        "niveles": {
+          "4": "La propuesta integra componentes y conexiones totalmente compatibles, justificadas con especificaciones verificables.",
+          "3": "La propuesta es compatible y está bien justificada salvo una omisión menor.",
+          "2": "Presenta compatibilidades dudosas o justificaciones incompletas que requerirían cambios.",
+          "1": "Contiene incompatibilidades críticas o selección sin fundamento técnico."
+        }
+      },
+      {
+        "criterio": "Protocolo de montaje y seguridad",
+        "peso": 25,
+        "niveles": {
+          "4": "Secuencia clara, reversible y segura; prevé electricidad, estática, conectores y parada ante anomalías.",
+          "3": "Secuencia segura y ordenada con alguna precaución poco desarrollada.",
+          "2": "Incluye precauciones básicas, pero deja pasos ambiguos o riesgos sin cubrir.",
+          "1": "Propone acciones inseguras, forzadas o sin protocolo de parada."
+        }
+      },
+      {
+        "criterio": "Diagnóstico de casos límite",
+        "peso": 25,
+        "niveles": {
+          "4": "El árbol discrimina causas con pruebas mínimas y trata resultados positivos, negativos e inconcluyentes.",
+          "3": "El diagnóstico cubre causas principales y rutas alternativas con pequeños huecos.",
+          "2": "Hay una ruta útil, pero salta a conclusiones o ignora casos límite.",
+          "1": "Sustituye diagnóstico por ensayo al azar o no relaciona evidencia y decisión."
+        }
+      },
+      {
+        "criterio": "Documentación y comunicación",
+        "peso": 20,
+        "niveles": {
+          "4": "Manual accesible, preciso y trazable, con diagramas legibles, fuentes y revisión externa incorporada.",
+          "3": "Manual claro, bien presentado y con fuentes, salvo detalles menores.",
+          "2": "Se entiende parcialmente, pero faltan referencias, etiquetas o revisión efectiva.",
+          "1": "Documento incompleto, difícil de seguir o sin evidencias de revisión."
+        }
+      }
+    ],
+    "accesibilidad": "Diagramas con descripción lineal, paleta no dependiente del color y tamaño ampliable; se puede validar como lector en vez de manipular piezas.",
+    "privacidad": "Solo componentes simulados; no registres etiquetas reales, contraseñas ni fotografías de personas o equipos del centro."
+  },
+  {
+    "numero": 13,
+    "titulo": "Cartografía del sistema operativo",
+    "tema_numeros": [
+      4
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Individual",
+    "relato": "Una persona nueva debe usar un equipo desconocido sin perder archivos ni cambiar configuraciones críticas. Prepararás un mapa verificable de las funciones del sistema operativo y de las rutas seguras para consultarlas.",
+    "reto": "Localiza y documenta recursos, usuarios, procesos, dispositivos y almacenamiento usando solo herramientas integradas.",
+    "producto": "Mapa de navegación con cinco rutas y capturas recortadas.",
+    "archivo": "13_mapa_so_apellido_nombre.pdf",
+    "preparacion": [
+      "Cierra sesiones personales y abre una cuenta o perfil de prácticas si está disponible.",
+      "Crea la carpeta practica_13 y consulta la guía para ocultar datos sensibles."
+    ],
+    "pasos": [
+      "Localiza versión del sistema, almacenamiento, dispositivos, accesibilidad y procesos con interfaces integradas.",
+      "Anota para cada ruta punto de inicio, clics o comandos, dato encontrado y riesgo de modificación.",
+      "Repite una ruta mediante búsqueda y otra mediante navegación jerárquica.",
+      "Provoca solo el caso seguro de aplicación sin respuesta suministrado y observa opciones sin perder trabajo.",
+      "Recorta o redacta capturas y comprueba que todavía prueban el dato.",
+      "Completa Moodle identificando funciones y transcribiendo valores de tu mapa."
+    ],
+    "comprobaciones": [
+      "Hay cinco rutas reproducibles y cada una termina en un dato concreto.",
+      "El mapa distingue consulta, configuración y acción destructiva.",
+      "Las capturas no muestran usuario, red, serie ni documentos recientes.",
+      "El caso de aplicación sin respuesta conserva el archivo de prueba."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 4,
+        "seccion": "Funciones e interfaces del sistema operativo"
+      }
+    ],
+    "entrega": "Sube 13_mapa_so_apellido_nombre.pdf y completa la actividad Moodle indicada antes de terminar la última sesión.",
+    "moodle": {
+      "actividad": "Cuestionario 13: mapa del sistema",
+      "tipos_pregunta": [
+        "emparejamiento",
+        "respuesta_corta_con_variantes",
+        "opcion_multiple"
+      ],
+      "numero_items": 8,
+      "intentos": 2,
+      "calificacion": "Mejor intento; la entrega saneada es condición de finalización.",
+      "retroalimentacion": "Explica qué función del sistema se observa y avisa si una ruta propuesta puede modificar datos.",
+      "evidencia": "Incluye valores locales y secuencias de navegación que deben comprobarse en el ordenador antes de responder."
+    },
+    "rubrica": [],
+    "accesibilidad": "Todas las rutas se ofrecen para ratón y teclado; las capturas pueden sustituirse por transcripción estructurada.",
+    "privacidad": "Redacta identificadores sensibles y no cambies cuentas, permisos, red o configuración administrada."
+  },
+  {
+    "numero": 14,
+    "titulo": "Expedición por el sistema de archivos",
+    "tema_numeros": [
+      4
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Parejas con entrega individual",
+    "relato": "Un archivo científico se ha perdido dentro de una estructura mal organizada y existen copias casi idénticas. Tendrás que encontrar la versión válida, reorganizar sin destruir y demostrar cómo lo hiciste.",
+    "reto": "Aplica rutas, extensiones, metadatos, búsqueda y operaciones reversibles sobre un árbol de archivos preparado.",
+    "producto": "Registro de expedición y árbol final comprimido.",
+    "archivo": "14_expedicion_apellido_nombre.zip",
+    "preparacion": [
+      "Descarga y descomprime archivo_perdido_inicio.zip en practica_14.",
+      "Activa la visualización de extensiones y localiza la papelera, sin tocar archivos ajenos."
+    ],
+    "pasos": [
+      "Inventaría carpetas, extensiones, tamaños y fechas antes de modificar.",
+      "Busca la versión que cumple cuatro pistas y registra consulta y ruta relativa.",
+      "Crea una estructura coherente y mueve los archivos manteniendo un registro antes_después.",
+      "Renombra según la convención dada y detecta un nombre duplicado y una extensión engañosa.",
+      "Elimina el señuelo indicado, recupéralo de la papelera y verifica su contenido.",
+      "Comprime el árbol final y responde Moodle con rutas, recuentos y metadatos observados."
+    ],
+    "comprobaciones": [
+      "El ZIP contiene una sola carpeta raíz y conserva todos los archivos requeridos.",
+      "Las rutas entregadas son relativas y usan nombres exactos.",
+      "La extensión engañosa se diagnostica sin ejecutarla.",
+      "El registro permite revertir movimientos y confirma la recuperación desde papelera."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 4,
+        "seccion": "Archivos, carpetas, rutas, extensiones y metadatos"
+      }
+    ],
+    "entrega": "Sube 14_expedicion_apellido_nombre.zip y completa la actividad Moodle indicada antes de terminar la última sesión.",
+    "moodle": {
+      "actividad": "Cuestionario 14: coordenadas del archivo perdido",
+      "tipos_pregunta": [
+        "respuesta_corta_con_variantes",
+        "numerica",
+        "arrastrar_soltar"
+      ],
+      "numero_items": 10,
+      "intentos": 2,
+      "calificacion": "Último intento; se acepta separador de ruta del sistema y variantes de mayúsculas previstas.",
+      "retroalimentacion": "Distingue ruta, nombre y extensión; ante un error ofrece una pista de búsqueda, no la ubicación final.",
+      "evidencia": "Los ítems piden rutas, recuentos y metadatos que dependen del árbol realmente reorganizado."
+    },
+    "rubrica": [],
+    "accesibilidad": "Se incluye alternativa íntegramente por teclado y árbol textual; los nombres evitan confusiones visuales innecesarias.",
+    "privacidad": "Trabaja solo en practica_14 y no abras archivos ajenos ni incluyas rutas con el nombre de usuario."
+  },
+  {
+    "numero": 15,
+    "titulo": "Permisos, copias y recuperación",
+    "tema_numeros": [
+      4
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Parejas, decisiones individuales",
+    "relato": "Una carpeta compartida ficticia ha sufrido sobrescrituras y accesos incorrectos. Como responsable de continuidad, debes probar permisos simulados y demostrar que una copia se puede restaurar, no solo crear.",
+    "reto": "Configura una política en el simulador, realiza copia versionada y recupera tres incidentes.",
+    "producto": "Informe de continuidad con matriz de permisos y registro de restauración.",
+    "archivo": "15_recuperacion_apellido_nombre.pdf",
+    "preparacion": [
+      "Abre el entorno simulado de usuarios y la carpeta de datos ficticios.",
+      "Crea practica_15_copia y verifica que no sincroniza con una nube personal."
+    ],
+    "pasos": [
+      "Clasifica archivos por necesidad de lectura, escritura o acceso restringido.",
+      "Aplica permisos en el simulador a tres roles y prueba una acción permitida y otra denegada por rol.",
+      "Crea dos versiones de la carpeta y anota fecha, alcance y ubicación.",
+      "Simula borrado, sobrescritura y permiso erróneo; restaura cada incidente desde la fuente adecuada.",
+      "Compara el contenido restaurado mediante tamaño o verificación indicada, no solo por nombre.",
+      "Completa Moodle con la matriz y los códigos generados al restaurar."
+    ],
+    "comprobaciones": [
+      "La política aplica mínimo privilegio y no bloquea la tarea necesaria.",
+      "Cada rol tiene evidencia de acción permitida y denegada.",
+      "Las dos versiones se distinguen y la restauración recupera contenido verificable.",
+      "Ninguna copia se guarda en una cuenta personal o medio externo."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 4,
+        "seccion": "Usuarios, permisos, copias de seguridad y recuperación"
+      }
+    ],
+    "entrega": "Sube 15_recuperacion_apellido_nombre.pdf y completa la actividad Moodle indicada antes de terminar la última sesión.",
+    "moodle": {
+      "actividad": "Cuestionario 15: continuidad del archivo",
+      "tipos_pregunta": [
+        "emparejamiento",
+        "opcion_multiple",
+        "respuesta_corta_con_variantes"
+      ],
+      "numero_items": 9,
+      "intentos": 2,
+      "calificacion": "Mejor intento; requiere tres códigos válidos de restauración y el informe.",
+      "retroalimentacion": "Aclara principio de mínimo privilegio y qué versión conviene revisar; no muestra códigos correctos.",
+      "evidencia": "Los códigos y resultados provienen de ejecutar permisos y restauraciones en el simulador."
+    },
+    "rubrica": [],
+    "accesibilidad": "Simulador accesible con teclado, mensajes no dependientes del color y matriz editable en texto.",
+    "privacidad": "Usa identidades ficticias; no cambies permisos reales ni copies documentos personales o del centro."
+  },
+  {
+    "numero": 16,
+    "titulo": "Archivo de misión: organización resistente a errores",
+    "tema_numeros": [
+      4
+    ],
+    "modalidad": "rubrica_docente",
+    "sesiones": 2,
+    "agrupamiento": "Equipos de 3",
+    "relato": "Una expedición escolar regresará con documentos, imágenes y datos recogidos por distintos roles, a veces sin conexión. Debéis construir un sistema de archivos que evite pérdidas, controle accesos y sobreviva a errores humanos simulados.",
+    "reto": "Implanta sobre datos ficticios una estructura, política de nombres, permisos simulados, versiones y plan de recuperación que otro equipo pueda usar.",
+    "producto": "Paquete funcional de carpetas ficticias, manual de uso y registro de pruebas.",
+    "archivo": "16_archivo_mision_equipo_numero.zip",
+    "preparacion": [
+      "Descarga el lote ficticio y calcula o anota el inventario inicial sin abrir ejecutables.",
+      "Define roles de campo, análisis y coordinación y rota la auditoría.",
+      "Comprueba que el espacio de trabajo es local y no contiene sincronización personal."
+    ],
+    "pasos": [
+      "Modela necesidades de acceso y diseña estructura y convención antes de mover archivos.",
+      "Implanta la estructura, resuelve duplicados y documenta cada decisión de renombrado.",
+      "Configura permisos en el simulador y crea una copia versionada con manifiesto.",
+      "Introduce los incidentes asignados: borrado, sobrescritura, nombre límite y acceso indebido.",
+      "Recupera el estado válido y compara el manifiesto antes y después.",
+      "Entrega el paquete a otro equipo para localizar, editar y recuperar un archivo siguiendo solo el manual.",
+      "Corrige fallos, elimina datos temporales y comprime paquete, manual y registro."
+    ],
+    "comprobaciones": [
+      "El manifiesto inicial y final permite comprobar cantidad y tamaño de archivos.",
+      "Los permisos reflejan necesidades de los tres roles.",
+      "Los cuatro incidentes tienen evidencia de detección y recuperación.",
+      "El ZIP no contiene rutas absolutas, datos reales ni copias fuera de la raíz.",
+      "El manual funciona sin depender de capturas ilegibles."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 4,
+        "seccion": "Gestión segura de archivos, permisos y copias"
+      }
+    ],
+    "entrega": "Entrega un único 16_archivo_mision_equipo_numero.zip con 16_manual_equipo_numero.pdf y 16_registro_equipo_numero.pdf en su raíz; rúbrica docente.",
+    "moodle": null,
+    "rubrica": [
+      {
+        "criterio": "Estructura y convenciones",
+        "peso": 25,
+        "niveles": {
+          "4": "La estructura es coherente, escalable y aplica nombres consistentes, extensiones visibles y rutas claras.",
+          "3": "La estructura funciona y mantiene convenciones con excepciones menores.",
+          "2": "La organización resuelve parte del caso, pero presenta nombres ambiguos o duplicación evitable.",
+          "1": "La estructura dificulta localizar archivos o altera nombres/extensiones de forma insegura."
+        }
+      },
+      {
+        "criterio": "Seguridad, permisos y copia",
+        "peso": 30,
+        "niveles": {
+          "4": "Aplica mínimo privilegio, versiones y copia verificable; demuestra recuperación de todos los incidentes.",
+          "3": "La política y la copia son adecuadas y se recuperan casi todos los casos.",
+          "2": "Existen copia o permisos, pero faltan pruebas de restauración o hay accesos excesivos.",
+          "1": "No protege la información o la supuesta copia no permite recuperar los datos."
+        }
+      },
+      {
+        "criterio": "Diagnóstico y trazabilidad",
+        "peso": 25,
+        "niveles": {
+          "4": "Cada operación e incidente queda registrado con evidencia, causa, reversión y tratamiento de casos límite.",
+          "3": "El registro permite seguir decisiones e incidentes, con pequeños huecos.",
+          "2": "Hay un registro parcial, sin causa o reversión clara en varios casos.",
+          "1": "No se puede reconstruir qué se hizo ni verificar la recuperación."
+        }
+      },
+      {
+        "criterio": "Manual accesible para usuarios",
+        "peso": 20,
+        "niveles": {
+          "4": "La guía permite a una persona nueva trabajar y recuperarse, con lenguaje claro, atajos y alternativas accesibles.",
+          "3": "La guía es clara y utilizable, aunque omite alguna alternativa o detalle.",
+          "2": "La guía cubre tareas básicas pero deja pasos ambiguos o depende demasiado de capturas.",
+          "1": "La guía está incompleta, es confusa o exige información no disponible."
+        }
+      }
+    ],
+    "accesibilidad": "El manual incluye instrucciones textuales completas, navegación por teclado y diagramas con alternativa; tareas repartibles sin depender de visión o precisión motora.",
+    "privacidad": "Todos los datos e identidades son ficticios; no usar nubes, memorias personales, rutas de usuario ni permisos reales del sistema."
+  },
+  {
+    "numero": 17,
+    "titulo": "Traductores y lenguajes: una misma orden, tres formas",
+    "tema_numeros": [
+      5
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Parejas con trabajo individual",
+    "relato": "Un robot educativo recibe la misma intención expresada en lenguaje natural, bloques y texto, pero ciertos mensajes fallan. Investigarás qué cambia entre sintaxis, significado, traducción y ejecución.",
+    "reto": "Construye y ejecuta tres versiones equivalentes de un recorrido, y clasifica errores reales.",
+    "producto": "Bitácora comparativa con capturas, entradas, salidas y errores.",
+    "archivo": "17_lenguajes_apellido_nombre.pdf",
+    "preparacion": [
+      "Abre el entorno de bloques y el intérprete web o local autorizado, sin crear cuenta.",
+      "Descarga el escenario de robot y guarda una copia en practica_17."
+    ],
+    "pasos": [
+      "Describe el recorrido en lenguaje natural con precondición y resultado esperado.",
+      "Constrúyelo en bloques, ejecútalo con tres entradas y registra trazas.",
+      "Completa la versión textual de plantilla y ejecuta las mismas entradas.",
+      "Introduce de forma controlada un error sintáctico, uno de ejecución y uno lógico; copia mensajes y comportamiento.",
+      "Corrige los tres y explica qué herramienta o evidencia permitió diferenciarlos.",
+      "Completa Moodle usando los mensajes y resultados de tu bitácora."
+    ],
+    "comprobaciones": [
+      "Las tres versiones usan las mismas entradas y resultado esperado.",
+      "Cada error fue observado y luego corregido.",
+      "Se distingue que un programa puede ejecutarse y aun dar resultado incorrecto.",
+      "No se publican soluciones ni se usan servicios que requieran cuenta."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 5,
+        "seccion": "Lenguajes, traducción, ejecución y errores"
+      }
+    ],
+    "entrega": "Sube 17_lenguajes_apellido_nombre.pdf y completa la actividad Moodle indicada antes de terminar la última sesión.",
+    "moodle": {
+      "actividad": "Cuestionario 17: intérprete de incidentes",
+      "tipos_pregunta": [
+        "emparejamiento",
+        "cloze",
+        "opcion_multiple"
+      ],
+      "numero_items": 9,
+      "intentos": 2,
+      "calificacion": "Mejor intento; bitácora obligatoria y al menos una respuesta ligada a cada ejecución.",
+      "retroalimentacion": "Explica la fase en la que aparece el fallo y remite al mensaje observado, sin mostrar el programa correcto.",
+      "evidencia": "Solicita fragmentos de mensajes y salidas generadas al ejecutar las versiones del estudiante."
+    },
+    "rubrica": [],
+    "accesibilidad": "Entornos navegables por teclado, bloques con etiquetas textuales y alternativa en plantilla de texto.",
+    "privacidad": "Usa entornos sin cuenta y ejemplos ficticios; no pegues claves, rutas personales ni datos reales en el intérprete."
+  },
+  {
+    "numero": 18,
+    "titulo": "Radar de aplicaciones: elegir con criterios",
+    "tema_numeros": [
+      4,
+      5
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Parejas, entrega individual",
+    "relato": "El centro debe escoger herramientas para escribir, editar imagen, comprimir y comunicarse sin instalar software dudoso. No basta con nombrar aplicaciones: hay que comprobar formatos, interoperabilidad, licencia y consumo.",
+    "reto": "Realiza una prueba comparativa controlada de tres aplicaciones o utilidades y recomienda según dos perfiles distintos.",
+    "producto": "Matriz de evaluación con archivos de prueba y mediciones.",
+    "archivo": "18_radar_apellido_nombre.pdf",
+    "preparacion": [
+      "Usa las aplicaciones preinstaladas o versiones web sin cuenta indicadas por el docente.",
+      "Descarga los archivos de prueba y duplica los originales en practica_18."
+    ],
+    "pasos": [
+      "Define criterios y pesos antes de probar: función, formatos, accesibilidad, recursos, privacidad y licencia.",
+      "Realiza la misma tarea mínima en cada herramienta y registra tiempo, formato de salida y tamaño.",
+      "Abre cada resultado en una aplicación distinta para comprobar interoperabilidad.",
+      "Prueba un archivo vacío, un nombre largo o un formato no compatible y registra el mensaje.",
+      "Calcula puntuaciones sin ocultar limitaciones y formula recomendaciones distintas para dos perfiles.",
+      "Responde Moodle con medidas y evidencias de tus pruebas."
+    ],
+    "comprobaciones": [
+      "La matriz aplica los mismos criterios y tarea a todas las opciones.",
+      "Cada formato de salida fue reabierto y no solo guardado.",
+      "El caso límite contiene mensaje o comportamiento observado.",
+      "La recomendación cambia justificadamente entre perfiles y no se basa solo en preferencia."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 5,
+        "seccion": "Aplicaciones, formatos, licencias e interoperabilidad"
+      },
+      {
+        "tema": 4,
+        "seccion": "Recursos gestionados por el sistema operativo"
+      }
+    ],
+    "entrega": "Sube 18_radar_apellido_nombre.pdf y completa la actividad Moodle indicada antes de terminar la última sesión.",
+    "moodle": {
+      "actividad": "Cuestionario 18: decisión de herramientas",
+      "tipos_pregunta": [
+        "numerica",
+        "emparejamiento",
+        "opcion_multiple"
+      ],
+      "numero_items": 10,
+      "intentos": 2,
+      "calificacion": "Mejor intento; puntuaciones con tolerancia y matriz adjunta.",
+      "retroalimentacion": "Diferencia ausencia de función, incompatibilidad de formato y restricción de licencia; invita a revisar evidencia.",
+      "evidencia": "Los valores proceden de tamaños, tiempos y resultados de apertura medidos por cada estudiante."
+    },
+    "rubrica": [],
+    "accesibilidad": "Criterios incluyen accesibilidad; se admite cronometraje asistido y resultados textuales en lugar de capturas.",
+    "privacidad": "No crees cuentas ni subas archivos a servicios no autorizados; registra políticas sin incluir identificadores personales."
+  },
+  {
+    "numero": 19,
+    "titulo": "Caja de herramientas del sistema",
+    "tema_numeros": [
+      4,
+      5
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Individual con mesa de ayuda por parejas",
+    "relato": "Una jornada de puertas abiertas deja diez incidencias pequeñas: un ZIP que no abre, un PDF enorme, una captura poco legible y una aplicación congelada, entre otras. Debes resolverlas con utilidades estándar y dejar un parte reproducible.",
+    "reto": "Completa una ruta de cinco incidencias asignadas eligiendo la utilidad adecuada, verificando el resultado y evitando daño colateral.",
+    "producto": "Parte de incidencias con archivos antes_después y comprobaciones.",
+    "archivo": "19_utilidades_apellido_nombre.zip",
+    "preparacion": [
+      "Descarga el lote identificado y comprueba que contiene solo datos ficticios.",
+      "Crea carpetas originales, trabajo y resultados; no modifiques originales."
+    ],
+    "pasos": [
+      "Clasifica las incidencias y selecciona utilidad integrada o gratuita autorizada para cada una.",
+      "Anota estado inicial y criterio de éxito antes de actuar.",
+      "Resuelve cinco incidencias, guardando cada resultado con nombre normalizado.",
+      "Verifica abriendo, extrayendo, comparando tamaño o consultando propiedades según corresponda.",
+      "Resuelve un resultado inesperado mediante deshacer, copia o repetición controlada y documéntalo.",
+      "Comprime resultados y completa Moodle con códigos, tamaños y orden de acciones."
+    ],
+    "comprobaciones": [
+      "Los originales permanecen intactos y separados.",
+      "Cada incidencia tiene criterio de éxito y verificación posterior.",
+      "El ZIP final incluye exactamente los resultados y el parte solicitado.",
+      "Ninguna acción instala software, eleva privilegios o envía archivos a Internet."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 5,
+        "seccion": "Utilidades de mantenimiento y productividad"
+      },
+      {
+        "tema": 4,
+        "seccion": "Procesos, archivos y recuperación"
+      }
+    ],
+    "entrega": "Sube 19_utilidades_apellido_nombre.zip y completa la actividad Moodle indicada antes de terminar la última sesión.",
+    "moodle": {
+      "actividad": "Cuestionario 19: parte de incidencias",
+      "tipos_pregunta": [
+        "arrastrar_soltar",
+        "respuesta_corta_con_variantes",
+        "numerica"
+      ],
+      "numero_items": 10,
+      "intentos": 2,
+      "calificacion": "Último intento; códigos y recuentos exactos, con tolerancia solo en tamaños.",
+      "retroalimentacion": "Devuelve pistas sobre elección, orden o verificación; no revela códigos ni rutas finales.",
+      "evidencia": "Los ítems usan códigos generados, tamaños y propiedades de los cinco resultados creados."
+    },
+    "rubrica": [],
+    "accesibilidad": "Se facilitan rutas por teclado y archivos de baja carga; cada incidencia tiene descripción textual completa.",
+    "privacidad": "Lote ficticio y trabajo local: no ejecutar archivos desconocidos, instalar programas ni usar cuentas personales."
+  },
+  {
+    "numero": 20,
+    "titulo": "Puesto digital de acogida: reto de integración",
+    "tema_numeros": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "modalidad": "rubrica_docente",
+    "sesiones": 2,
+    "agrupamiento": "Equipos de 3",
+    "relato": "El instituto necesita un puesto temporal para orientar a familias durante una feria, reutilizando un ordenador estándar y sin cuentas personales. El equipo deberá hacerlo comprensible, resistente a errores y fácil de restaurar tras cada visitante.",
+    "reto": "Diseña, configura en un entorno simulado y valida un flujo completo que informe, recoja una elección ficticia, genere un archivo y restaure el estado inicial.",
+    "producto": "Prototipo local acompañado de manual, inventario técnico, plan de pruebas y bitácora de incidencias.",
+    "archivo": "20_puesto_acogida_equipo_numero.zip",
+    "preparacion": [
+      "Revisa el escenario, las restricciones de hardware y el conjunto de aplicaciones autorizadas.",
+      "Crea una carpeta raíz con prototipo, documentacion, pruebas y restauracion.",
+      "Distribuye roles de arquitectura, experiencia y auditoría, rotándolos durante las pruebas."
+    ],
+    "pasos": [
+      "Define requisitos, datos mínimos y diagrama del flujo desde arranque hasta restauración.",
+      "Selecciona aplicaciones, formatos y conexiones, justificando compatibilidad y consumo observable.",
+      "Construye el prototipo local con estructura de archivos, nombres consistentes y materiales accesibles.",
+      "Configura mediante simulación permisos mínimos, copia limpia y procedimiento de restauración.",
+      "Ejecuta pruebas con entrada normal, campo vacío, cierre inesperado, archivo duplicado y periférico ausente.",
+      "Invita a otro equipo a completar el recorrido sin ayuda y registra tiempos, errores y barreras.",
+      "Corrige al menos dos incidencias, restaura el estado inicial y empaqueta producto y documentación."
+    ],
+    "comprobaciones": [
+      "El recorrido completo genera el archivo esperado sin Internet ni cuenta.",
+      "Los cinco casos de prueba tienen resultado esperado, observado y decisión.",
+      "La restauración elimina datos de visitante ficticio y recupera la versión limpia.",
+      "El prototipo funciona con teclado y no depende solo de color, sonido o imagen.",
+      "El ZIP incluye inventario, manual, pruebas y bitácora sin ejecutables ni datos reales."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 1,
+        "seccion": "Sistemas de computación y su propósito"
+      },
+      {
+        "tema": 2,
+        "seccion": "Funcionamiento y recursos"
+      },
+      {
+        "tema": 3,
+        "seccion": "Componentes, conexiones y arranque"
+      },
+      {
+        "tema": 4,
+        "seccion": "Sistema operativo y archivos"
+      },
+      {
+        "tema": 5,
+        "seccion": "Lenguajes, aplicaciones y utilidades"
+      }
+    ],
+    "entrega": "Entrega un único 20_puesto_acogida_equipo_numero.zip; cada integrante añade en Moodle una reflexión individual de cinco líneas. Corrección con rúbrica analítica.",
+    "moodle": null,
+    "rubrica": [
+      {
+        "criterio": "Integración técnica",
+        "peso": 30,
+        "niveles": {
+          "4": "El puesto funciona de principio a fin e integra sistema, archivos, aplicaciones, utilidades y formatos con decisiones justificadas.",
+          "3": "El flujo completo funciona con fallos menores y las decisiones principales están justificadas.",
+          "2": "Funciona parcialmente o depende de pasos manuales no documentados e incompatibilidades evitables.",
+          "1": "No completa el flujo o contiene decisiones técnicas que impiden usar el puesto."
+        }
+      },
+      {
+        "criterio": "Pruebas y diagnóstico",
+        "peso": 25,
+        "niveles": {
+          "4": "Planifica pruebas normales y límite, registra evidencias reproducibles y corrige causas sin acciones destructivas.",
+          "3": "Prueba los casos principales y corrige incidencias con evidencia, salvo algún caso menor.",
+          "2": "Las pruebas son incompletas o las correcciones no se vinculan claramente a la causa.",
+          "1": "No hay pruebas verificables o se recurre a ensayo inseguro y sin registro."
+        }
+      },
+      {
+        "criterio": "Experiencia, accesibilidad y privacidad",
+        "peso": 25,
+        "niveles": {
+          "4": "El puesto es claro, accesible por alternativas y teclado, minimiza datos y comunica riesgos y consentimiento.",
+          "3": "La experiencia es usable y respeta accesibilidad y privacidad con omisiones menores.",
+          "2": "Hay barreras o recogida de datos evitable, aunque el uso básico es posible.",
+          "1": "Excluye a parte del público o expone datos, cuentas o permisos innecesarios."
+        }
+      },
+      {
+        "criterio": "Documentación y colaboración",
+        "peso": 20,
+        "niveles": {
+          "4": "Manual, inventario y bitácora son precisos y trazables; roles rotan y la revisión externa mejora el producto.",
+          "3": "Documentación completa y colaboración equilibrada con pequeñas lagunas.",
+          "2": "Documentación o reparto de trabajo desigual; la revisión produce pocos cambios.",
+          "1": "Faltan documentos esenciales o no se puede atribuir ni reproducir el trabajo."
+        }
+      }
+    ],
+    "accesibilidad": "Todo el flujo tiene alternativa textual y teclado; medios con subtítulos o transcripción, contraste suficiente y roles intercambiables.",
+    "privacidad": "Sin cuentas ni Internet; entradas completamente ficticias, permisos mínimos y restauración que borra cualquier dato de prueba."
+  }
+]

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Práctica 06 de la 3.ª evaluación: Riego por turnos">
+  <title>E3 · P06: Riego por turnos</title>
+  <meta name="theme-color" content="#f4f0e6">
+  <link rel="icon" href="../../assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../assets/css/estilos.css">
+  <script src="../../assets/js/navegacion.js" defer></script>
+</head>
+<body>
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<div class="barra_progreso" aria-hidden="true"><span data_progreso></span></div>
+<header class="cabecera"><div class="cabecera_interior">
+  <a class="marca" href="../../index.html" aria-label="Inicio de Ciencias de la Computación I"><span class="marca_codigo">CC1</span><span>Ciencias de la Computación I<small>1.º Bachillerato · 2026–2027</small></span></a>
+  <button class="boton_menu" type="button" aria-expanded="false" aria-controls="navegacion_principal" data_boton_menu>Menú</button>
+  <nav class="navegacion" id="navegacion_principal" aria-label="Navegación principal" data_navegacion><ul>
+    <li><a href="../../index.html">Inicio</a></li><li><a href="../../programa.html">Programa</a></li><li><a href="index.html">Prácticas E3</a></li><li><a href="practica_06.html" aria-current="page">Práctica</a></li>
+  </ul></nav>
+</div></header>
+<main id="contenido">
+  <nav class="migas contenedor" aria-label="Migas de pan"><ol><li><a href="../../index.html">Inicio</a></li><li><a href="../../programa.html#evaluacion_3">3.ª evaluación</a></li><li><a href="index.html">Prácticas</a></li><li aria-current="page">Práctica 06</li></ol></nav>
+  <section class="hero hero_tema hero_practica"><div class="contenedor hero_rejilla"><div>
+    <p class="etiqueta">E3_P06 · Autocorregible en Moodle</p><h1>Riego por turnos</h1><p class="hero_intro">Usar un bucle con condición y acumulador para simular el consumo, mostrando una traza comprensible.</p>
+    <ul class="meta_tema" aria-label="Datos de la práctica"><li>1 sesión de 55 min</li><li>Parejas con entrega conjunta</li><li>Autocorregible en Moodle</li><li>Trabajo en el aula</li></ul>
+  </div><aside class="hero_lateral" aria-label="Producto de la práctica 06"><p><strong>Producto</strong><br>Programa y tabla de estado por iteración.</p><p><strong>Archivo</strong><br><code>practica_06_riego.py</code></p></aside></div></section>
+  <section class="seccion"><div class="contenedor rejilla_tema">
+    <nav class="indice_lateral" aria-label="Índice de la práctica"><strong>En esta página</strong><ol><li><a href="#mision">Misión</a></li><li><a href="#preparacion">Preparación</a></li><li><a href="#procedimiento">Procedimiento</a></li><li><a href="#comprobacion">Comprobación</a></li><li><a href="#evaluacion">Evaluación</a></li><li><a href="#apoyo">Apoyo teórico</a></li></ol></nav>
+    <article class="articulo_tema articulo_practica">
+      <section id="mision"><span class="etiqueta">01 / MISIÓN</span><h2>El encargo</h2><p>Un huerto escolar simulado reparte litros entre bancales durante varios turnos. El programa debe detenerse al agotar el depósito o alcanzar el máximo de turnos.</p><div class="aviso"><strong>Reto</strong><p>Usar un bucle con condición y acumulador para simular el consumo, mostrando una traza comprensible.</p></div><dl class="ficha_evaluacion"><dt>Entrega</dt><dd>Completa la actividad autocorregible de Moodle y conserva practica_06_riego.py en tu carpeta de trabajo hasta cerrar la evaluación. No se sube para corrección manual.</dd><dt>Nombre</dt><dd><code>practica_06_riego.py</code></dd><dt>Modalidad</dt><dd><span class="pildora modalidad_auto">Autocorregible en Moodle</span></dd></dl></section>
+      <section id="preparacion"><span class="etiqueta">02 / ANTES DE EMPEZAR</span><h2>Prepara el puesto</h2><ul class="lista_comprobacion"><li>Descargar la plantilla de tabla depósito-turno.</li><li>Elegir datos ficticios dentro de los límites de la ficha.</li></ul><p class="nota"><strong>Material de partida:</strong> los archivos, fichas, datos o casos citados se publican adjuntos a la actividad Moodle correspondiente. En las autocorregibles pertenecen a la variante cerrada asignada y no deben sustituirse por datos propios.</p></section>
+      <section id="procedimiento"><span class="etiqueta">03 / CONSTRUIR</span><h2>Procedimiento de trabajo</h2><ol class="pasos_practica"><li>Definir estado inicial, condición de continuación y actualización.</li><li>Predecir las tres primeras iteraciones sin ejecutar.</li><li>Implementar el bucle evitando consumos negativos.</li><li>Añadir una salida final que distinga causa de parada.</li><li>Probar depósito vacío, consumo exacto y máximo de turnos.</li><li>Resolver en Moodle trazas y diagnóstico de bucles.</li></ol><p class="nota"><strong>Gestión del tiempo:</strong> reserva los últimos diez minutos para nombrar, guardar y comprobar la entrega. El trabajo evaluable se termina en el aula.</p></section>
+      <section id="comprobacion"><span class="etiqueta">04 / VERIFICAR</span><h2>Antes de entregar</h2><ul class="lista_comprobacion"><li>El bucle siempre progresa hacia la terminación.</li><li>Nunca se informa de un volumen negativo.</li><li>La causa de parada queda explícita.</li><li>Se cubren vacío, igualdad y límite de iteraciones.</li></ul><div class="columnas_dos"><div><h3>Accesibilidad</h3><p>Instrucciones numeradas, lenguaje directo, salida legible en orden lineal, etiquetas textuales además de color o formato y posibilidad de ampliar fuente o usar lector de pantalla.</p></div><div><h3>Privacidad</h3><p>Trabajar únicamente con datos ficticios o agregados; no introducir nombres, cuentas, ubicaciones ni otros datos personales en código, capturas o Moodle.</p></div></div></section>
+      <section id="evaluacion"><span class="etiqueta">05 / EVALUACIÓN</span><h2>Autocorregible en Moodle</h2><p>Cuestionario de verificación posterior al trabajo local: se exige adjuntar o conservar la hoja de predicciones/trazas y ejecutar el programa antes de responder.</p>
+<div class="aviso"><strong>Protocolo de autocorrección</strong><p>Al abrir la actividad, Moodle entrega un caso cerrado con datos, nombres, identificadores y parámetros fijados. La nota procede exclusivamente de respuestas objetivas derivadas de ese caso. Moodle no inspecciona el archivo creado ni ejecuta programas: el artefacto se conserva como cuaderno de trabajo y no requiere corrección docente.</p></div>
+<dl class="ficha_evaluacion"><dt>Cómo se corrige</dt><dd>Automáticamente en Moodle, sin depender de complementos externos.</dd><dt>Categoría de nota</dt><dd>Prácticas (70% de la evaluación); no forma parte de los cuestionarios teóricos del 30%.</dd><dt>Preguntas</dt><dd>8 ítems: Cloze, opción múltiple, respuesta corta, calculada.</dd><dt>Intentos</dt><dd>2</dd><dt>Calificación</dt><dd>Mejor intento; cada ítem vale lo mismo. El segundo intento usa nuevos valores o variantes equivalentes.</dd><dt>Evidencia</dt><dd>Predicciones de salida, trazas, resultados numéricos, selección de casos de prueba, fragmentos completados y diagnósticos contrastados con la ejecución local.</dd><dt>Retroalimentación</dt><dd>Tras cada intento indica el requisito o concepto que revisar, sin mostrar código completo ni una clave reutilizable.</dd></dl>
+<div class="aviso"><strong>Importante</strong><p>La página pública no contiene respuestas ni claves. La actividad y su retroalimentación se alojarán dentro del aula Moodle.</p></div></section>
+      <section id="apoyo"><span class="etiqueta">06 / CONSULTA</span><h2>Apoyo teórico</h2><p>Consulta únicamente los apartados necesarios para desbloquear el siguiente paso.</p><ul class="enlaces_teoria"><li><a href="../temas/tema_13.html">Tema 13: Tomar decisiones y repetir</a><br><small>Bucles while</small></li><li><a href="../temas/tema_13.html">Tema 13: Tomar decisiones y repetir</a><br><small>Contadores y acumuladores</small></li></ul></section>
+    </article>
+  </div></section>
+</main>
+<footer class="pie"><div class="contenedor pie_interior"><p><strong>E3 · Práctica 06</strong><br><small>Autocorregible en Moodle · 1 sesiones</small></p><p><a href="practica_05.html">← Práctica 05</a> · <a href="practica_07.html">Práctica 07 →</a><br><small><a href="index.html">20 prácticas de la evaluación</a> · <a href="../../programa.html#evaluacion_3">Programa</a></small></p></div></footer>
+</body></html>

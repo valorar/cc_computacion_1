@@ -1,0 +1,1405 @@
+[
+  {
+    "numero": 1,
+    "titulo": "Rescate de un documento indomable",
+    "tema_numeros": [
+      6
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 1,
+    "agrupamiento": "Individual",
+    "relato": "La asociación ficticia Aula Abierta recibió un aviso con estilos mezclados, espacios usados para alinear y una tabla que se sale de la página. Debes repararlo en LibreOffice Writer y demostrar en Moodle que inspeccionaste el documento final.",
+    "reto": "Convertir el borrador defectuoso en un aviso legible, estructurado y reutilizable sin reescribir su contenido.",
+    "producto": "Aviso de una página con estilos de título y cuerpo, lista real, tabla ajustada, encabezado y pie.",
+    "archivo": "apellido_nombre_01_aviso.odt",
+    "preparacion": [
+      "Descargar de Moodle el borrador aviso_desordenado.odt.",
+      "Abrirlo con LibreOffice Writer y activar las marcas de formato.",
+      "Crear una carpeta de trabajo con el nombre apellido_nombre_e2."
+    ],
+    "pasos": [
+      "Identificar saltos, tabuladores y párrafos vacíos usados como maquetación.",
+      "Aplicar estilos Título, Encabezado 1 y Cuerpo de texto sin formato manual redundante.",
+      "Reconstruir la enumeración con una lista real.",
+      "Ajustar la tabla al ancho de página y repetir su fila de encabezado.",
+      "Añadir encabezado breve, número de página en el pie y propiedades de título.",
+      "Guardar, cerrar y volver a abrir el ODT antes de contestar el cuestionario."
+    ],
+    "comprobaciones": [
+      "El navegador de estilos muestra al menos tres estilos aplicados coherentemente.",
+      "No hay párrafos vacíos ni espacios repetidos para alinear.",
+      "La tabla queda dentro de los márgenes.",
+      "El archivo reabierto conserva lista, encabezado y paginación."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 6,
+        "seccion": "Estilos, estructura y marcas de formato"
+      },
+      {
+        "tema": 6,
+        "seccion": "Tablas, encabezados y propiedades del documento"
+      }
+    ],
+    "entrega": "Subir el ODT y completar inmediatamente la actividad Moodle con el archivo abierto.",
+    "moodle": {
+      "actividad": "Cuestionario 01 · Auditoría del aviso reparado",
+      "tipos_pregunta": [
+        "opción múltiple",
+        "emparejamiento",
+        "respuesta corta con variantes"
+      ],
+      "numero_items": 8,
+      "intentos": 2,
+      "calificacion": "Mejor intento; 10 puntos, corrección automática.",
+      "retroalimentacion": "Tras cada intento se indican el criterio y la sección teórica que revisar, sin mostrar una solución completa; las respuestas correctas se liberan al cerrar la evaluación.",
+      "evidencia": "Ítems basados en valores visibles del artefacto: nombres de estilos, número de filas, texto del pie y diagnóstico de marcas de formato."
+    },
+    "rubrica": [],
+    "accesibilidad": "Usar estilos semánticos, contraste suficiente y no comunicar significado solo mediante color.",
+    "privacidad": "El borrador contiene nombres y contactos ficticios; no añadir datos personales reales."
+  },
+  {
+    "numero": 2,
+    "titulo": "Informe con fuentes que se pueden comprobar",
+    "tema_numeros": [
+      6,
+      11
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Parejas con entrega individual",
+    "relato": "Un equipo juvenil ficticio necesita un informe breve sobre la huella energética de los servicios digitales. Cada pareja contrasta fuentes, pero cada estudiante produce y entrega su propia versión verificable.",
+    "reto": "Crear un informe de dos páginas que distinga afirmaciones, datos y opinión, y que permita localizar cada fuente.",
+    "producto": "Informe con portada mínima, dos apartados, tabla comparativa, una imagen con licencia y bibliografía automática.",
+    "archivo": "apellido_nombre_02_informe_fuentes.odt",
+    "preparacion": [
+      "Descargar la plantilla y la ficha de tres fuentes proporcionadas.",
+      "Repartir en la pareja la comprobación de autoría, fecha, finalidad y evidencias.",
+      "Abrir Writer y activar el registro de fuentes bibliográficas."
+    ],
+    "pasos": [
+      "Evaluar las tres fuentes con los indicadores de la ficha.",
+      "Seleccionar dos afirmaciones compatibles y anotar qué fuente respalda cada una.",
+      "Redactar dos apartados propios sin copiar párrafos.",
+      "Insertar una tabla comparativa con título y una imagen reutilizable con texto alternativo y crédito.",
+      "Insertar citas y generar la bibliografía desde los registros, no a mano.",
+      "Completar propiedades con un alias de aula y exportar activando PDF universal (PDF/UA); comprobar orden de lectura, enlaces y texto alternativo antes de guardar."
+    ],
+    "comprobaciones": [
+      "Cada afirmación cuantitativa conduce a una cita concreta.",
+      "La bibliografía se actualiza automáticamente al modificar un registro.",
+      "La imagen tiene crédito, licencia y texto alternativo.",
+      "El PDF conserva jerarquía, tabla completa y enlaces utilizables.",
+      "La redacción diferencia dato comprobado e interpretación.",
+      "La exportación usa PDF/UA y conserva orden de lectura, enlaces y alternativas textuales."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 6,
+        "seccion": "Citas, bibliografía y licencias"
+      },
+      {
+        "tema": 11,
+        "seccion": "Fiabilidad, autoría y propósito de una fuente"
+      }
+    ],
+    "entrega": "Subir ODT y PDF; responder el cuestionario consultando el ODT y las propiedades del PDF.",
+    "moodle": {
+      "actividad": "Cuestionario 02 · Trazabilidad del informe",
+      "tipos_pregunta": [
+        "arrastrar/soltar",
+        "opción múltiple",
+        "respuesta corta con variantes"
+      ],
+      "numero_items": 9,
+      "intentos": 2,
+      "calificacion": "Mejor intento; 10 puntos, corrección automática.",
+      "retroalimentacion": "Retroalimentación específica por indicador de fiabilidad y por error de citación; no se publican respuestas modelo antes del cierre.",
+      "evidencia": "Las preguntas exigen emparejar citas con entradas creadas, reconocer la licencia usada e informar propiedades exactas del propio archivo."
+    },
+    "rubrica": [],
+    "accesibilidad": "Jerarquía de encabezados, texto alternativo significativo, enlaces descriptivos y tabla que pueda leerse linealmente.",
+    "privacidad": "Solo se usan fuentes públicas y alias; se eliminan autor, ruta local y comentarios personales de los metadatos antes de exportar."
+  },
+  {
+    "numero": 3,
+    "titulo": "Formulario que también se puede rellenar",
+    "tema_numeros": [
+      6
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Parejas",
+    "relato": "La biblioteca escolar ficticia quiere una ficha de préstamo digital que funcione con teclado y también impresa. La pareja construye y prueba el formulario intercambiando los papeles de autora y persona usuaria.",
+    "reto": "Diseñar un formulario Writer/PDF con controles comprensibles, orden de tabulación lógico y restricciones útiles.",
+    "producto": "Formulario de una página con campos de texto, lista, casillas, ayuda breve y versión PDF rellenable.",
+    "archivo": "equipo_XX_03_formulario_prestamo.odt",
+    "preparacion": [
+      "Crear un equipo de dos y asignarle el código XX indicado por Moodle.",
+      "Descargar los requisitos y los datos ficticios de prueba.",
+      "Activar en Writer las barras Controles de formulario y Propiedades de control."
+    ],
+    "pasos": [
+      "Dibujar los controles siguiendo una secuencia natural de lectura.",
+      "Asociar etiquetas visibles a los campos y definir nombres internos inequívocos.",
+      "Configurar longitud máxima, opciones válidas y campos obligatorios cuando proceda.",
+      "Añadir instrucciones que no dependan solo del color.",
+      "Exportar como PDF conservando los controles de formulario.",
+      "Intercambiar el PDF, completarlo únicamente con teclado y registrar dos incidencias.",
+      "Corregir las incidencias, exportar de nuevo y anotar los nombres internos finales."
+    ],
+    "comprobaciones": [
+      "Todos los controles son alcanzables con Tab en orden lógico.",
+      "Las etiquetas indican qué dato ficticio se solicita y qué formato admite.",
+      "Las opciones excluyentes usan el control apropiado.",
+      "El PDF acepta y conserva los datos de prueba.",
+      "La impresión en escala de grises sigue siendo comprensible."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 6,
+        "seccion": "Formularios, controles y exportación PDF"
+      },
+      {
+        "tema": 6,
+        "seccion": "Accesibilidad de documentos interactivos"
+      }
+    ],
+    "entrega": "Subir ODT y PDF por equipo; completar individualmente Moodle inspeccionando propiedades de los controles.",
+    "moodle": {
+      "actividad": "Cuestionario 03 · Prueba técnica del formulario",
+      "tipos_pregunta": [
+        "emparejamiento",
+        "respuesta corta con variantes",
+        "opción múltiple"
+      ],
+      "numero_items": 8,
+      "intentos": 2,
+      "calificacion": "Último intento; 10 puntos, corrección automática.",
+      "retroalimentacion": "Después del primer intento señala controles a revisar y permite corregir el artefacto; no ofrece la configuración final.",
+      "evidencia": "Solicita nombres internos, orden de tabulación, límites configurados y elección justificada de controles que solo existen en el formulario creado."
+    },
+    "rubrica": [],
+    "accesibilidad": "Debe poder recorrerse sin ratón, tener foco visible, etiquetas explícitas y mensajes redundantes al color.",
+    "privacidad": "Todos los datos de prueba son ficticios; el formulario no se distribuye ni recoge identidad, salud o contacto real."
+  },
+  {
+    "numero": 4,
+    "titulo": "Dossier editorial para una iniciativa escolar",
+    "tema_numeros": [
+      6,
+      11
+    ],
+    "modalidad": "rubrica_docente",
+    "sesiones": 3,
+    "agrupamiento": "Equipos de tres con roles rotatorios",
+    "relato": "Una cooperativa ficticia pide un dossier para presentar una campaña de reparación y reutilización de dispositivos. El equipo actúa como redacción, edición y control de calidad, y conserva evidencia de sus decisiones.",
+    "reto": "Producir un dossier de cuatro páginas que comunique a dos públicos, use fuentes verificables y mantenga una identidad visual coherente y accesible.",
+    "producto": "Dossier PDF y fuente ODT con portada, síntesis, datos visualizados, propuesta de acción, créditos y registro de revisión.",
+    "archivo": "equipo_XX_04_dossier_reutiliza.zip",
+    "preparacion": [
+      "Formar equipos y descargar el encargo, banco de datos ficticio y recursos con licencia.",
+      "Asignar inicialmente los roles de redacción, edición y verificación.",
+      "Crear dentro de la carpeta del equipo un registro_revision.ods."
+    ],
+    "pasos": [
+      "Analizar audiencia, propósito y requisitos y acordar una retícula y estilos.",
+      "Contrastar las fuentes dadas y registrar decisiones de uso o descarte.",
+      "Redactar el contenido con titulares informativos, lectura escalonada y llamadas a la acción realistas.",
+      "Crear un gráfico propio a partir del banco de datos e insertarlo con título y explicación.",
+      "Aplicar estilos, numeración, créditos, textos alternativos y licencias.",
+      "Rotar roles y efectuar dos pasadas: contenido/fuentes y diseño/accesibilidad.",
+      "Exportar a PDF, verificar enlaces y propiedades y empaquetar PDF, ODT y registro activando PDF universal (PDF/UA) y comprobar el orden de lectura."
+    ],
+    "comprobaciones": [
+      "El dossier tiene exactamente cuatro páginas y ninguna zona cortada.",
+      "Todo dato o recurso ajeno tiene fuente y licencia localizables.",
+      "El gráfico coincide con los datos y se entiende por su título y explicación.",
+      "Los estilos, márgenes y elementos repetidos son consistentes.",
+      "El registro identifica cambios, responsable de revisión y resultado.",
+      "El PDF se exporta como PDF/UA y conserva etiquetas, orden de lectura, enlaces y alternativas textuales."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 6,
+        "seccion": "Diseño editorial con estilos y secciones"
+      },
+      {
+        "tema": 11,
+        "seccion": "Verificación, propiedad intelectual y publicación responsable"
+      }
+    ],
+    "entrega": "Subir un único ZIP con ODT, PDF y ODS; cada integrante confirma en Moodle su rol y contribución.",
+    "moodle": null,
+    "rubrica": [
+      {
+        "criterio": "Arquitectura y comunicación",
+        "peso": 30,
+        "niveles": {
+          "4": "Jerarquía clara y consistente; las cuatro páginas guían a ambos públicos y cada elemento cumple una función.",
+          "3": "Jerarquía mayoritariamente clara; hay una inconsistencia menor sin impedir la lectura.",
+          "2": "La organización se entiende con esfuerzo o mezcla estilos y funciones en varios lugares.",
+          "1": "No hay estructura reconocible o el mensaje y la audiencia resultan confusos."
+        }
+      },
+      {
+        "criterio": "Rigor y trazabilidad",
+        "peso": 25,
+        "niveles": {
+          "4": "Datos, afirmaciones, gráfico, créditos y licencias son exactos y localizables en fuentes verificadas.",
+          "3": "La información es correcta y casi toda trazable; falta un dato menor de crédito o localización.",
+          "2": "Hay varias referencias incompletas o una interpretación dudosa de los datos.",
+          "1": "Incluye datos no verificables, copia sin atribución o un gráfico engañoso."
+        }
+      },
+      {
+        "criterio": "Calidad técnica y accesibilidad",
+        "peso": 25,
+        "niveles": {
+          "4": "ODT y PDF están íntegros; estilos, etiquetas, textos alternativos, contraste y lectura lineal funcionan.",
+          "3": "Los archivos funcionan y presentan una única carencia menor de accesibilidad o acabado.",
+          "2": "Hay dos o más fallos que dificultan uso, exportación o lectura accesible.",
+          "1": "El producto no abre/se corta o excluye claramente a usuarios por barreras evitables."
+        }
+      },
+      {
+        "criterio": "Proceso colaborativo y revisión",
+        "peso": 20,
+        "niveles": {
+          "4": "Registro completo con roles rotados, decisiones justificadas y correcciones verificadas por otra persona.",
+          "3": "Registro suficiente y roles visibles; alguna justificación o verificación es breve.",
+          "2": "Registro parcial, reparto desequilibrado o cambios sin comprobar.",
+          "1": "No hay evidencia de coordinación ni revisión compartida."
+        }
+      }
+    ],
+    "accesibilidad": "PDF etiquetado, orden de lectura lógico, contraste AA, texto alternativo y contenido no dependiente del color.",
+    "privacidad": "Se emplean organización, públicos y datos ficticios; se limpian metadatos, comentarios y rutas locales antes de entregar."
+  },
+  {
+    "numero": 5,
+    "titulo": "Presupuesto que explica sus decisiones",
+    "tema_numeros": [
+      7
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Individual",
+    "relato": "La comisión ficticia de una feria científica dispone de un presupuesto limitado y tres proveedores. Debes construir una hoja que calcule costes e impuestos y permita comprobar por qué una opción cabe o no.",
+    "reto": "Modelar el presupuesto con referencias correctas y fórmulas españolas, sin escribir resultados calculados a mano.",
+    "producto": "Libro con hojas Entradas, Presupuesto y Comprobacion, formatos adecuados y celdas de control.",
+    "archivo": "apellido_nombre_05_presupuesto.ods",
+    "preparacion": [
+      "Descargar el catálogo CSV y el encargo con un límite ficticio.",
+      "Configurar LibreOffice Calc con idioma Español (España) y coma decimal.",
+      "Crear las tres hojas con los nombres exactos del producto."
+    ],
+    "pasos": [
+      "Importar el CSV verificando separadores y tipos de dato.",
+      "Nombrar las celdas del IVA y del límite disponible.",
+      "Calcular subtotales, descuento condicional, IVA y total mediante fórmulas con separador ;.",
+      "Usar referencias absolutas o nombres al copiar fórmulas.",
+      "Crear una celda de control con SI que indique si se respeta el límite.",
+      "Aplicar formatos de moneda y porcentaje sin convertir números en texto.",
+      "Modificar dos cantidades para probar la actualización y guardar la combinación solicitada."
+    ],
+    "comprobaciones": [
+      "Todas las filas de artículos contienen fórmulas copiables.",
+      "Cambiar IVA actualiza los importes dependientes.",
+      "La suma de subtotales coincide con el total antes de IVA.",
+      "La celda de control cambia en ambos escenarios de prueba.",
+      "No aparecen números almacenados como texto ni errores de fórmula."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 7,
+        "seccion": "Referencias relativas, absolutas y nombres"
+      },
+      {
+        "tema": 7,
+        "seccion": "Fórmulas, SI y formato numérico español"
+      }
+    ],
+    "entrega": "Subir el ODS y contestar Moodle con Calc abierto y la vista de fórmulas disponible.",
+    "moodle": {
+      "actividad": "Cuestionario 05 · Inspección del presupuesto",
+      "tipos_pregunta": [
+        "numérica",
+        "cloze",
+        "emparejamiento"
+      ],
+      "numero_items": 10,
+      "intentos": 2,
+      "calificacion": "Mejor intento; 10 puntos, corrección automática con tolerancia indicada en ítems numéricos.",
+      "retroalimentacion": "Indica si falla el modelo, la referencia o el formato y remite a celdas de control; no revela fórmulas completas antes del cierre.",
+      "evidencia": "Pide resultados obtenidos al cambiar entradas, referencias observadas y asociaciones fórmula-finalidad del libro real."
+    },
+    "rubrica": [],
+    "accesibilidad": "Usar encabezados claros, no codificar aprobación solo con rojo/verde y añadir texto en la celda de control.",
+    "privacidad": "Proveedores, precios y presupuesto son inventados; no incluir datos bancarios ni comerciales reales."
+  },
+  {
+    "numero": 6,
+    "titulo": "Limpieza de datos de una encuesta ficticia",
+    "tema_numeros": [
+      7,
+      11
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Parejas con respuestas individuales",
+    "relato": "Una encuesta simulada sobre hábitos de movilidad llegó con duplicados, categorías inconsistentes y celdas vacías. La pareja debe conservar el original, limpiar una copia y dejar una pista de auditoría antes de analizarla.",
+    "reto": "Transformar datos sucios en una tabla fiable sin ocultar incertidumbre ni identificar a ninguna persona.",
+    "producto": "Libro con hojas Original, Limpios, Diccionario y Control, filtros y fórmulas de validación.",
+    "archivo": "equipo_XX_06_datos_limpios.ods",
+    "preparacion": [
+      "Descargar encuesta_movilidad_ficticia.csv y su diccionario provisional.",
+      "Importar el archivo sin cambiar la hoja Original.",
+      "Acordar en pareja códigos para valores ausentes y categorías.",
+      "Verificar que las funciones están en español y que los argumentos usan el separador ;."
+    ],
+    "pasos": [
+      "Duplicar los datos en Limpios y añadir un identificador de fila no personal.",
+      "Detectar duplicados con CONTAR.SI y filtros, sin borrarlos todavía.",
+      "Normalizar categorías con Buscar y reemplazar o una tabla de correspondencias documentada.",
+      "Validar rangos y listas; marcar los valores dudosos con una columna Estado.",
+      "Registrar en Diccionario nombre, tipo, unidad, valores permitidos y tratamiento de ausentes.",
+      "Construir en Control recuentos antes/después y una comprobación de conservación de filas.",
+      "Probar filtros, guardar y responder individualmente con el libro inspeccionado."
+    ],
+    "comprobaciones": [
+      "Original permanece idéntica al CSV importado.",
+      "Cada cambio de categoría está explicado en el diccionario.",
+      "Las filas dudosas se marcan, no se inventan valores.",
+      "Los controles cuadran y permiten justificar duplicados tratados.",
+      "Filtros y encabezados cubren todo el rango sin filas vacías intermedias."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 7,
+        "seccion": "Importación, limpieza, filtros y validación"
+      },
+      {
+        "tema": 11,
+        "seccion": "Minimización y calidad de datos"
+      }
+    ],
+    "entrega": "Subir un ODS por pareja; cada estudiante completa su intento Moodle durante la sesión.",
+    "moodle": {
+      "actividad": "Cuestionario 06 · Auditoría de limpieza",
+      "tipos_pregunta": [
+        "numérica",
+        "opción múltiple",
+        "respuesta corta con variantes"
+      ],
+      "numero_items": 9,
+      "intentos": 2,
+      "calificacion": "Mejor intento; 10 puntos, corrección automática.",
+      "retroalimentacion": "Ofrece pistas diferenciadas sobre duplicados, ausentes, tipos y controles; las cifras finales no se muestran hasta el cierre.",
+      "evidencia": "Solicita recuentos tras filtros, códigos documentados y resultados de celdas de control del archivo producido."
+    },
+    "rubrica": [],
+    "accesibilidad": "Encabezados breves pero explícitos, estados expresados con texto y colores distinguibles; filtros utilizables por teclado.",
+    "privacidad": "Conjunto completamente sintético, sin nombres, correos, geolocalización precisa ni variables sensibles."
+  },
+  {
+    "numero": 7,
+    "titulo": "Panel de ocupación del aula maker",
+    "tema_numeros": [
+      7
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Individual",
+    "relato": "El aula maker ficticia registra reservas de espacios y necesita detectar franjas saturadas. Crearás un pequeño panel que responda a preguntas operativas y resista cambios en los datos.",
+    "reto": "Resumir una tabla de reservas mediante funciones y tabla dinámica, con un gráfico honesto y controles reproducibles.",
+    "producto": "Libro con datos estructurados, resumen por zona y día, indicadores y gráfico accesible.",
+    "archivo": "apellido_nombre_07_panel_maker.ods",
+    "preparacion": [
+      "Descargar reservas_maker.csv y la ficha de tres preguntas de gestión.",
+      "Importar fechas y horas con configuración española.",
+      "Comprobar que todas las reservas son ficticias y que la tabla tiene encabezados únicos.",
+      "Usar funciones en español, separador de argumentos ; y coma decimal."
+    ],
+    "pasos": [
+      "Convertir el rango en una fuente limpia sin totales incrustados.",
+      "Calcular duración y ocupación con SI.ERROR, SUMAR.SI.CONJUNTO y CONTAR.SI.CONJUNTO.",
+      "Crear una tabla dinámica por zona y día de la semana.",
+      "Añadir dos indicadores que respondan a las preguntas del encargo.",
+      "Crear un gráfico adecuado, con título, unidades, leyenda necesaria y escala no engañosa.",
+      "Añadir una nota textual con la principal limitación de los datos.",
+      "Cambiar una reserva de prueba, actualizar la tabla dinámica y guardar."
+    ],
+    "comprobaciones": [
+      "No hay errores visibles al aplicar filtros sin resultados.",
+      "Los indicadores coinciden con los filtros equivalentes.",
+      "La tabla dinámica se actualiza tras cambiar la reserva.",
+      "El gráfico representa la magnitud y unidad declaradas.",
+      "La limitación distingue ausencia de datos de ausencia de uso."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 7,
+        "seccion": "Funciones condicionales y tratamiento de errores"
+      },
+      {
+        "tema": 7,
+        "seccion": "Tablas dinámicas, indicadores y gráficos"
+      }
+    ],
+    "entrega": "Subir ODS y completar Moodle tras actualizar por última vez la tabla dinámica.",
+    "moodle": {
+      "actividad": "Cuestionario 07 · Lectura y estrés del panel",
+      "tipos_pregunta": [
+        "numérica",
+        "arrastrar/soltar",
+        "opción múltiple"
+      ],
+      "numero_items": 10,
+      "intentos": 2,
+      "calificacion": "Mejor intento; 10 puntos, corrección automática.",
+      "retroalimentacion": "Explica qué comprobación del panel no supera el intento y propone una prueba, sin publicar los valores esperados hasta el cierre.",
+      "evidencia": "Incluye escenarios de cambio, lectura de filtros y correspondencia entre campos de la tabla dinámica y decisiones del gráfico."
+    },
+    "rubrica": [],
+    "accesibilidad": "El gráfico lleva alternativa textual; patrones o etiquetas complementan colores y la tabla fuente conserva una lectura lineal.",
+    "privacidad": "Reservas y espacios son simulados; no registrar nombres, identificadores reales ni horarios individuales."
+  },
+  {
+    "numero": 8,
+    "titulo": "Observatorio de consumo responsable",
+    "tema_numeros": [
+      7,
+      11
+    ],
+    "modalidad": "rubrica_docente",
+    "sesiones": 3,
+    "agrupamiento": "Equipos de tres",
+    "relato": "Una comunidad vecinal ficticia quiere comparar el consumo mensual de tres espacios comunes y decidir una medida de ahorro. El equipo recibe lecturas sintéticas y debe convertirlas en un modelo transparente, no en una decoración de gráficos.",
+    "reto": "Construir un libro de análisis que limpie, calcule, visualice escenarios y comunique una recomendación limitada por la evidencia.",
+    "producto": "ODS con datos, diccionario, cálculos, escenario y panel; PDF de una página con conclusión y límites.",
+    "archivo": "equipo_XX_08_observatorio_consumo.zip",
+    "preparacion": [
+      "Descargar lecturas_consumo.csv, tarifas ficticias y requisitos del panel.",
+      "Asignar roles de datos, modelo y comunicación, que rotarán tras la primera sesión.",
+      "Definir en un acta dentro del ODS las preguntas y comprobaciones.",
+      "Mantener funciones en español, separador ; y coma decimal en todo el modelo."
+    ],
+    "pasos": [
+      "Importar y validar fechas, unidades, ausentes y posibles duplicados conservando el original.",
+      "Documentar variables y decisiones de limpieza en un diccionario.",
+      "Calcular consumo, coste y variación con referencias trazables y funciones españolas.",
+      "Crear un escenario editable de reducción y controles que comparen totales.",
+      "Diseñar un panel con dos gráficos distintos, indicadores, unidades y explicación textual.",
+      "Interpretar patrones sin atribuir causas no medidas y formular una recomendación viable.",
+      "Realizar revisión cruzada de fórmulas y accesibilidad, exportar el resumen y empaquetar."
+    ],
+    "comprobaciones": [
+      "El total limpio se reconcilia con el original y las exclusiones están justificadas.",
+      "Las fórmulas no contienen resultados escritos manualmente y sobreviven a una nueva fila.",
+      "Escenario y panel se actualizan al cambiar parámetros.",
+      "Gráficos, texto y unidades cuentan la misma historia sin escalas engañosas.",
+      "El ZIP contiene solo los archivos solicitados y abre correctamente."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 7,
+        "seccion": "Modelo de datos, escenarios y auditoría de fórmulas"
+      },
+      {
+        "tema": 11,
+        "seccion": "Interpretación responsable y límites de los datos"
+      }
+    ],
+    "entrega": "Subir un ZIP por equipo con ODS y PDF; adjuntar en comentario los roles rotados.",
+    "moodle": null,
+    "rubrica": [
+      {
+        "criterio": "Integridad de datos y trazabilidad",
+        "peso": 25,
+        "niveles": {
+          "4": "Original preservado, limpieza documentada y controles reconcilian todas las filas y totales.",
+          "3": "Proceso trazable con una omisión menor que no altera las conclusiones.",
+          "2": "Varias decisiones carecen de registro o un control no cuadra.",
+          "1": "Se alteran datos sin rastro o los totales no pueden verificarse."
+        }
+      },
+      {
+        "criterio": "Modelo y robustez de cálculo",
+        "peso": 30,
+        "niveles": {
+          "4": "Fórmulas correctas, copiables y parametrizadas; escenario y controles responden a todas las pruebas.",
+          "3": "Cálculos correctos con una fragilidad menor ante ampliación o cambio.",
+          "2": "Hay fórmulas manuales/repetidas o errores parciales que afectan algún indicador.",
+          "1": "Resultados escritos a mano o errores sustanciales invalidan el modelo."
+        }
+      },
+      {
+        "criterio": "Visualización e interpretación",
+        "peso": 25,
+        "niveles": {
+          "4": "Panel legible y honesto; gráficos adecuados y recomendación claramente sustentada con límites explícitos.",
+          "3": "Panel comprensible y conclusión sustentada; presenta una carencia menor de rotulación o matiz.",
+          "2": "Gráficos poco adecuados o conclusión más fuerte que la evidencia.",
+          "1": "Visualizaciones engañosas/incomprensibles o recomendación sin apoyo en datos."
+        }
+      },
+      {
+        "criterio": "Accesibilidad y trabajo verificable",
+        "peso": 20,
+        "niveles": {
+          "4": "Etiquetas, contraste, alternativas textuales, estructura y registro de roles/revisión son completos.",
+          "3": "Producto accesible y colaboración visible con una omisión menor.",
+          "2": "Existen varias barreras o evidencia débil de revisión compartida.",
+          "1": "El producto excluye por diseño o no hay evidencia de trabajo coordinado."
+        }
+      }
+    ],
+    "accesibilidad": "Panel navegable, alto contraste, series distinguibles sin color, tablas con encabezados y resumen textual de cada gráfico.",
+    "privacidad": "Datos sintéticos de espacios, no de hogares; no inferir conductas personales ni publicar ubicaciones reales."
+  },
+  {
+    "numero": 9,
+    "titulo": "Consultas para una biblioteca de objetos",
+    "tema_numeros": [
+      8
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Individual",
+    "relato": "Una biblioteca ficticia presta herramientas y materiales, pero su catálogo contiene relaciones que no caben bien en una sola tabla. Crearás la base, cargarás datos sintéticos y contestarás preguntas de servicio mediante consultas reales.",
+    "reto": "Implementar un modelo relacional sencillo y consultas reproducibles sin duplicar información ni usar datos personales.",
+    "producto": "Base LibreOffice Base con tablas Categoria, Objeto y Prestamo, relaciones, restricciones y seis consultas guardadas.",
+    "archivo": "apellido_nombre_09_biblioteca_objetos.odb",
+    "preparacion": [
+      "Descargar tres CSV sintéticos y el diagrama incompleto.",
+      "Abrir LibreOffice Base con motor disponible en el aula.",
+      "Crear una copia de seguridad antes de importar."
+    ],
+    "pasos": [
+      "Completar el diagrama indicando claves primarias y foráneas.",
+      "Crear tablas con tipos, obligatoriedad y valores predeterminados adecuados.",
+      "Definir relaciones con integridad referencial antes de cargar préstamos.",
+      "Importar en el orden correcto y resolver errores sin desactivar restricciones.",
+      "Crear consultas de selección, parámetro, agregación y unión según seis preguntas.",
+      "Comparar recuentos de tablas con los CSV y guardar una consulta de control.",
+      "Cerrar y reabrir la base y ejecutar todas las consultas."
+    ],
+    "comprobaciones": [
+      "Cada tabla tiene clave primaria estable y no significativa.",
+      "No existen préstamos que apunten a objetos inexistentes.",
+      "Las seis consultas tienen nombres descriptivos y devuelven campos rotulados.",
+      "La consulta de control coincide con los recuentos importados.",
+      "La base reabierta ejecuta consultas sin pedir reparar el archivo."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 8,
+        "seccion": "Modelo relacional, claves e integridad"
+      },
+      {
+        "tema": 8,
+        "seccion": "Consultas de selección, unión y agregación"
+      }
+    ],
+    "entrega": "Subir ODB y responder Moodle ejecutando consultas con parámetros indicados en cada ítem.",
+    "moodle": {
+      "actividad": "Cuestionario 09 · Resultados del catálogo",
+      "tipos_pregunta": [
+        "numérica",
+        "cloze",
+        "emparejamiento"
+      ],
+      "numero_items": 10,
+      "intentos": 2,
+      "calificacion": "Mejor intento; 10 puntos, corrección automática.",
+      "retroalimentacion": "Distingue fallos de modelo, filtro, unión o agregación y remite a la consulta pertinente; resultados finales ocultos hasta el cierre.",
+      "evidencia": "Solicita recuentos devueltos por parámetros, campos de unión y correspondencia entre consulta guardada y necesidad del servicio."
+    },
+    "rubrica": [],
+    "accesibilidad": "Nombres de tabla/campo comprensibles, consultas con alias legibles y resultados ordenados para no depender de posición accidental.",
+    "privacidad": "Todos los objetos, códigos y préstamos son ficticios; no existe tabla de personas ni historial individual."
+  },
+  {
+    "numero": 10,
+    "titulo": "Detectives de anomalías relacionales",
+    "tema_numeros": [
+      8
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Parejas con entrega individual",
+    "relato": "Un inventario ficticio creció en una hoja única y ahora muestra categorías repetidas, responsables inconsistentes y actualizaciones contradictorias. La pareja diagnostica las anomalías y cada estudiante reconstruye un modelo normalizado.",
+    "reto": "Pasar de una tabla plana a un esquema de tres tablas que evite inserciones, borrados y actualizaciones problemáticas.",
+    "producto": "ODB individual con tablas normalizadas, relaciones y consultas que demuestran equivalencia y ausencia de huérfanos.",
+    "archivo": "apellido_nombre_10_inventario_normalizado.odb",
+    "preparacion": [
+      "Descargar inventario_plano.csv y las tarjetas de casos.",
+      "Abrir una pizarra compartida local o papel para proponer dependencias, sin datos personales.",
+      "Crear una base nueva y conservar el CSV intacto."
+    ],
+    "pasos": [
+      "Marcar en pareja atributos, clave candidata y tres anomalías concretas de la tabla plana.",
+      "Separar Entidad, Categoria y Ubicacion hasta eliminar grupos repetidos y dependencias impropias.",
+      "Elegir claves primarias y definir foráneas con integridad referencial.",
+      "Importar valores únicos y después las referencias, registrando errores.",
+      "Crear una consulta unida que reconstruya las columnas informativas del original.",
+      "Crear consultas de control para duplicados y registros huérfanos.",
+      "Aplicar dos cambios de las tarjetas y comprobar que se realizan una sola vez."
+    ],
+    "comprobaciones": [
+      "El modelo no repite descripciones dependientes en la tabla principal.",
+      "La consulta de reconstrucción conserva el número de entidades del CSV.",
+      "Los controles de duplicados y huérfanos devuelven cero.",
+      "Cada cambio de prueba requiere modificar un único registro maestro.",
+      "Tipos y obligatoriedad impiden valores incompatibles."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 8,
+        "seccion": "Dependencias y normalización práctica"
+      },
+      {
+        "tema": 8,
+        "seccion": "Integridad y consultas de control"
+      }
+    ],
+    "entrega": "Subir el ODB individual y completar Moodle con las consultas de control ejecutadas.",
+    "moodle": {
+      "actividad": "Cuestionario 10 · Pruebas del modelo normalizado",
+      "tipos_pregunta": [
+        "arrastrar/soltar",
+        "numérica",
+        "opción múltiple"
+      ],
+      "numero_items": 9,
+      "intentos": 2,
+      "calificacion": "Mejor intento; 10 puntos, corrección automática.",
+      "retroalimentacion": "Identifica el tipo de anomalía o restricción que debe revisarse y propone una operación de prueba; no entrega el esquema resuelto.",
+      "evidencia": "Exige resultados de las tarjetas de cambio, recuentos de control y clasificación de campos basada en el esquema construido."
+    },
+    "rubrica": [],
+    "accesibilidad": "Diagramas y nombres no dependen de códigos de color; tablas y consultas emplean vocabulario completo y consistente.",
+    "privacidad": "Inventario y responsables son entidades ficticias codificadas; no se modelan empleados ni información identificable."
+  },
+  {
+    "numero": 11,
+    "titulo": "Formulario con reglas y un informe útil",
+    "tema_numeros": [
+      8
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 1,
+    "agrupamiento": "Parejas",
+    "relato": "El punto de préstamo ficticio necesita registrar operaciones sin introducir fechas imposibles ni códigos inexistentes. Construiréis una interfaz mínima y comprobaréis que el informe responde a una pregunta, no que solo queda bonito.",
+    "reto": "Crear un formulario controlado y un informe agrupado sobre una base preparada, probando entradas válidas e inválidas.",
+    "producto": "ODB con formulario Prestamo_seguro, consulta fuente e informe Resumen_mensual.",
+    "archivo": "equipo_XX_11_formulario_informe.odb",
+    "preparacion": [
+      "Descargar la base preparada y hacer una copia con el nombre de entrega.",
+      "Leer los seis casos ficticios de prueba.",
+      "Repartir los roles de operación y observación, intercambiándolos a mitad."
+    ],
+    "pasos": [
+      "Crear una consulta fuente que muestre códigos y descripciones sin duplicar préstamos.",
+      "Diseñar el formulario con etiquetas, controles apropiados y orden de tabulación.",
+      "Aplicar listas vinculadas, obligatoriedad y restricciones de fecha disponibles.",
+      "Introducir los seis casos y registrar cuáles acepta o rechaza y por qué.",
+      "Crear un informe mensual agrupado, con total y fecha de generación.",
+      "Probar navegación solo con teclado, corregir etiquetas y reabrir la base."
+    ],
+    "comprobaciones": [
+      "Los casos válidos se guardan una sola vez y los inválidos no corrompen tablas.",
+      "Las listas muestran descripciones y almacenan la clave correcta.",
+      "El orden de tabulación sigue el flujo de registro.",
+      "El informe agrupa y totaliza según la consulta.",
+      "No quedan registros de prueba no solicitados."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 8,
+        "seccion": "Formularios vinculados y validación"
+      },
+      {
+        "tema": 8,
+        "seccion": "Consultas fuente e informes agrupados"
+      }
+    ],
+    "entrega": "Subir ODB por pareja y completar individualmente Moodle usando los casos numerados.",
+    "moodle": {
+      "actividad": "Cuestionario 11 · Ensayo de entrada e informe",
+      "tipos_pregunta": [
+        "opción múltiple",
+        "emparejamiento",
+        "numérica"
+      ],
+      "numero_items": 7,
+      "intentos": 2,
+      "calificacion": "Último intento; 10 puntos, corrección automática.",
+      "retroalimentacion": "Tras el primer intento marca el caso o control que debe repetirse; la explicación completa se muestra tras el cierre.",
+      "evidencia": "Pregunta por resultados de casos, clave almacenada y totales del informe generado en la base del equipo."
+    },
+    "rubrica": [],
+    "accesibilidad": "Formulario operable con teclado, etiquetas asociadas, mensajes claros y un informe con jerarquía y numeración.",
+    "privacidad": "Casos y registros son sintéticos; no se solicitan nombres, teléfonos, correos ni observaciones libres sobre personas."
+  },
+  {
+    "numero": 12,
+    "titulo": "Sistema de reservas sin datos personales",
+    "tema_numeros": [
+      8,
+      11
+    ],
+    "modalidad": "rubrica_docente",
+    "sesiones": 3,
+    "agrupamiento": "Equipos de tres",
+    "relato": "Un centro cultural ficticio quiere gestionar salas y recursos sin almacenar identidad de visitantes. El equipo debe traducir reglas de negocio en una base utilizable y justificar qué datos decidió no recoger.",
+    "reto": "Diseñar, poblar y probar una base relacional completa con interfaz, consultas e informe de ocupación, aplicando minimización desde el modelo.",
+    "producto": "ODB, diagrama relacional PDF y protocolo de pruebas con resultados y decisiones de privacidad.",
+    "archivo": "equipo_XX_12_reservas_privadas.zip",
+    "preparacion": [
+      "Descargar el encargo, catálogo ficticio y doce casos de prueba.",
+      "Asignar roles de modelado, construcción y pruebas, rotándolos en cada sesión.",
+      "Crear un documento de decisiones y una copia de seguridad versionada."
+    ],
+    "pasos": [
+      "Extraer entidades, relaciones, cardinalidades y reglas; rechazar campos no necesarios.",
+      "Construir tablas, claves, restricciones e integridad referencial.",
+      "Cargar datos sintéticos suficientes para casos normales, límite y error.",
+      "Crear un formulario de reserva y otro de consulta con navegación por teclado.",
+      "Crear al menos cinco consultas: disponibilidad, conflicto, ocupación, recursos y control.",
+      "Generar un informe semanal comprensible y sin identificadores individuales.",
+      "Ejecutar los doce casos, registrar resultado esperado/obtenido y corregir.",
+      "Exportar diagrama y protocolo, limpiar registros accidentales y empaquetar."
+    ],
+    "comprobaciones": [
+      "El diagrama coincide con las relaciones de la base.",
+      "No se puede reservar un recurso o sala inexistente.",
+      "Los conflictos definidos por el encargo se detectan reproduciblemente.",
+      "Consultas e informe responden a las preguntas con datos de prueba.",
+      "El protocolo conserva evidencia de corrección y regresión.",
+      "El modelo no contiene campos personales innecesarios."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 8,
+        "seccion": "Diseño relacional desde reglas de negocio"
+      },
+      {
+        "tema": 11,
+        "seccion": "Privacidad desde el diseño y minimización"
+      }
+    ],
+    "entrega": "Subir un ZIP por equipo con ODB, diagrama PDF y protocolo PDF/ODT.",
+    "moodle": null,
+    "rubrica": [
+      {
+        "criterio": "Modelo relacional e integridad",
+        "peso": 30,
+        "niveles": {
+          "4": "Entidades, cardinalidades, claves y restricciones implementan todas las reglas sin redundancia ni huérfanos.",
+          "3": "Modelo correcto salvo una decisión menor poco optimizada que no rompe las reglas.",
+          "2": "Varias relaciones o restricciones son débiles y permiten alguna inconsistencia.",
+          "1": "El modelo contradice reglas esenciales o carece de integridad."
+        }
+      },
+      {
+        "criterio": "Funcionalidad y consultas",
+        "peso": 25,
+        "niveles": {
+          "4": "Formularios, cinco o más consultas e informe funcionan y responden exactamente a los casos de uso.",
+          "3": "Conjunto funcional con una incidencia menor o salida poco pulida.",
+          "2": "Faltan funciones o varias respuestas requieren manipulación manual.",
+          "1": "Interfaz/consultas no permiten completar los casos principales."
+        }
+      },
+      {
+        "criterio": "Pruebas y mejora",
+        "peso": 25,
+        "niveles": {
+          "4": "Doce casos incluyen normales, límites y errores; evidencia esperado/obtenido y regresión tras cada corrección.",
+          "3": "Doce casos ejecutados con evidencia suficiente y alguna comprobación breve.",
+          "2": "Casos incompletos, poco variados o correcciones sin regresión.",
+          "1": "No hay protocolo verificable o no se prueban las reglas críticas."
+        }
+      },
+      {
+        "criterio": "Privacidad y accesibilidad",
+        "peso": 20,
+        "niveles": {
+          "4": "Minimiza datos justificadamente; interfaces e informes son operables, etiquetados y no exponen información innecesaria.",
+          "3": "Buenas decisiones con una omisión menor de justificación o accesibilidad.",
+          "2": "Recoge algún campo innecesario o presenta varias barreras de uso.",
+          "1": "Incluye datos personales reales/innecesarios o interfaz claramente inaccesible."
+        }
+      }
+    ],
+    "accesibilidad": "Formularios por teclado con etiquetas y foco lógico; informes con encabezados, orden estable y contenido no basado solo en color.",
+    "privacidad": "Usar códigos aleatorios de reserva; no guardar nombres, contactos, IP, ubicación personal ni texto libre identificable."
+  },
+  {
+    "numero": 13,
+    "titulo": "Tablero que hace visible el trabajo",
+    "tema_numeros": [
+      9
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 1,
+    "agrupamiento": "Equipos de cuatro con evidencia individual",
+    "relato": "El equipo ficticio debe organizar la publicación de una jornada digital en dos semanas simuladas. Configurará un tablero Kanban local o en la herramienta gratuita indicada y comprobará si límites y dependencias son coherentes.",
+    "reto": "Convertir un encargo en tareas pequeñas, responsables por rol, dependencias y criterios de terminado que permitan coordinarse.",
+    "producto": "Paquete ZIP con exportación JSON del tablero, PDF de la vista final y registro de una simulación de tres días.",
+    "archivo": "equipo_XX_13_tablero_proyecto.zip",
+    "preparacion": [
+      "Leer el encargo y recibir un rol ficticio por integrante.",
+      "Abrir la plantilla Kanban en CryptPad o herramienta local indicada por el centro.",
+      "Acordar una definición de Terminado común."
+    ],
+    "pasos": [
+      "Descomponer cinco entregables en entre ocho y doce tarjetas accionables.",
+      "Añadir a cada tarjeta resultado, responsable por rol, duración y criterio de aceptación.",
+      "Definir dependencias y prioridad sin usar solo colores.",
+      "Establecer límites WIP en En curso y Revisión.",
+      "Simular tres días, mover tarjetas y anotar un bloqueo y su resolución.",
+      "Exportar el tablero como JSON, imprimir su vista final en PDF y contar estados, bloqueos y tarjetas que incumplen WIP.",
+      "Completar individualmente Moodle inspeccionando la exportación."
+    ],
+    "comprobaciones": [
+      "Todas las tarjetas describen una acción y un resultado comprobable.",
+      "Ninguna dependencia circular queda sin resolver.",
+      "El límite WIP se cumple al finalizar la simulación.",
+      "El ZIP contiene un JSON reimportable, un PDF legible y el registro de los tres días simulados.",
+      "La exportación muestra fechas, roles y definición de Terminado."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 9,
+        "seccion": "Descomposición, Kanban, WIP y dependencias"
+      },
+      {
+        "tema": 9,
+        "seccion": "Criterios de aceptación y seguimiento"
+      }
+    ],
+    "entrega": "Subir un ZIP por equipo con JSON, PDF y registro; cada integrante responde su cuestionario con la vista final.",
+    "moodle": {
+      "actividad": "Cuestionario 13 · Estado verificable del tablero",
+      "tipos_pregunta": [
+        "numérica",
+        "emparejamiento",
+        "opción múltiple"
+      ],
+      "numero_items": 8,
+      "intentos": 2,
+      "calificacion": "Mejor intento; 10 puntos, corrección automática.",
+      "retroalimentacion": "Señala incoherencias de dependencia, WIP o aceptación y permite ajustar la exportación antes del segundo intento.",
+      "evidencia": "Pide recuentos del tablero propio, asociación tarjeta-dependencia y decisiones ante el bloqueo simulado."
+    },
+    "rubrica": [],
+    "accesibilidad": "Estados y prioridad incluyen texto/iconos; lectura lineal posible en la exportación y tarjetas con lenguaje claro.",
+    "privacidad": "Usar roles y proyecto ficticios; no registrar nombres completos, correos, disponibilidad personal ni actividad fuera del aula."
+  },
+  {
+    "numero": 14,
+    "titulo": "Reunión breve, decisiones duraderas",
+    "tema_numeros": [
+      9,
+      11
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 1,
+    "agrupamiento": "Equipos de cuatro",
+    "relato": "Durante una simulación, el proyecto recibe un cambio: una plataforma externa deja de estar disponible. El equipo celebra una reunión de diez minutos y convierte la conversación en decisiones, tareas y riesgos trazables.",
+    "reto": "Coordinar un cambio sin perder requisitos, asignando acciones verificables y reduciendo dependencia de servicios externos.",
+    "producto": "Acta estructurada, registro de decisiones y matriz de riesgos en ODT/PDF.",
+    "archivo": "equipo_XX_14_acta_cambio.pdf",
+    "preparacion": [
+      "Descargar el escenario de cambio y la plantilla accesible.",
+      "Asignar moderación, tiempo, secretaría y verificación.",
+      "Revisar el tablero de la práctica 13 o usar la copia ficticia facilitada."
+    ],
+    "pasos": [
+      "Preparar agenda con objetivo, tres puntos y tiempo máximo.",
+      "Celebrar la reunión con una ronda inicial y una comprobación final de acuerdos.",
+      "Registrar decisiones separadas de ideas descartadas y anotar su razón.",
+      "Crear acciones con rol, plazo de aula y criterio de cierre.",
+      "Actualizar una matriz probabilidad-impacto con respuesta y señal de activación.",
+      "Comprobar que el plan alternativo usa herramientas estándar y exportar a PDF.",
+      "Responder Moodle consultando las referencias exactas del acta."
+    ],
+    "comprobaciones": [
+      "Cada acuerdo tiene identificador, razón y efecto.",
+      "Cada acción tiene un único rol responsable y condición observable de cierre.",
+      "Los riesgos diferencian prevención de respuesta.",
+      "El acta permite localizar qué requisito cambió.",
+      "El PDF se entiende sin acceder a la herramienta original."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 9,
+        "seccion": "Actas, decisiones, acciones y riesgos"
+      },
+      {
+        "tema": 11,
+        "seccion": "Dependencia de servicios y continuidad"
+      }
+    ],
+    "entrega": "Subir PDF por equipo y completar individualmente la actividad Moodle.",
+    "moodle": {
+      "actividad": "Cuestionario 14 · Trazabilidad de acuerdos",
+      "tipos_pregunta": [
+        "respuesta corta con variantes",
+        "emparejamiento",
+        "opción múltiple"
+      ],
+      "numero_items": 7,
+      "intentos": 2,
+      "calificacion": "Último intento; 10 puntos, corrección automática.",
+      "retroalimentacion": "Indica si falta trazabilidad, responsable, plazo o respuesta al riesgo; las decisiones correctas no se publican antes del cierre.",
+      "evidencia": "Solicita identificadores y relaciones exactas entre cambio, decisión, acción y riesgo presentes en el acta creada."
+    },
+    "rubrica": [],
+    "accesibilidad": "Plantilla con encabezados, tablas simples, lenguaje directo y roles verbalizados para quien no distinga colores.",
+    "privacidad": "Solo roles ficticios; no se anotan opiniones atribuidas, ausencias, conflictos reales ni datos de cuentas."
+  },
+  {
+    "numero": 15,
+    "titulo": "Presentación con ensayo medido",
+    "tema_numeros": [
+      9
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 1,
+    "agrupamiento": "Parejas",
+    "relato": "Una pareja debe explicar a un consejo ficticio por qué un proyecto necesita una semana adicional, sin saturar diapositivas. Construirá un relato breve, ensayará con tiempos y corregirá a partir de evidencia.",
+    "reto": "Crear y ensayar una presentación de tres minutos que conecte situación, evidencia, decisión solicitada y siguiente paso.",
+    "producto": "Presentación ODP de cinco diapositivas, PDF accesible y hoja de ensayo con tiempos.",
+    "archivo": "equipo_XX_15_decision_proyecto.zip",
+    "preparacion": [
+      "Descargar datos ficticios del proyecto y plantilla vacía.",
+      "Elegir quién presenta primero y quién registra tiempos y claridad.",
+      "Configurar idioma y relación de aspecto estándar."
+    ],
+    "pasos": [
+      "Formular en una frase la decisión que se solicita.",
+      "Crear cinco diapositivas: contexto, evidencia, opciones, recomendación y siguiente paso.",
+      "Sustituir texto redundante por un gráfico o diagrama propio con alternativa textual.",
+      "Añadir notas del orador que complementen, no repitan, la pantalla.",
+      "Ensayar dos veces, registrar duración por diapositiva y una incidencia de comprensión.",
+      "Corregir secuencia o densidad y exportar activando PDF universal (PDF/UA).",
+      "Inspeccionar número de palabras, tiempos y propiedades para responder Moodle."
+    ],
+    "comprobaciones": [
+      "La decisión solicitada aparece antes del final.",
+      "Datos de pantalla y notas coinciden con la fuente facilitada.",
+      "La duración total está entre 2:40 y 3:20 en el segundo ensayo.",
+      "Ninguna diapositiva depende de animación para entenderse.",
+      "El PDF conserva título, orden y textos alternativos disponibles.",
+      "El PDF/UA conserva orden de lectura, textos alternativos y contraste suficiente."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 9,
+        "seccion": "Narrativa de presentación y apoyo visual"
+      },
+      {
+        "tema": 9,
+        "seccion": "Ensayo, tiempos y revisión"
+      }
+    ],
+    "entrega": "Subir ZIP por pareja y completar individualmente Moodle con la hoja de ensayo abierta.",
+    "moodle": {
+      "actividad": "Cuestionario 15 · Evidencia del ensayo",
+      "tipos_pregunta": [
+        "numérica",
+        "cloze",
+        "opción múltiple"
+      ],
+      "numero_items": 8,
+      "intentos": 2,
+      "calificacion": "Mejor intento; 10 puntos, corrección automática.",
+      "retroalimentacion": "Compara rangos y coherencia de la propia evidencia; orienta a revisar la diapositiva afectada sin ofrecer un guion modelo.",
+      "evidencia": "Usa tiempos registrados, recuentos inspeccionados y decisiones de revisión entre los dos ensayos."
+    },
+    "rubrica": [],
+    "accesibilidad": "Tipografía grande, contraste AA, textos alternativos, notas no imprescindibles y ausencia de destellos o transiciones distractoras.",
+    "privacidad": "Escenario, consejo y métricas son ficticios; autores identificados solo mediante código de equipo."
+  },
+  {
+    "numero": 16,
+    "titulo": "Defensa coordinada de un proyecto viable",
+    "tema_numeros": [
+      9,
+      11
+    ],
+    "modalidad": "rubrica_docente",
+    "sesiones": 3,
+    "agrupamiento": "Equipos de cuatro",
+    "relato": "Un comité ficticio seleccionará una propuesta para mejorar la comunicación de un centro sin contratar servicios de pago. Cada equipo debe planificarla, anticipar riesgos y defenderla en cinco minutos con evidencia compartida.",
+    "reto": "Entregar y presentar un paquete coherente de alcance, cronograma, tablero, riesgos y comunicación, mostrando decisiones y adaptación a una incidencia sorpresa.",
+    "producto": "Carpeta comprimida con plan ODT/PDF, cronograma, tablero exportado, matriz de riesgos, presentación y acta de retrospectiva.",
+    "archivo": "equipo_XX_16_defensa_proyecto.zip",
+    "preparacion": [
+      "Elegir uno de tres encargos ficticios y descargar restricciones.",
+      "Asignar coordinación, planificación, calidad y comunicación, con rotación documentada.",
+      "Crear estructura de carpetas y convención de versiones con guion bajo."
+    ],
+    "pasos": [
+      "Definir objetivo, alcance, exclusiones, entregables y criterios de éxito medibles.",
+      "Descomponer tareas, estimar sesiones, representar dependencias y camino crítico básico.",
+      "Configurar tablero y matriz de riesgos con responsables por rol.",
+      "Preparar presentación accesible y repartir intervenciones con transiciones.",
+      "Recibir la incidencia sorpresa, registrar la decisión y actualizar plan, tablero y riesgo.",
+      "Ensayar cinco minutos y revisar contradicciones entre artefactos.",
+      "Realizar la defensa y responder preguntas usando evidencia del paquete.",
+      "Celebrar retrospectiva breve, exportar archivos estables y empaquetar."
+    ],
+    "comprobaciones": [
+      "Alcance, tareas, calendario, tablero y presentación usan los mismos entregables.",
+      "La carga cabe en las sesiones y las dependencias no son circulares.",
+      "La incidencia deja un rastro idéntico en decisión, plan y riesgos.",
+      "La defensa dura entre 4:30 y 5:30 y participan las cuatro personas.",
+      "Todos los archivos abren, están nombrados con guiones bajos y no dependen de enlaces privados.",
+      "La retrospectiva registra una evidencia, una mejora y su responsable por rol."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 9,
+        "seccion": "Alcance, planificación, riesgos y adaptación"
+      },
+      {
+        "tema": 11,
+        "seccion": "Servicios sostenibles, privacidad y continuidad"
+      }
+    ],
+    "entrega": "Subir un ZIP por equipo antes de la defensa; no se aceptan enlaces que requieran cuenta.",
+    "moodle": null,
+    "rubrica": [
+      {
+        "criterio": "Coherencia y viabilidad del plan",
+        "peso": 30,
+        "niveles": {
+          "4": "Alcance, estimaciones, dependencias, recursos y criterios encajan entre todos los artefactos y en el tiempo disponible.",
+          "3": "Plan viable y coherente salvo una discrepancia menor sin efecto práctico.",
+          "2": "Varias estimaciones o artefactos no coinciden y requieren interpretación.",
+          "1": "Plan inviable o contradictorio en sus elementos esenciales."
+        }
+      },
+      {
+        "criterio": "Seguimiento, riesgos y adaptación",
+        "peso": 25,
+        "niveles": {
+          "4": "Tablero y riesgos son accionables; la incidencia se analiza, decide y propaga con trazabilidad completa.",
+          "3": "Seguimiento claro y adaptación justificada con una omisión menor.",
+          "2": "Actualización parcial, riesgo genérico o decisión poco trazable.",
+          "1": "No se adapta la propuesta o se oculta el efecto de la incidencia."
+        }
+      },
+      {
+        "criterio": "Comunicación y defensa",
+        "peso": 25,
+        "niveles": {
+          "4": "Mensaje estructurado, evidencia legible, tiempo cumplido, participación equilibrada y respuestas precisas.",
+          "3": "Defensa clara con leve desequilibrio o una respuesta poco respaldada.",
+          "2": "Presentación densa/desordenada, tiempo fuera de rango o participación desigual.",
+          "1": "No se entiende la propuesta, falta evidencia o una parte del equipo no participa."
+        }
+      },
+      {
+        "criterio": "Calidad, accesibilidad y colaboración",
+        "peso": 20,
+        "niveles": {
+          "4": "Paquete íntegro y accesible; versiones, roles rotados, revisión cruzada y retrospectiva quedan documentados.",
+          "3": "Paquete correcto y colaboración visible con una carencia menor.",
+          "2": "Archivos o revisión presentan varios fallos y el reparto es poco verificable.",
+          "1": "Entrega incompleta/inaccesible o no hay evidencia de coordinación."
+        }
+      }
+    ],
+    "accesibilidad": "Presentación con contraste, tipografía legible, alternativas textuales y exposición comprensible sin ver la pantalla; documentos estructurados.",
+    "privacidad": "No se usan cuentas personales, rostros, nombres ni métricas reales; se prefieren herramientas locales/abiertas y se documenta cualquier servicio externo."
+  },
+  {
+    "numero": 17,
+    "titulo": "Anatomía accesible de una página",
+    "tema_numeros": [
+      10
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 1,
+    "agrupamiento": "Individual",
+    "relato": "Una oficina de turismo ficticia ha enviado una página HTML visualmente aceptable pero semánticamente caótica. Debes inspeccionarla, reparar su estructura y demostrar que funciona sin CSS y con teclado.",
+    "reto": "Corregir HTML para que contenido, navegación, imágenes y formulario tengan semántica y accesibilidad verificables.",
+    "producto": "Carpeta con index.html y assets locales, validación sin errores y captura textual de la estructura de encabezados.",
+    "archivo": "apellido_nombre_17_pagina_semantica.zip",
+    "preparacion": [
+      "Descargar sitio_defectuoso.zip y extraerlo en una ruta sin espacios.",
+      "Abrir index.html en editor de texto y navegador, no en editor visual.",
+      "Abrir el validador HTML indicado o usar la copia local facilitada."
+    ],
+    "pasos": [
+      "Identificar div genéricos, orden de encabezados, enlaces ambiguos e imagen sin alternativa.",
+      "Reemplazar por header, nav, main, section/article y footer cuando corresponda.",
+      "Corregir lang, title, encabezados, listas y enlaces descriptivos.",
+      "Asociar label y controles del formulario y añadir instrucciones útiles.",
+      "Validar HTML, corregir todos los errores y registrar dos avisos evaluados.",
+      "Desactivar CSS, recorrer con teclado y comprobar que lectura y acción siguen disponibles.",
+      "Comprimir conservando rutas relativas y responder Moodle con el código abierto."
+    ],
+    "comprobaciones": [
+      "El validador no muestra errores HTML.",
+      "Solo existe un h1 y no se saltan niveles sin razón.",
+      "Tab alcanza enlaces y controles en orden lógico.",
+      "Imágenes informativas tienen alternativa; decorativas usan alternativa vacía.",
+      "Sin CSS se conserva el orden y la finalidad del contenido."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 10,
+        "seccion": "HTML semántico y estructura del documento"
+      },
+      {
+        "tema": 10,
+        "seccion": "Accesibilidad de navegación, imágenes y formularios"
+      }
+    ],
+    "entrega": "Subir ZIP y completar Moodle citando etiquetas, atributos y resultados observados en el archivo reparado.",
+    "moodle": {
+      "actividad": "Cuestionario 17 · Inspección semántica",
+      "tipos_pregunta": [
+        "arrastrar/soltar",
+        "respuesta corta con variantes",
+        "opción múltiple"
+      ],
+      "numero_items": 9,
+      "intentos": 2,
+      "calificacion": "Mejor intento; 10 puntos, corrección automática.",
+      "retroalimentacion": "Clasifica el problema como sintaxis, semántica o accesibilidad y remite a la prueba pertinente; no publica el HTML final.",
+      "evidencia": "Pregunta por el esquema de encabezados real, destinos de enlaces, atributos corregidos y comportamiento observado sin CSS."
+    },
+    "rubrica": [],
+    "accesibilidad": "HTML semántico, foco visible heredado, etiquetas asociadas, alternativas adecuadas y contenido operativo sin CSS.",
+    "privacidad": "Página y formulario son ficticios y no envían datos; no incorporar analítica, cookies ni recursos remotos."
+  },
+  {
+    "numero": 18,
+    "titulo": "CSS resistente a pantallas pequeñas",
+    "tema_numeros": [
+      10
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 1,
+    "agrupamiento": "Parejas con entrega individual",
+    "relato": "Una cartelera ficticia funciona en el monitor del aula, pero se desborda en móvil y al ampliar texto. Cada estudiante corrige su copia mientras la pareja intercambia pruebas a distintos anchos.",
+    "reto": "Crear un diseño adaptable con CSS sencillo que no pierda contenido a 320 px, 200 % de zoom ni impresión.",
+    "producto": "Sitio de una página con CSS externo, rejilla adaptable, navegación y hoja de impresión.",
+    "archivo": "apellido_nombre_18_cartelera_responsiva.zip",
+    "preparacion": [
+      "Descargar HTML semántico y CSS inicial.",
+      "Abrir herramientas del navegador y elegir anchos 320, 768 y 1280 px.",
+      "No modificar el contenido textual ni añadir bibliotecas externas."
+    ],
+    "pasos": [
+      "Localizar anchos fijos, desbordamientos y orden visual que contradice el DOM.",
+      "Definir caja global, unidades relativas y ancho máximo del contenido.",
+      "Crear la rejilla con flex o grid y un único punto de ruptura justificado.",
+      "Hacer imágenes fluidas y pre/cadenas largas desplazables sin ampliar la página.",
+      "Diseñar foco visible y estados de enlace distinguibles.",
+      "Añadir reglas de impresión que oculten solo navegación redundante y muestren URLs necesarias.",
+      "Probar tres anchos y zoom 200 %, registrar medidas y comprimir."
+    ],
+    "comprobaciones": [
+      "No hay desplazamiento horizontal global a 320 px.",
+      "A 200 % de zoom no se solapan ni desaparecen controles.",
+      "El orden de lectura coincide con el DOM en todos los anchos.",
+      "El foco se ve sobre todos los fondos.",
+      "La vista impresa conserva título, contenido y referencias."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 10,
+        "seccion": "Modelo de caja, unidades y diseño adaptable"
+      },
+      {
+        "tema": 10,
+        "seccion": "Foco, reflujo y estilos de impresión"
+      }
+    ],
+    "entrega": "Subir ZIP individual y completar Moodle usando las medidas tomadas con herramientas del navegador.",
+    "moodle": {
+      "actividad": "Cuestionario 18 · Pruebas de reflujo",
+      "tipos_pregunta": [
+        "numérica",
+        "cloze",
+        "opción múltiple"
+      ],
+      "numero_items": 8,
+      "intentos": 2,
+      "calificacion": "Mejor intento; 10 puntos, corrección automática.",
+      "retroalimentacion": "Relaciona cada fallo con caja, unidad, rejilla o media query y pide repetir una prueba; valores objetivo ocultos hasta el cierre.",
+      "evidencia": "Solicita anchos observados, propiedad responsable, resultado a 200 % y reglas presentes en el CSS creado."
+    },
+    "rubrica": [],
+    "accesibilidad": "Reflujo a 320 CSS px, zoom 200 %, foco visible, contraste suficiente y ausencia de contenido solo al pasar el ratón.",
+    "privacidad": "Todo es local, sin CDN, fuentes remotas, rastreadores o formularios activos; el ZIP no incluye rutas del equipo."
+  },
+  {
+    "numero": 19,
+    "titulo": "Publicar sin regalar privacidad",
+    "tema_numeros": [
+      10,
+      11
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 1,
+    "agrupamiento": "Parejas",
+    "relato": "Una asociación ficticia quiere publicar una web estática y propone incrustar mapas, vídeos, formularios y analítica de terceros. La pareja crea dos versiones locales y mide qué solicitudes externas aparecen antes de elegir una alternativa.",
+    "reto": "Auditar dependencias, permisos y huellas de terceros y construir una versión esencial que funcione sin rastreo ni cuentas.",
+    "producto": "Miniweb con pagina_original.html, index.html minimizada, inventario de recursos y registro de red en PDF.",
+    "archivo": "equipo_XX_19_web_privacidad.zip",
+    "preparacion": [
+      "Descargar la maqueta y los recursos alternativos locales.",
+      "Abrir herramientas de desarrollo en Red y desactivar caché.",
+      "Usar únicamente los dominios ficticios o simulados del paquete; no aceptar cookies reales."
+    ],
+    "pasos": [
+      "Cargar la maqueta original y registrar tipos, dominios simulados, finalidad y datos potencialmente expuestos.",
+      "Clasificar cada dependencia como necesaria, sustituible o prescindible.",
+      "Reemplazar mapa y vídeo por previsualizaciones locales con enlace informado; sustituir formulario por canal ficticio no operativo.",
+      "Eliminar analítica y fuentes remotas, manteniendo una experiencia comprensible.",
+      "Añadir aviso breve que explique recursos externos antes de activarlos.",
+      "Recargar, comparar número de solicitudes y comprobar funcionamiento sin red.",
+      "Guardar inventario, exportar evidencia de red y comprimir."
+    ],
+    "comprobaciones": [
+      "index.html no realiza solicitudes externas al cargar.",
+      "Cada recurso eliminado tiene finalidad y alternativa documentadas.",
+      "La página sigue informando y navegando sin conexión.",
+      "Los enlaces externos advierten destino y no simulan consentimiento.",
+      "El inventario diferencia dato enviado, riesgo y medida."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 10,
+        "seccion": "Publicación estática y dependencias web"
+      },
+      {
+        "tema": 11,
+        "seccion": "Rastreo, terceros, consentimiento y minimización"
+      }
+    ],
+    "entrega": "Subir ZIP por pareja y completar individualmente Moodle comparando los dos registros de red.",
+    "moodle": {
+      "actividad": "Cuestionario 19 · Auditoría de solicitudes",
+      "tipos_pregunta": [
+        "numérica",
+        "emparejamiento",
+        "opción múltiple"
+      ],
+      "numero_items": 9,
+      "intentos": 2,
+      "calificacion": "Mejor intento; 10 puntos, corrección automática.",
+      "retroalimentacion": "Explica la categoría de riesgo o la prueba de red que falta y permite corregir el inventario; no ofrece una lista universal de respuestas.",
+      "evidencia": "Usa recuentos medidos, dominios simulados, finalidades y sustituciones presentes en la miniweb y su inventario."
+    },
+    "rubrica": [],
+    "accesibilidad": "Alternativas locales con texto, enlaces descriptivos, navegación por teclado y contenido disponible sin multimedia incrustada.",
+    "privacidad": "No contactar servicios reales ni introducir datos; limpiar historial/almacenamiento del sitio de pruebas y mantener todo el material ficticio local."
+  },
+  {
+    "numero": 20,
+    "titulo": "Micrositio de servicio digital responsable",
+    "tema_numeros": [
+      10,
+      11
+    ],
+    "modalidad": "rubrica_docente",
+    "sesiones": 3,
+    "agrupamiento": "Equipos de tres",
+    "relato": "Una entidad cultural ficticia encarga un micrositio para explicar un servicio gratuito y coordinar una inscripción simulada sin recoger datos. El equipo debe integrar contenido, accesibilidad, diseño adaptable, verificación de fuentes y decisiones explícitas sobre riesgos de Internet.",
+    "reto": "Diseñar, construir y someter a pruebas un sitio estático de tres páginas que funcione localmente, comunique con rigor y minimice dependencias y datos.",
+    "producto": "ZIP del micrositio HTML/CSS con assets locales, informe de pruebas PDF, inventario de fuentes/licencias y decisiones de privacidad.",
+    "archivo": "equipo_XX_20_micrositio_responsable.zip",
+    "preparacion": [
+      "Elegir uno de tres encargos y descargar contenidos/datos ficticios.",
+      "Asignar roles de arquitectura, contenido y pruebas, rotándolos cada sesión.",
+      "Crear mapa del sitio, definición de terminado y carpeta con nombres en guion bajo.",
+      "Abrir validador HTML/CSS y matriz de pruebas proporcionada."
+    ],
+    "pasos": [
+      "Definir audiencias, tareas, estructura de tres páginas y navegación consistente.",
+      "Redactar contenido propio, verificar afirmaciones y registrar fuentes y licencias.",
+      "Construir HTML semántico con encabezados, listas, tablas o formulario simulado según necesidad.",
+      "Aplicar CSS externo adaptable, foco visible, contraste y estados no dependientes del color.",
+      "Sustituir servicios de terceros por recursos locales o activación informada; no recoger datos.",
+      "Validar y probar a 320/768/1280 px, teclado, zoom 200 %, sin CSS, sin red y enlaces.",
+      "Hacer una prueba cruzada con otro equipo, registrar incidencias, prioridad y corrección.",
+      "Limpiar metadatos, comprobar rutas relativas, exportar informe e inventario y comprimir."
+    ],
+    "comprobaciones": [
+      "Las tres páginas y todos los recursos abren desde index.html al extraer el ZIP.",
+      "Validadores no muestran errores y los enlaces internos/externos responden como se documenta.",
+      "Teclado, foco, reflujo, zoom y lectura sin CSS superan la matriz.",
+      "Afirmaciones y recursos reutilizados tienen fuente, autoría/licencia y finalidad.",
+      "La carga inicial no envía datos ni depende de servicios externos.",
+      "El informe vincula cada incidencia con evidencia, prioridad, corrección y nueva prueba."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 10,
+        "seccion": "Arquitectura, HTML/CSS, publicación y pruebas"
+      },
+      {
+        "tema": 11,
+        "seccion": "Fuentes, licencias, privacidad y riesgos de servicios"
+      }
+    ],
+    "entrega": "Subir un único ZIP autocontenido; no se aceptan enlaces a editores, nubes o repositorios personales.",
+    "moodle": null,
+    "rubrica": [
+      {
+        "criterio": "Arquitectura, contenido y rigor",
+        "peso": 25,
+        "niveles": {
+          "4": "Tres páginas con navegación coherente, contenido propio ajustado a audiencias y fuentes/licencias completas y verificables.",
+          "3": "Arquitectura y contenido sólidos con una referencia o detalle menor incompleto.",
+          "2": "Navegación o contenido presenta varias incoherencias y trazabilidad parcial.",
+          "1": "Sitio incompleto, confuso o con contenido no verificable/copied sin atribución."
+        }
+      },
+      {
+        "criterio": "HTML/CSS y funcionamiento",
+        "peso": 25,
+        "niveles": {
+          "4": "Código semántico y válido, diseño adaptable y rutas relativas; todo funciona local, sin red y en los tres anchos.",
+          "3": "Funciona y valida con una incidencia menor que no impide ninguna tarea.",
+          "2": "Hay varios errores, dependencia frágil o fallos en un ancho que dificultan tareas.",
+          "1": "No abre como paquete, contiene errores graves o tareas esenciales no funcionan."
+        }
+      },
+      {
+        "criterio": "Accesibilidad y experiencia",
+        "peso": 25,
+        "niveles": {
+          "4": "Supera teclado, foco, contraste, reflujo, zoom, alternativas, etiquetas y lectura sin CSS con evidencia.",
+          "3": "Supera pruebas esenciales con una carencia menor y localizada.",
+          "2": "Varias barreras dificultan percepción, navegación o comprensión.",
+          "1": "Una tarea esencial es inaccesible o no se realizaron pruebas verificables."
+        }
+      },
+      {
+        "criterio": "Privacidad, pruebas y mejora",
+        "peso": 25,
+        "niveles": {
+          "4": "No recoge/envía datos; dependencias justificadas, matriz completa y revisión cruzada con correcciones y regresión demostradas.",
+          "3": "Privacidad adecuada y pruebas suficientes con una omisión menor de evidencia.",
+          "2": "Inventario o pruebas incompletos, o queda una dependencia/riesgo evitable.",
+          "1": "Expone datos/terceros sin control o no aporta pruebas ni mejora verificable."
+        }
+      }
+    ],
+    "accesibilidad": "Cumplir teclado, foco, contraste AA, reflujo a 320 px y 200 %, semántica, etiquetas y alternativas; documentar las pruebas.",
+    "privacidad": "Sin datos personales, cookies, analítica, cuentas o envío real; recursos locales y escenarios sintéticos, con aviso previo para cualquier enlace externo."
+  }
+]

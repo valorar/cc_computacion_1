@@ -1,0 +1,1382 @@
+[
+  {
+    "numero": 1,
+    "titulo": "Ticket de compra legible",
+    "tema_numeros": [
+      12
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 1,
+    "agrupamiento": "Individual",
+    "relato": "Una cooperativa escolar necesita emitir tickets claros para su mercadillo. Cada pareja de datos introducida debe convertirse en un resumen legible sin guardar información personal.",
+    "reto": "Crear un programa que pida producto, unidades y precio, calcule subtotal e IVA dado y muestre un ticket con formato estable.",
+    "producto": "Programa Python y registro breve de tres ejecuciones locales.",
+    "archivo": "practica_01_ticket.py",
+    "preparacion": [
+      "Abrir el editor y una terminal con Python 3.",
+      "Descargar la ficha de datos ficticios y copiarla a la carpeta de trabajo."
+    ],
+    "pasos": [
+      "Identificar tipos adecuados para texto, unidades, precio e IVA.",
+      "Escribir entradas con mensajes inequívocos y convertir los datos numéricos.",
+      "Construir expresiones para subtotal, impuesto y total.",
+      "Formatear la salida con dos decimales y etiquetas comprensibles.",
+      "Probar un caso habitual, uno con una unidad y uno en el límite indicado.",
+      "Contrastar en Moodle predicciones y resultados de ejecuciones nuevas."
+    ],
+    "comprobaciones": [
+      "El programa se ejecuta con Python 3 sin errores.",
+      "Las expresiones respetan la prioridad de operadores.",
+      "Importes y etiquetas tienen formato consistente.",
+      "Se aportan pruebas de caso habitual, unidad y límite."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 12,
+        "seccion": "Datos, variables y tipos"
+      },
+      {
+        "tema": 12,
+        "seccion": "Entrada, salida y expresiones"
+      }
+    ],
+    "entrega": "Subir practica_01_ticket.py y completar la verificación Moodle; nombres_de_archivo con guion bajo.",
+    "moodle": {
+      "actividad": "Cuestionario de verificación posterior al trabajo local: se exige adjuntar o conservar la hoja de predicciones/trazas y ejecutar el programa antes de responder.",
+      "tipos_pregunta": [
+        "Cloze",
+        "opción múltiple",
+        "respuesta corta",
+        "calculada"
+      ],
+      "numero_items": 8,
+      "intentos": 2,
+      "calificacion": "Mejor intento; cada ítem vale lo mismo. El segundo intento usa nuevos valores o variantes equivalentes.",
+      "retroalimentacion": "Tras cada intento indica el requisito o concepto que revisar, sin mostrar código completo ni una clave reutilizable.",
+      "evidencia": "Predicciones de salida, trazas, resultados numéricos, selección de casos de prueba, fragmentos completados y diagnósticos contrastados con la ejecución local."
+    },
+    "rubrica": [],
+    "accesibilidad": "Instrucciones numeradas, lenguaje directo, salida legible en orden lineal, etiquetas textuales además de color o formato y posibilidad de ampliar fuente o usar lector de pantalla.",
+    "privacidad": "Trabajar únicamente con datos ficticios o agregados; no introducir nombres, cuentas, ubicaciones ni otros datos personales en código, capturas o Moodle."
+  },
+  {
+    "numero": 2,
+    "titulo": "Conversor del observatorio",
+    "tema_numeros": [
+      12
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 1,
+    "agrupamiento": "Individual",
+    "relato": "Un observatorio ciudadano publica medidas en unidades distintas y quiere evitar comparaciones engañosas. El programa convierte temperatura, distancia y velocidad a partir de valores simulados.",
+    "reto": "Programar conversiones mediante expresiones y presentar unidades de origen y destino sin ambigüedad.",
+    "producto": "Script de conversión y tabla de comprobación con datos ficticios.",
+    "archivo": "practica_02_conversor.py",
+    "preparacion": [
+      "Revisar la tabla de fórmulas facilitada en Moodle.",
+      "Crear el archivo con codificación UTF-8 y cabecera de autoría."
+    ],
+    "pasos": [
+      "Anotar las variables de entrada y sus unidades.",
+      "Implementar tres conversiones con nombres significativos.",
+      "Solicitar los valores y convertirlos a float.",
+      "Mostrar cada resultado con precisión apropiada.",
+      "Ensayar cero, un decimal y el valor límite de la ficha.",
+      "Resolver en Moodle cálculos, completar expresiones y detectar una unidad mal rotulada."
+    ],
+    "comprobaciones": [
+      "Las tres conversiones usan la fórmula indicada.",
+      "Cada salida incluye magnitud y unidad.",
+      "Se comprueban cero, decimal y límite.",
+      "No se incluyen nombres ni ubicaciones reales."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 12,
+        "seccion": "Expresiones aritméticas"
+      },
+      {
+        "tema": 12,
+        "seccion": "Conversión de tipos y formato"
+      }
+    ],
+    "entrega": "Subir practica_02_conversor.py y completar la verificación Moodle; nombres_de_archivo con guion bajo.",
+    "moodle": {
+      "actividad": "Cuestionario de verificación posterior al trabajo local: se exige adjuntar o conservar la hoja de predicciones/trazas y ejecutar el programa antes de responder.",
+      "tipos_pregunta": [
+        "Cloze",
+        "opción múltiple",
+        "respuesta corta",
+        "calculada"
+      ],
+      "numero_items": 8,
+      "intentos": 2,
+      "calificacion": "Mejor intento; cada ítem vale lo mismo. El segundo intento usa nuevos valores o variantes equivalentes.",
+      "retroalimentacion": "Tras cada intento indica el requisito o concepto que revisar, sin mostrar código completo ni una clave reutilizable.",
+      "evidencia": "Predicciones de salida, trazas, resultados numéricos, selección de casos de prueba, fragmentos completados y diagnósticos contrastados con la ejecución local."
+    },
+    "rubrica": [],
+    "accesibilidad": "Instrucciones numeradas, lenguaje directo, salida legible en orden lineal, etiquetas textuales además de color o formato y posibilidad de ampliar fuente o usar lector de pantalla.",
+    "privacidad": "Trabajar únicamente con datos ficticios o agregados; no introducir nombres, cuentas, ubicaciones ni otros datos personales en código, capturas o Moodle."
+  },
+  {
+    "numero": 3,
+    "titulo": "Factura de la misión lunar",
+    "tema_numeros": [
+      12
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 1,
+    "agrupamiento": "Parejas con entrega individual",
+    "relato": "Una misión escolar debe estimar el coste de suministros de una base lunar ficticia. Dos estudiantes contrastan cálculos, pero cada uno entrega su propio programa.",
+    "reto": "Calcular coste bruto, descuento porcentual y coste final, distinguiendo enteros, reales y texto.",
+    "producto": "Archivo ejecutable y hoja individual de predicciones antes de ejecutar.",
+    "archivo": "practica_03_mision_lunar.py",
+    "preparacion": [
+      "Abrir la plantilla de enunciado sin soluciones.",
+      "Acordar en la pareja cuatro datos ficticios dentro de los rangos permitidos."
+    ],
+    "pasos": [
+      "Predecir a mano el tipo y valor de cuatro expresiones.",
+      "Declarar entradas y conversiones de tipo.",
+      "Calcular bruto, descuento y final sin repetir fórmulas.",
+      "Imprimir un resumen alineado y con dos decimales.",
+      "Comparar predicción y ejecución y explicar una diferencia si aparece.",
+      "Contestar en Moodle preguntas sobre tipos, expresiones y resultados."
+    ],
+    "comprobaciones": [
+      "La predicción se registra antes de ejecutar.",
+      "Los porcentajes se transforman correctamente.",
+      "La salida separa bruto, descuento y total.",
+      "Cada integrante entrega código propio identificable."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 12,
+        "seccion": "Tipos y operadores"
+      },
+      {
+        "tema": 12,
+        "seccion": "Entrada/salida formateada"
+      }
+    ],
+    "entrega": "Subir practica_03_mision_lunar.py y completar la verificación Moodle; nombres_de_archivo con guion bajo.",
+    "moodle": {
+      "actividad": "Cuestionario de verificación posterior al trabajo local: se exige adjuntar o conservar la hoja de predicciones/trazas y ejecutar el programa antes de responder.",
+      "tipos_pregunta": [
+        "Cloze",
+        "opción múltiple",
+        "respuesta corta",
+        "calculada"
+      ],
+      "numero_items": 8,
+      "intentos": 2,
+      "calificacion": "Mejor intento; cada ítem vale lo mismo. El segundo intento usa nuevos valores o variantes equivalentes.",
+      "retroalimentacion": "Tras cada intento indica el requisito o concepto que revisar, sin mostrar código completo ni una clave reutilizable.",
+      "evidencia": "Predicciones de salida, trazas, resultados numéricos, selección de casos de prueba, fragmentos completados y diagnósticos contrastados con la ejecución local."
+    },
+    "rubrica": [],
+    "accesibilidad": "Instrucciones numeradas, lenguaje directo, salida legible en orden lineal, etiquetas textuales además de color o formato y posibilidad de ampliar fuente o usar lector de pantalla.",
+    "privacidad": "Trabajar únicamente con datos ficticios o agregados; no introducir nombres, cuentas, ubicaciones ni otros datos personales en código, capturas o Moodle."
+  },
+  {
+    "numero": 4,
+    "titulo": "Terminal de reservas del museo",
+    "tema_numeros": [
+      12,
+      13
+    ],
+    "modalidad": "rubrica_docente",
+    "sesiones": 2,
+    "agrupamiento": "Parejas",
+    "relato": "Un museo ficticio necesita una terminal de reservas para grupos con tarifas por edad y aforo. El encargo combina interacción clara, cálculos y decisiones sin recopilar datos identificativos.",
+    "reto": "Construir una aplicación de consola que valide cantidades y edades, aplique la tarifa correcta y genere un resumen accesible.",
+    "producto": "Aplicación de consola, conjunto documentado de pruebas y nota técnica de decisiones.",
+    "archivo": "practica_04_reservas_museo.py",
+    "preparacion": [
+      "Formar parejas y asignar roles rotatorios de programación y prueba.",
+      "Descargar requisitos, datos ficticios y plantilla de informe."
+    ],
+    "pasos": [
+      "Modelar entradas, reglas tarifarias y límites de aforo.",
+      "Implementar el flujo principal con mensajes claros y ramas excluyentes.",
+      "Rechazar entradas fuera de rango sin producir una reserva válida.",
+      "Diseñar pruebas para edad límite, aforo exacto y valores inválidos.",
+      "Intercambiar el programa con otra pareja y registrar incidencias reproducibles.",
+      "Revisar nombres, formato y privacidad antes de entregar."
+    ],
+    "comprobaciones": [
+      "La aplicación cubre todas las tarifas y límites.",
+      "Los casos inválidos no generan totales engañosos.",
+      "El informe vincula requisitos con pruebas observables.",
+      "La revisión entre pares produce al menos una comprobación reproducible.",
+      "Código y documentación no contienen datos personales."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 12,
+        "seccion": "Entrada/salida y expresiones"
+      },
+      {
+        "tema": 13,
+        "seccion": "Decisiones y validación"
+      }
+    ],
+    "entrega": "Subir practica_04_reservas_museo.py junto con los productos indicados, usando solo nombres_con_guion_bajo.",
+    "moodle": null,
+    "rubrica": [
+      {
+        "criterio": "Reservas, tarifas y validación de aforo",
+        "peso": 40,
+        "niveles": {
+          "4": "Resuelve 5 de 5 comprobaciones: acepta cantidades y edades válidas, asigna la tarifa de cada tramo, calcula el total correcto, admite exactamente el aforo máximo y rechaza cualquier edad, cantidad o aforo fuera de rango sin emitir una reserva válida.",
+          "3": "Resuelve 4 de las 5 comprobaciones; necesariamente calcula la tarifa y el total correctos en entradas válidas y rechaza las entradas fuera de rango sin emitir una reserva válida.",
+          "2": "Resuelve 2 o 3 de las 5 comprobaciones, o permite que una entrada inválida produzca una reserva o un total.",
+          "1": "Resuelve 0 o 1 de las 5 comprobaciones, o el programa no completa una ejecución de reserva."
+        }
+      },
+      {
+        "criterio": "Modelado del flujo de reserva",
+        "peso": 20,
+        "niveles": {
+          "4": "Se observan 4 de 4 decisiones de diseño: variables con nombres que expresan edad, cantidad, tarifa y aforo; tipos numéricos adecuados; ramas tarifarias mutuamente excluyentes; y cálculo del total escrito una sola vez tras validar.",
+          "3": "Se observan 3 de las 4 decisiones de diseño y las ramas tarifarias siguen siendo mutuamente excluyentes.",
+          "2": "Se observan 2 de las 4 decisiones; hay reglas tarifarias o validaciones repetidas que deben modificarse en más de un lugar.",
+          "1": "Se observa 0 o 1 de las 4 decisiones, y la mezcla de validación, tarifa y salida impide seguir el flujo de una reserva."
+        }
+      },
+      {
+        "criterio": "Pruebas de fronteras y revisión entre pares",
+        "peso": 25,
+        "niveles": {
+          "4": "Documenta entrada, resultado esperado y obtenido para 4 de 4 casos obligatorios —edad límite, aforo exacto, valor por debajo o por encima del rango y cantidad inválida—; añade una incidencia reproducible de otra pareja y deja constancia de su corrección o de que no requería cambio.",
+          "3": "Documenta esperado y obtenido para 3 de los 4 casos obligatorios y registra la revisión de otra pareja con pasos reproducibles.",
+          "2": "Documenta 1 o 2 de los 4 casos, o presenta resultados sin valores esperados; la revisión entre pares no permite repetir la comprobación.",
+          "1": "No presenta ningún caso con entrada, esperado y obtenido, ni una revisión entre pares reproducible."
+        }
+      },
+      {
+        "criterio": "Nota técnica, accesibilidad y privacidad",
+        "peso": 15,
+        "niveles": {
+          "4": "Cumple 5 de 5 evidencias: nota técnica que explica tarifas y aforo, instrucciones de uso numeradas, mensajes con etiquetas textuales en orden lineal, información comprensible sin color ni alineación visual y ausencia de nombres, contactos, ubicaciones u otros datos personales.",
+          "3": "Cumple 4 de las 5 evidencias y no incluye datos personales.",
+          "2": "Cumple 2 o 3 de las 5 evidencias y no incluye datos personales; falta la nota técnica o la salida depende de alineación o color para interpretar al menos un dato.",
+          "1": "Cumple 0 o 1 de las 5 evidencias, o incluye datos personales innecesarios en código, pruebas o documentación."
+        }
+      }
+    ],
+    "accesibilidad": "Instrucciones numeradas, lenguaje directo, salida legible en orden lineal, etiquetas textuales además de color o formato y posibilidad de ampliar fuente o usar lector de pantalla.",
+    "privacidad": "Trabajar únicamente con datos ficticios o agregados; no introducir nombres, cuentas, ubicaciones ni otros datos personales en código, capturas o Moodle."
+  },
+  {
+    "numero": 5,
+    "titulo": "Semáforo de calidad del aire",
+    "tema_numeros": [
+      13
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 1,
+    "agrupamiento": "Individual",
+    "relato": "Una estación simulada clasifica un índice de calidad del aire para orientar actividades del recreo. Las categorías deben ser mutuamente excluyentes y tratar correctamente los umbrales.",
+    "reto": "Implementar una clasificación por intervalos y justificar mediante trazas qué rama se ejecuta.",
+    "producto": "Script y tabla de trazas de cinco índices.",
+    "archivo": "practica_05_calidad_aire.py",
+    "preparacion": [
+      "Abrir la ficha de umbrales ficticios.",
+      "Copiar la tabla vacía de trazas al documento de trabajo."
+    ],
+    "pasos": [
+      "Ordenar los umbrales para evitar solapamientos.",
+      "Escribir una cadena if/elif/else con salida textual accesible, no basada solo en color.",
+      "Trazar manualmente un valor interior y cada frontera.",
+      "Ejecutar y comparar las trazas con la salida real.",
+      "Corregir cualquier condición que duplique o omita un límite.",
+      "Completar en Moodle trazas, categorías y diagnóstico de condiciones."
+    ],
+    "comprobaciones": [
+      "Cada índice pertenece a una sola categoría.",
+      "Se prueban todas las fronteras.",
+      "La salida incluye texto además del nombre del color.",
+      "Las trazas coinciden con el orden real de evaluación."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 13,
+        "seccion": "Condicionales"
+      },
+      {
+        "tema": 13,
+        "seccion": "Operadores relacionales y lógicos"
+      }
+    ],
+    "entrega": "Subir practica_05_calidad_aire.py y completar la verificación Moodle; nombres_de_archivo con guion bajo.",
+    "moodle": {
+      "actividad": "Cuestionario de verificación posterior al trabajo local: se exige adjuntar o conservar la hoja de predicciones/trazas y ejecutar el programa antes de responder.",
+      "tipos_pregunta": [
+        "Cloze",
+        "opción múltiple",
+        "respuesta corta",
+        "calculada"
+      ],
+      "numero_items": 8,
+      "intentos": 2,
+      "calificacion": "Mejor intento; cada ítem vale lo mismo. El segundo intento usa nuevos valores o variantes equivalentes.",
+      "retroalimentacion": "Tras cada intento indica el requisito o concepto que revisar, sin mostrar código completo ni una clave reutilizable.",
+      "evidencia": "Predicciones de salida, trazas, resultados numéricos, selección de casos de prueba, fragmentos completados y diagnósticos contrastados con la ejecución local."
+    },
+    "rubrica": [],
+    "accesibilidad": "Instrucciones numeradas, lenguaje directo, salida legible en orden lineal, etiquetas textuales además de color o formato y posibilidad de ampliar fuente o usar lector de pantalla.",
+    "privacidad": "Trabajar únicamente con datos ficticios o agregados; no introducir nombres, cuentas, ubicaciones ni otros datos personales en código, capturas o Moodle."
+  },
+  {
+    "numero": 6,
+    "titulo": "Riego por turnos",
+    "tema_numeros": [
+      13
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 1,
+    "agrupamiento": "Parejas con entrega conjunta",
+    "relato": "Un huerto escolar simulado reparte litros entre bancales durante varios turnos. El programa debe detenerse al agotar el depósito o alcanzar el máximo de turnos.",
+    "reto": "Usar un bucle con condición y acumulador para simular el consumo, mostrando una traza comprensible.",
+    "producto": "Programa y tabla de estado por iteración.",
+    "archivo": "practica_06_riego.py",
+    "preparacion": [
+      "Descargar la plantilla de tabla depósito-turno.",
+      "Elegir datos ficticios dentro de los límites de la ficha."
+    ],
+    "pasos": [
+      "Definir estado inicial, condición de continuación y actualización.",
+      "Predecir las tres primeras iteraciones sin ejecutar.",
+      "Implementar el bucle evitando consumos negativos.",
+      "Añadir una salida final que distinga causa de parada.",
+      "Probar depósito vacío, consumo exacto y máximo de turnos.",
+      "Resolver en Moodle trazas y diagnóstico de bucles."
+    ],
+    "comprobaciones": [
+      "El bucle siempre progresa hacia la terminación.",
+      "Nunca se informa de un volumen negativo.",
+      "La causa de parada queda explícita.",
+      "Se cubren vacío, igualdad y límite de iteraciones."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 13,
+        "seccion": "Bucles while"
+      },
+      {
+        "tema": 13,
+        "seccion": "Contadores y acumuladores"
+      }
+    ],
+    "entrega": "Subir practica_06_riego.py y completar la verificación Moodle; nombres_de_archivo con guion bajo.",
+    "moodle": {
+      "actividad": "Cuestionario de verificación posterior al trabajo local: se exige adjuntar o conservar la hoja de predicciones/trazas y ejecutar el programa antes de responder.",
+      "tipos_pregunta": [
+        "Cloze",
+        "opción múltiple",
+        "respuesta corta",
+        "calculada"
+      ],
+      "numero_items": 8,
+      "intentos": 2,
+      "calificacion": "Mejor intento; cada ítem vale lo mismo. El segundo intento usa nuevos valores o variantes equivalentes.",
+      "retroalimentacion": "Tras cada intento indica el requisito o concepto que revisar, sin mostrar código completo ni una clave reutilizable.",
+      "evidencia": "Predicciones de salida, trazas, resultados numéricos, selección de casos de prueba, fragmentos completados y diagnósticos contrastados con la ejecución local."
+    },
+    "rubrica": [],
+    "accesibilidad": "Instrucciones numeradas, lenguaje directo, salida legible en orden lineal, etiquetas textuales además de color o formato y posibilidad de ampliar fuente o usar lector de pantalla.",
+    "privacidad": "Trabajar únicamente con datos ficticios o agregados; no introducir nombres, cuentas, ubicaciones ni otros datos personales en código, capturas o Moodle."
+  },
+  {
+    "numero": 7,
+    "titulo": "Radar de múltiplos",
+    "tema_numeros": [
+      13
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 1,
+    "agrupamiento": "Individual",
+    "relato": "Un juego de navegación detecta balizas numeradas que cumplen reglas de divisibilidad. El piloto necesita una lista ordenada y un recuento final.",
+    "reto": "Recorrer un intervalo inclusivo, seleccionar balizas por condiciones compuestas y acumular resultados.",
+    "producto": "Script y predicción de salida para dos intervalos.",
+    "archivo": "practica_07_radar_multiplos.py",
+    "preparacion": [
+      "Revisar los ejemplos de módulo sin copiar una solución completa.",
+      "Crear una carpeta de pruebas locales."
+    ],
+    "pasos": [
+      "Expresar con módulo las dos reglas de divisibilidad.",
+      "Implementar un for sobre un intervalo inclusivo.",
+      "Combinar condiciones sin imprimir una baliza dos veces.",
+      "Mantener y mostrar el recuento.",
+      "Probar intervalo mínimo, sin coincidencias y con coincidencia en el extremo.",
+      "Responder en Moodle sobre rangos, trazas y resultados."
+    ],
+    "comprobaciones": [
+      "Los extremos del intervalo se tratan como indica el reto.",
+      "No aparecen duplicados en la salida.",
+      "El recuento coincide con las balizas mostradas.",
+      "Se prueba un intervalo sin resultados."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 13,
+        "seccion": "Bucles for y range"
+      },
+      {
+        "tema": 13,
+        "seccion": "Condiciones compuestas"
+      }
+    ],
+    "entrega": "Subir practica_07_radar_multiplos.py y completar la verificación Moodle; nombres_de_archivo con guion bajo.",
+    "moodle": {
+      "actividad": "Cuestionario de verificación posterior al trabajo local: se exige adjuntar o conservar la hoja de predicciones/trazas y ejecutar el programa antes de responder.",
+      "tipos_pregunta": [
+        "Cloze",
+        "opción múltiple",
+        "respuesta corta",
+        "calculada"
+      ],
+      "numero_items": 8,
+      "intentos": 2,
+      "calificacion": "Mejor intento; cada ítem vale lo mismo. El segundo intento usa nuevos valores o variantes equivalentes.",
+      "retroalimentacion": "Tras cada intento indica el requisito o concepto que revisar, sin mostrar código completo ni una clave reutilizable.",
+      "evidencia": "Predicciones de salida, trazas, resultados numéricos, selección de casos de prueba, fragmentos completados y diagnósticos contrastados con la ejecución local."
+    },
+    "rubrica": [],
+    "accesibilidad": "Instrucciones numeradas, lenguaje directo, salida legible en orden lineal, etiquetas textuales además de color o formato y posibilidad de ampliar fuente o usar lector de pantalla.",
+    "privacidad": "Trabajar únicamente con datos ficticios o agregados; no introducir nombres, cuentas, ubicaciones ni otros datos personales en código, capturas o Moodle."
+  },
+  {
+    "numero": 8,
+    "titulo": "Escape de la estación orbital",
+    "tema_numeros": [
+      13
+    ],
+    "modalidad": "rubrica_docente",
+    "sesiones": 2,
+    "agrupamiento": "Grupos de 3",
+    "relato": "Una estación orbital ficticia sufre incidencias y la tripulación debe administrar energía durante una secuencia de turnos. El simulador debe ofrecer decisiones, terminar siempre y explicar el estado final.",
+    "reto": "Crear un minijuego de consola con bucle principal, tres decisiones relevantes, validación de entradas y finales diferenciados.",
+    "producto": "Minijuego, mapa de estados, batería de pruebas y reflexión de una página.",
+    "archivo": "practica_08_estacion_orbital.py",
+    "preparacion": [
+      "Formar grupos y repartir roles de lógica, interfaz y pruebas, rotándolos en la segunda sesión.",
+      "Descargar restricciones, recursos libres y plantilla del mapa de estados."
+    ],
+    "pasos": [
+      "Diseñar estados, decisiones y condiciones de terminación antes de programar.",
+      "Implementar un prototipo con una vuelta completa del bucle.",
+      "Añadir validación para opciones no reconocidas sin castigos arbitrarios.",
+      "Completar tres decisiones y al menos dos finales alcanzables.",
+      "Probar rutas mínima, máxima, entrada inválida y energía límite.",
+      "Realizar una revisión cruzada y corregir un fallo documentado.",
+      "Entregar código, mapa y pruebas con atribución de recursos."
+    ],
+    "comprobaciones": [
+      "Toda partida termina en un número acotado de turnos.",
+      "Las opciones inválidas se recuperan con un mensaje claro.",
+      "Los finales se alcanzan mediante rutas probadas.",
+      "El estado mostrado coincide con las variables internas.",
+      "El grupo documenta aportaciones y una corrección."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 13,
+        "seccion": "Diseño de bucles"
+      },
+      {
+        "tema": 13,
+        "seccion": "Decisiones anidadas y depuración"
+      }
+    ],
+    "entrega": "Subir practica_08_estacion_orbital.py junto con los productos indicados, usando solo nombres_con_guion_bajo.",
+    "moodle": null,
+    "rubrica": [
+      {
+        "criterio": "Bucle, decisiones y finales del minijuego",
+        "peso": 35,
+        "niveles": {
+          "4": "El juego ejecuta 3 decisiones distintas, permite alcanzar al menos 2 finales diferentes, recupera una opción no reconocida sin descontar energía ni turno y todas las rutas terminan dentro del máximo de turnos definido; el estado mostrado coincide con energía y turno tras cada decisión.",
+          "3": "Ejecuta las 3 decisiones y 2 finales, y termina dentro del máximo definido, pero falla 1 de estas 2 comprobaciones: recuperación sin castigo de entrada inválida o correspondencia del estado mostrado.",
+          "2": "Solo hay 2 decisiones relevantes o un único final alcanzable, o existe una ruta probada que supera el máximo de turnos definido.",
+          "1": "Hay menos de 2 decisiones ejecutables, ningún final alcanzable o una ruta entra en bucle sin terminación acotada."
+        }
+      },
+      {
+        "criterio": "Mapa de estados y control de energía",
+        "peso": 25,
+        "niveles": {
+          "4": "El mapa representa estado inicial, las 3 decisiones, sus cambios de energía, las condiciones de transición y los 2 finales; código y mapa coinciden en 5 de 5 elementos, y una única actualización por turno evita estados contradictorios.",
+          "3": "Código y mapa coinciden en 4 de los 5 elementos; la energía conserva el mismo significado durante toda la partida.",
+          "2": "Coinciden en 2 o 3 de los 5 elementos, o la energía se actualiza en ramas duplicadas que producen al menos un estado mostrado incorrecto.",
+          "1": "Coinciden en 0 o 1 de los 5 elementos, no se entrega mapa o no puede relacionarse una decisión con su cambio de estado."
+        }
+      },
+      {
+        "criterio": "Rutas de prueba y corrección documentada",
+        "peso": 25,
+        "niveles": {
+          "4": "Registra entrada o secuencia, estado esperado y obtenido para 4 de 4 pruebas: ruta mínima, ruta de duración máxima permitida, opción inválida y energía exactamente en el límite; reproduce un fallo en revisión cruzada y aporta la ejecución que confirma su corrección.",
+          "3": "Registra esperado y obtenido para 3 de las 4 pruebas y documenta una revisión cruzada, aunque no aporta evidencia antes y después de la corrección.",
+          "2": "Registra 1 o 2 de las 4 pruebas, o las rutas no incluyen estados esperados; no demuestra la corrección de un fallo reproducido.",
+          "1": "No entrega rutas reproducibles con resultados esperados y obtenidos."
+        }
+      },
+      {
+        "criterio": "Reflexión, interfaz accesible y uso responsable",
+        "peso": 15,
+        "niveles": {
+          "4": "La reflexión de una página identifica las aportaciones de los 3 roles y la corrección realizada; las instrucciones y estados se entienden por lectura lineal, cada opción tiene etiqueta textual, todos los recursos externos están atribuidos y código, capturas y pruebas usan solo datos ficticios.",
+          "3": "Cumple 4 de estas 5 evidencias: aportaciones de 3 roles, corrección explicada, lectura lineal con etiquetas, atribución completa y datos ficticios; necesariamente usa solo datos ficticios.",
+          "2": "Cumple 2 o 3 de las 5 evidencias y usa solo datos ficticios; la reflexión omite roles o corrección, o una parte de la interfaz depende del color o de la disposición visual.",
+          "1": "Cumple 0 o 1 de las 5 evidencias, no entrega reflexión o incluye datos personales innecesarios o recursos externos sin identificar."
+        }
+      }
+    ],
+    "accesibilidad": "Instrucciones numeradas, lenguaje directo, salida legible en orden lineal, etiquetas textuales además de color o formato y posibilidad de ampliar fuente o usar lector de pantalla.",
+    "privacidad": "Trabajar únicamente con datos ficticios o agregados; no introducir nombres, cuentas, ubicaciones ni otros datos personales en código, capturas o Moodle."
+  },
+  {
+    "numero": 9,
+    "titulo": "Analizador de mensajes de auxilio",
+    "tema_numeros": [
+      14
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 1,
+    "agrupamiento": "Individual",
+    "relato": "Un centro de rescate recibe mensajes simulados que deben normalizarse para facilitar su lectura. No se usan mensajes reales ni información de contacto.",
+    "reto": "Procesar una cadena para contar caracteres, palabras clave y símbolos, conservando el texto original.",
+    "producto": "Programa y tabla de análisis de cuatro mensajes ficticios.",
+    "archivo": "practica_09_mensajes.py",
+    "preparacion": [
+      "Copiar los mensajes ficticios proporcionados.",
+      "Revisar indexación, métodos de cadena e inmutabilidad."
+    ],
+    "pasos": [
+      "Guardar por separado original y versión normalizada.",
+      "Contar longitud, espacios y apariciones de una palabra sin distinguir mayúsculas.",
+      "Recorrer caracteres para clasificar letras, dígitos y otros símbolos.",
+      "Evitar accesos por índice cuando la cadena esté vacía.",
+      "Probar vacío, una palabra, repetición y caracteres acentuados.",
+      "Completar en Moodle predicciones, resultados y diagnóstico."
+    ],
+    "comprobaciones": [
+      "El original no se modifica.",
+      "La cadena vacía se procesa sin excepción.",
+      "El recuento de repeticiones sigue la regla indicada.",
+      "Los mensajes de prueba son ficticios y no personales."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 14,
+        "seccion": "Cadenas y métodos"
+      },
+      {
+        "tema": 14,
+        "seccion": "Recorrido y conteo"
+      }
+    ],
+    "entrega": "Subir practica_09_mensajes.py y completar la verificación Moodle; nombres_de_archivo con guion bajo.",
+    "moodle": {
+      "actividad": "Cuestionario de verificación posterior al trabajo local: se exige adjuntar o conservar la hoja de predicciones/trazas y ejecutar el programa antes de responder.",
+      "tipos_pregunta": [
+        "Cloze",
+        "opción múltiple",
+        "respuesta corta",
+        "calculada"
+      ],
+      "numero_items": 8,
+      "intentos": 2,
+      "calificacion": "Mejor intento; cada ítem vale lo mismo. El segundo intento usa nuevos valores o variantes equivalentes.",
+      "retroalimentacion": "Tras cada intento indica el requisito o concepto que revisar, sin mostrar código completo ni una clave reutilizable.",
+      "evidencia": "Predicciones de salida, trazas, resultados numéricos, selección de casos de prueba, fragmentos completados y diagnósticos contrastados con la ejecución local."
+    },
+    "rubrica": [],
+    "accesibilidad": "Instrucciones numeradas, lenguaje directo, salida legible en orden lineal, etiquetas textuales además de color o formato y posibilidad de ampliar fuente o usar lector de pantalla.",
+    "privacidad": "Trabajar únicamente con datos ficticios o agregados; no introducir nombres, cuentas, ubicaciones ni otros datos personales en código, capturas o Moodle."
+  },
+  {
+    "numero": 10,
+    "titulo": "Inventario de la expedición",
+    "tema_numeros": [
+      14
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 1,
+    "agrupamiento": "Parejas con entrega individual",
+    "relato": "Una expedición científica ficticia revisa una lista de suministros antes de partir. Debe detectar repetidos y calcular existencias sin perder el orden de llegada.",
+    "reto": "Procesar listas paralelas de nombres y cantidades, consolidar duplicados y señalar mínimos.",
+    "producto": "Script individual y traza consensuada en pareja.",
+    "archivo": "practica_10_inventario.py",
+    "preparacion": [
+      "Descargar tres juegos de datos, incluido uno vacío.",
+      "Recordar operaciones de listas y recorrido por índices."
+    ],
+    "pasos": [
+      "Validar que nombres y cantidades tengan la misma longitud.",
+      "Recorrer ambas listas y construir un inventario consolidado.",
+      "Mantener el orden de primera aparición.",
+      "Calcular total y localizar artículos bajo el mínimo.",
+      "Probar vacío, duplicados consecutivos, duplicados separados y cantidad límite.",
+      "Resolver en Moodle trazas y salidas para datos nuevos."
+    ],
+    "comprobaciones": [
+      "Longitudes incompatibles se detectan explícitamente.",
+      "Los duplicados se consolidan una sola vez.",
+      "El orden de primera aparición se conserva.",
+      "Vacío y cantidad límite están documentados."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 14,
+        "seccion": "Listas y recorridos"
+      },
+      {
+        "tema": 14,
+        "seccion": "Acumulación y duplicados"
+      }
+    ],
+    "entrega": "Subir practica_10_inventario.py y completar la verificación Moodle; nombres_de_archivo con guion bajo.",
+    "moodle": {
+      "actividad": "Cuestionario de verificación posterior al trabajo local: se exige adjuntar o conservar la hoja de predicciones/trazas y ejecutar el programa antes de responder.",
+      "tipos_pregunta": [
+        "Cloze",
+        "opción múltiple",
+        "respuesta corta",
+        "calculada"
+      ],
+      "numero_items": 8,
+      "intentos": 2,
+      "calificacion": "Mejor intento; cada ítem vale lo mismo. El segundo intento usa nuevos valores o variantes equivalentes.",
+      "retroalimentacion": "Tras cada intento indica el requisito o concepto que revisar, sin mostrar código completo ni una clave reutilizable.",
+      "evidencia": "Predicciones de salida, trazas, resultados numéricos, selección de casos de prueba, fragmentos completados y diagnósticos contrastados con la ejecución local."
+    },
+    "rubrica": [],
+    "accesibilidad": "Instrucciones numeradas, lenguaje directo, salida legible en orden lineal, etiquetas textuales además de color o formato y posibilidad de ampliar fuente o usar lector de pantalla.",
+    "privacidad": "Trabajar únicamente con datos ficticios o agregados; no introducir nombres, cuentas, ubicaciones ni otros datos personales en código, capturas o Moodle."
+  },
+  {
+    "numero": 11,
+    "titulo": "Catálogo de criaturas",
+    "tema_numeros": [
+      14
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 1,
+    "agrupamiento": "Individual",
+    "relato": "Un archivo de criaturas imaginarias debe consultarse por hábitat y nivel de riesgo. El catálogo usa tuplas para registros y conjuntos para categorías únicas.",
+    "reto": "Construir y consultar una colección heterogénea sin alterar los datos base.",
+    "producto": "Programa de consultas y registro de casos de prueba.",
+    "archivo": "practica_11_criaturas.py",
+    "preparacion": [
+      "Abrir el conjunto de registros ficticios.",
+      "Revisar diferencias entre lista, tupla y conjunto."
+    ],
+    "pasos": [
+      "Representar cada registro con una tupla de estructura común.",
+      "Recorrer el catálogo y filtrar por dos criterios.",
+      "Crear un conjunto de hábitats sin asumir orden.",
+      "Mostrar un mensaje claro cuando no haya coincidencias.",
+      "Probar catálogo vacío, nombres repetidos y valores de riesgo extremos.",
+      "Responder en Moodle sobre elección de colección y resultados."
+    ],
+    "comprobaciones": [
+      "Cada estructura se usa con una finalidad justificada.",
+      "No se atribuye orden a los conjuntos.",
+      "La ausencia de coincidencias está contemplada.",
+      "Se prueban vacío, repetidos y extremos."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 14,
+        "seccion": "Tuplas y conjuntos"
+      },
+      {
+        "tema": 14,
+        "seccion": "Selección de estructuras"
+      }
+    ],
+    "entrega": "Subir practica_11_criaturas.py y completar la verificación Moodle; nombres_de_archivo con guion bajo.",
+    "moodle": {
+      "actividad": "Cuestionario de verificación posterior al trabajo local: se exige adjuntar o conservar la hoja de predicciones/trazas y ejecutar el programa antes de responder.",
+      "tipos_pregunta": [
+        "Cloze",
+        "opción múltiple",
+        "respuesta corta",
+        "calculada"
+      ],
+      "numero_items": 8,
+      "intentos": 2,
+      "calificacion": "Mejor intento; cada ítem vale lo mismo. El segundo intento usa nuevos valores o variantes equivalentes.",
+      "retroalimentacion": "Tras cada intento indica el requisito o concepto que revisar, sin mostrar código completo ni una clave reutilizable.",
+      "evidencia": "Predicciones de salida, trazas, resultados numéricos, selección de casos de prueba, fragmentos completados y diagnósticos contrastados con la ejecución local."
+    },
+    "rubrica": [],
+    "accesibilidad": "Instrucciones numeradas, lenguaje directo, salida legible en orden lineal, etiquetas textuales además de color o formato y posibilidad de ampliar fuente o usar lector de pantalla.",
+    "privacidad": "Trabajar únicamente con datos ficticios o agregados; no introducir nombres, cuentas, ubicaciones ni otros datos personales en código, capturas o Moodle."
+  },
+  {
+    "numero": 12,
+    "titulo": "Biblioteca de rutas accesibles",
+    "tema_numeros": [
+      14,
+      15
+    ],
+    "modalidad": "rubrica_docente",
+    "sesiones": 2,
+    "agrupamiento": "Parejas",
+    "relato": "Una biblioteca municipal ficticia quiere recomendar rutas interiores según distancia y necesidades de accesibilidad. Los datos son inventados y las recomendaciones deben explicar sus criterios.",
+    "reto": "Crear una aplicación modular que almacene rutas, permita altas y búsquedas, evite duplicados y produzca recomendaciones verificables.",
+    "producto": "Aplicación, diseño de datos, pruebas y guía de uso accesible.",
+    "archivo": "practica_12_rutas_accesibles.py",
+    "preparacion": [
+      "Formar parejas y descargar requisitos y datos de ejemplo ficticios.",
+      "Acordar convenciones de nombres y reparto rotatorio de tareas."
+    ],
+    "pasos": [
+      "Diseñar la estructura de cada ruta y justificar la colección elegida.",
+      "Implementar altas con validación de campos y detección de duplicados.",
+      "Separar búsqueda y recomendación en funciones pequeñas.",
+      "Hacer que las funciones de consulta devuelvan None cuando no haya datos válidos o resultados, según contrato.",
+      "Diseñar pruebas para colección vacía, duplicados, distancia límite y dato inválido.",
+      "Evaluar la guía con lector de pantalla o lectura lineal y revisar etiquetas.",
+      "Entregar una versión ejecutada por ambos integrantes."
+    ],
+    "comprobaciones": [
+      "La colección evita o gestiona duplicados de forma explícita.",
+      "Las funciones respetan el contrato de retorno, incluido None.",
+      "Las pruebas cubren vacío, duplicado, límite e inválido.",
+      "Las recomendaciones explican distancia y características.",
+      "La guía se entiende sin depender del color."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 14,
+        "seccion": "Colecciones compuestas"
+      },
+      {
+        "tema": 15,
+        "seccion": "Funciones y contratos"
+      }
+    ],
+    "entrega": "Subir practica_12_rutas_accesibles.py junto con los productos indicados, usando solo nombres_con_guion_bajo.",
+    "moodle": null,
+    "rubrica": [
+      {
+        "criterio": "Altas, búsquedas y recomendaciones de rutas",
+        "peso": 35,
+        "niveles": {
+          "4": "Supera 6 de 6 comprobaciones: alta válida, rechazo de campo inválido, detección de ruta duplicada, búsqueda por criterios, recomendación que muestra distancia y características de accesibilidad, y retorno None cuando no hay datos válidos o resultados según contrato.",
+          "3": "Supera 5 de las 6 comprobaciones; necesariamente detecta duplicados y devuelve None en los dos supuestos definidos por el contrato.",
+          "2": "Supera 3 o 4 de las 6 comprobaciones, o confunde None con una colección vacía, cero o una ruta inventada.",
+          "1": "Supera 0, 1 o 2 de las 6 comprobaciones, o la aplicación no permite completar un alta y una consulta."
+        }
+      },
+      {
+        "criterio": "Estructura de datos y contratos modulares",
+        "peso": 30,
+        "niveles": {
+          "4": "Cumple 5 de 5 decisiones: estructura uniforme para distancia y características, colección justificada, funciones separadas para alta, búsqueda y recomendación, parámetros y retornos documentados, y ausencia de lectura o impresión dentro de las funciones de consulta.",
+          "3": "Cumple 4 de las 5 decisiones y mantiene separadas las 3 funciones de alta, búsqueda y recomendación.",
+          "2": "Cumple 2 o 3 de las 5 decisiones; al menos dos operaciones comparten una función extensa o mezclan interfaz con consulta.",
+          "1": "Cumple 0 o 1 de las 5 decisiones; los datos carecen de estructura estable o no existen funciones distinguibles para consultar."
+        }
+      },
+      {
+        "criterio": "Matriz de pruebas de rutas",
+        "peso": 20,
+        "niveles": {
+          "4": "Presenta entrada, retorno esperado y retorno obtenido para 5 de 5 casos: colección vacía con None, alta duplicada, distancia exactamente igual al límite, campo inválido con None y búsqueda válida con explicación de distancia y características.",
+          "3": "Presenta esperado y obtenido para 4 de los 5 casos, incluidos colección vacía y duplicado.",
+          "2": "Presenta 2 o 3 de los 5 casos, o no distingue en los esperados entre None, lista vacía y resultado válido.",
+          "1": "Presenta 0 o 1 de los 5 casos con entrada, esperado y obtenido."
+        }
+      },
+      {
+        "criterio": "Guía accesible, ejecución compartida y privacidad",
+        "peso": 15,
+        "niveles": {
+          "4": "Cumple 5 de 5 evidencias: guía con pasos de alta y búsqueda, ejemplo de recomendación explicada, etiquetas comprensibles sin color, comprobación registrada mediante lector de pantalla o lectura lineal, y ejecución firmada por ambos integrantes con datos exclusivamente ficticios.",
+          "3": "Cumple 4 de las 5 evidencias y tanto guía como pruebas usan exclusivamente datos ficticios.",
+          "2": "Cumple 2 o 3 de las 5 evidencias y usa datos ficticios; falta la comprobación accesible o no consta la ejecución de uno de los integrantes.",
+          "1": "Cumple 0 o 1 de las 5 evidencias, no entrega guía o incluye nombres, contactos, ubicaciones u otros datos personales."
+        }
+      }
+    ],
+    "accesibilidad": "Instrucciones numeradas, lenguaje directo, salida legible en orden lineal, etiquetas textuales además de color o formato y posibilidad de ampliar fuente o usar lector de pantalla.",
+    "privacidad": "Trabajar únicamente con datos ficticios o agregados; no introducir nombres, cuentas, ubicaciones ni otros datos personales en código, capturas o Moodle."
+  },
+  {
+    "numero": 13,
+    "titulo": "Funciones para datos meteorológicos",
+    "tema_numeros": [
+      15
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 1,
+    "agrupamiento": "Individual",
+    "relato": "Una red escolar simulada recibe listas de temperaturas y necesita cálculos reutilizables. Los sensores y ubicaciones son ficticios.",
+    "reto": "Definir funciones puras para media, extremos y rango válido, con contratos explícitos.",
+    "producto": "Módulo Python y matriz de pruebas.",
+    "archivo": "practica_13_funciones_meteo.py",
+    "preparacion": [
+      "Descargar la especificación de firmas sin implementaciones.",
+      "Crear secciones separadas para funciones y pruebas locales."
+    ],
+    "pasos": [
+      "Escribir docstrings con parámetros, retorno y casos inválidos.",
+      "Implementar funciones sin leer input ni imprimir dentro de los cálculos.",
+      "Devolver None para lista vacía o datos inválidos cuando lo indique el contrato.",
+      "Preparar pruebas para vacío, un elemento, duplicados y valores límite.",
+      "Ejecutar pruebas y registrar esperado frente a obtenido.",
+      "Completar en Moodle casos de prueba, predicciones y diagnóstico."
+    ],
+    "comprobaciones": [
+      "Las firmas coinciden con la especificación.",
+      "Las funciones devuelven valores y no mezclan interfaz con cálculo.",
+      "None distingue inválido o sin datos de un resultado numérico válido.",
+      "Se cubren vacío, duplicados y límites."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 15,
+        "seccion": "Funciones, parámetros y retorno"
+      },
+      {
+        "tema": 15,
+        "seccion": "Contratos y casos límite"
+      }
+    ],
+    "entrega": "Subir practica_13_funciones_meteo.py y completar la verificación Moodle; nombres_de_archivo con guion bajo.",
+    "moodle": {
+      "actividad": "Cuestionario de verificación posterior al trabajo local: se exige adjuntar o conservar la hoja de predicciones/trazas y ejecutar el programa antes de responder.",
+      "tipos_pregunta": [
+        "Cloze",
+        "opción múltiple",
+        "respuesta corta",
+        "calculada"
+      ],
+      "numero_items": 8,
+      "intentos": 2,
+      "calificacion": "Mejor intento; cada ítem vale lo mismo. El segundo intento usa nuevos valores o variantes equivalentes.",
+      "retroalimentacion": "Tras cada intento indica el requisito o concepto que revisar, sin mostrar código completo ni una clave reutilizable.",
+      "evidencia": "Predicciones de salida, trazas, resultados numéricos, selección de casos de prueba, fragmentos completados y diagnósticos contrastados con la ejecución local."
+    },
+    "rubrica": [],
+    "accesibilidad": "Instrucciones numeradas, lenguaje directo, salida legible en orden lineal, etiquetas textuales además de color o formato y posibilidad de ampliar fuente o usar lector de pantalla.",
+    "privacidad": "Trabajar únicamente con datos ficticios o agregados; no introducir nombres, cuentas, ubicaciones ni otros datos personales en código, capturas o Moodle."
+  },
+  {
+    "numero": 14,
+    "titulo": "Laboratorio de pruebas del ascensor",
+    "tema_numeros": [
+      15
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 1,
+    "agrupamiento": "Parejas con entrega individual",
+    "relato": "Un ascensor de pruebas ficticio calcula desplazamientos entre plantas permitidas. El equipo recibe funciones incompletas y debe diseñar casos capaces de revelar defectos.",
+    "reto": "Crear una batería de pruebas antes de corregir las funciones de validación y cálculo.",
+    "producto": "Archivo de pruebas y versión corregida individual.",
+    "archivo": "practica_14_pruebas_ascensor.py",
+    "preparacion": [
+      "Descargar el módulo defectuoso y la especificación funcional.",
+      "Duplicar el archivo para conservar una copia sin cambios."
+    ],
+    "pasos": [
+      "Traducir cada requisito en al menos un caso de prueba.",
+      "Añadir vacíos o None, plantas repetidas y límites inferior y superior.",
+      "Predecir resultados antes de ejecutar.",
+      "Ejecutar y clasificar fallos por requisito.",
+      "Corregir una causa cada vez y repetir toda la batería.",
+      "Responder en Moodle qué prueba detecta cada mutación y por qué."
+    ],
+    "comprobaciones": [
+      "Cada requisito tiene prueba asociada.",
+      "Se incluyen repetidos, límites y entrada inválida.",
+      "Las funciones devuelven None ante planta inválida según contrato.",
+      "La batería pasa completa tras la corrección."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 15,
+        "seccion": "Diseño de pruebas"
+      },
+      {
+        "tema": 15,
+        "seccion": "Depuración sistemática"
+      }
+    ],
+    "entrega": "Subir practica_14_pruebas_ascensor.py y completar la verificación Moodle; nombres_de_archivo con guion bajo.",
+    "moodle": {
+      "actividad": "Cuestionario de verificación posterior al trabajo local: se exige adjuntar o conservar la hoja de predicciones/trazas y ejecutar el programa antes de responder.",
+      "tipos_pregunta": [
+        "Cloze",
+        "opción múltiple",
+        "respuesta corta",
+        "calculada"
+      ],
+      "numero_items": 8,
+      "intentos": 2,
+      "calificacion": "Mejor intento; cada ítem vale lo mismo. El segundo intento usa nuevos valores o variantes equivalentes.",
+      "retroalimentacion": "Tras cada intento indica el requisito o concepto que revisar, sin mostrar código completo ni una clave reutilizable.",
+      "evidencia": "Predicciones de salida, trazas, resultados numéricos, selección de casos de prueba, fragmentos completados y diagnósticos contrastados con la ejecución local."
+    },
+    "rubrica": [],
+    "accesibilidad": "Instrucciones numeradas, lenguaje directo, salida legible en orden lineal, etiquetas textuales además de color o formato y posibilidad de ampliar fuente o usar lector de pantalla.",
+    "privacidad": "Trabajar únicamente con datos ficticios o agregados; no introducir nombres, cuentas, ubicaciones ni otros datos personales en código, capturas o Moodle."
+  },
+  {
+    "numero": 15,
+    "titulo": "Depurador de estadísticas deportivas",
+    "tema_numeros": [
+      15
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 1,
+    "agrupamiento": "Individual",
+    "relato": "Una liga robótica ficticia publica estadísticas inconsistentes por varios fallos de programación. El objetivo es localizar causas, no adivinar cambios.",
+    "reto": "Depurar un módulo con errores de tipo, límites y retorno usando trazas y pruebas de regresión.",
+    "producto": "Módulo corregido y diario breve de depuración.",
+    "archivo": "practica_15_depuracion.py",
+    "preparacion": [
+      "Descargar código defectuoso y pruebas iniciales.",
+      "Abrir una copia de trabajo sin sobrescribir el original."
+    ],
+    "pasos": [
+      "Reproducir cada fallo y anotar entrada, esperado y obtenido.",
+      "Reducir cada caso hasta aislar una causa probable.",
+      "Inspeccionar variables con prints temporales o depurador.",
+      "Corregir el fallo mínimo y crear una prueba de regresión.",
+      "Verificar vacío, duplicados, empate y puntuación límite.",
+      "Eliminar instrumentación temporal y completar el diagnóstico Moodle."
+    ],
+    "comprobaciones": [
+      "El diario relaciona síntoma, causa, corrección y prueba.",
+      "No se corrigen fallos sin reproducirlos.",
+      "None se usa para estadísticas sin datos, no 0.",
+      "Las pruebas de regresión cubren los defectos encontrados."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 15,
+        "seccion": "Técnicas de depuración"
+      },
+      {
+        "tema": 15,
+        "seccion": "Pruebas de regresión"
+      }
+    ],
+    "entrega": "Subir practica_15_depuracion.py y completar la verificación Moodle; nombres_de_archivo con guion bajo.",
+    "moodle": {
+      "actividad": "Cuestionario de verificación posterior al trabajo local: se exige adjuntar o conservar la hoja de predicciones/trazas y ejecutar el programa antes de responder.",
+      "tipos_pregunta": [
+        "Cloze",
+        "opción múltiple",
+        "respuesta corta",
+        "calculada"
+      ],
+      "numero_items": 8,
+      "intentos": 2,
+      "calificacion": "Mejor intento; cada ítem vale lo mismo. El segundo intento usa nuevos valores o variantes equivalentes.",
+      "retroalimentacion": "Tras cada intento indica el requisito o concepto que revisar, sin mostrar código completo ni una clave reutilizable.",
+      "evidencia": "Predicciones de salida, trazas, resultados numéricos, selección de casos de prueba, fragmentos completados y diagnósticos contrastados con la ejecución local."
+    },
+    "rubrica": [],
+    "accesibilidad": "Instrucciones numeradas, lenguaje directo, salida legible en orden lineal, etiquetas textuales además de color o formato y posibilidad de ampliar fuente o usar lector de pantalla.",
+    "privacidad": "Trabajar únicamente con datos ficticios o agregados; no introducir nombres, cuentas, ubicaciones ni otros datos personales en código, capturas o Moodle."
+  },
+  {
+    "numero": 16,
+    "titulo": "API local de préstamos",
+    "tema_numeros": [
+      14,
+      15
+    ],
+    "modalidad": "rubrica_docente",
+    "sesiones": 2,
+    "agrupamiento": "Grupos de 3",
+    "relato": "Un aula maker ficticia registra préstamos de componentes mediante un programa local, sin red ni datos reales. El equipo debe diseñar funciones fiables y una interfaz de consola inclusiva.",
+    "reto": "Construir un gestor modular de altas, préstamos, devoluciones y consultas con contratos y pruebas automatizables mediante assert.",
+    "producto": "Paquete Python sencillo, catálogo ficticio, suite de pruebas y manual de uso.",
+    "archivo": "practica_16_prestamos.py",
+    "preparacion": [
+      "Formar grupos y asignar responsables rotatorios de datos, funciones y pruebas.",
+      "Descargar especificación, plantilla y catálogo ficticio."
+    ],
+    "pasos": [
+      "Definir modelo de datos y contratos de funciones antes del código.",
+      "Implementar altas y préstamos con prevención de identificadores duplicados.",
+      "Hacer que búsquedas inválidas o sin datos devuelvan None según la especificación.",
+      "Separar lógica, interfaz y datos de demostración.",
+      "Crear pruebas para vacío, duplicados, stock cero y límite de préstamo.",
+      "Revisar el código de otro grupo con una lista de comprobación.",
+      "Corregir, ejecutar la suite completa y documentar aportaciones."
+    ],
+    "comprobaciones": [
+      "Las capas de lógica e interfaz están separadas.",
+      "Los contratos y retornos None son consistentes.",
+      "La suite cubre vacío, duplicados, stock cero y límites.",
+      "Las operaciones conservan un estado coherente.",
+      "El manual y mensajes son accesibles y no usan datos reales."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 14,
+        "seccion": "Colecciones para registros"
+      },
+      {
+        "tema": 15,
+        "seccion": "Diseño modular, pruebas y depuración"
+      }
+    ],
+    "entrega": "Subir practica_16_prestamos.py junto con los productos indicados, usando solo nombres_con_guion_bajo.",
+    "moodle": null,
+    "rubrica": [
+      {
+        "criterio": "Operaciones y coherencia de los préstamos",
+        "peso": 35,
+        "niveles": {
+          "4": "Supera 7 de 7 comprobaciones: alta, préstamo, devolución y consulta válidos; rechazo de identificador duplicado; bloqueo con stock cero o límite alcanzado; retorno None en búsqueda inválida o sin datos; y conservación coherente de stock y préstamos tras cada operación.",
+          "3": "Supera 6 de las 7 comprobaciones; necesariamente conserva el estado y aplica None según contrato.",
+          "2": "Supera 3, 4 o 5 de las 7 comprobaciones, o una operación deja stock negativo, préstamo sin componente o devolución sin préstamo previo.",
+          "1": "Supera 0, 1 o 2 de las 7 comprobaciones, o no puede completarse la secuencia alta-préstamo-devolución."
+        }
+      },
+      {
+        "criterio": "Arquitectura local y contratos de funciones",
+        "peso": 25,
+        "niveles": {
+          "4": "Cumple 5 de 5 decisiones: catálogo con registros uniformes, lógica separada de la consola, datos de demostración fuera de la lógica, una función identificable por cada una de las 4 operaciones y contratos que especifican parámetros, retorno y uso de None.",
+          "3": "Cumple 4 de las 5 decisiones y mantiene la lógica separada de la consola.",
+          "2": "Cumple 2 o 3 de las 5 decisiones; al menos una función de lógica lee input o imprime, o los contratos no indican cuándo retornar None.",
+          "1": "Cumple 0 o 1 de las 5 decisiones; las operaciones no pueden probarse sin ejecutar la interfaz completa."
+        }
+      },
+      {
+        "criterio": "Suite de assert y regresión",
+        "peso": 30,
+        "niveles": {
+          "4": "La suite ejecuta y supera al menos 5 asserts independientes: catálogo vacío con None, identificador duplicado, stock cero, límite exacto de préstamo y ciclo válido de préstamo-devolución; tras la revisión de otro grupo se repite la suite completa y queda registrado el resultado.",
+          "3": "Ejecuta y supera 4 de los 5 asserts obligatorios y registra una ejecución completa posterior a la revisión.",
+          "2": "Ejecuta 2 o 3 de los 5 asserts, alguno no expresa el resultado esperado o no se repite la suite tras corregir.",
+          "1": "Ejecuta 0 o 1 de los 5 asserts, o no aporta una suite automatizable."
+        }
+      },
+      {
+        "criterio": "Manual inclusivo, revisión y datos ficticios",
+        "peso": 10,
+        "niveles": {
+          "4": "Cumple 5 de 5 evidencias: manual para las 4 operaciones, mensajes de error con causa y acción, lectura lineal sin depender del color, lista de revisión del otro grupo con al menos una comprobación reproducible y aportaciones de los 3 integrantes; catálogo, capturas y ejemplos no contienen datos personales.",
+          "3": "Cumple 4 de las 5 evidencias y no contiene datos personales.",
+          "2": "Cumple 2 o 3 de las 5 evidencias y no contiene datos personales; el manual omite al menos una operación o la revisión no es reproducible.",
+          "1": "Cumple 0 o 1 de las 5 evidencias, no entrega manual o incluye datos personales innecesarios."
+        }
+      }
+    ],
+    "accesibilidad": "Instrucciones numeradas, lenguaje directo, salida legible en orden lineal, etiquetas textuales además de color o formato y posibilidad de ampliar fuente o usar lector de pantalla.",
+    "privacidad": "Trabajar únicamente con datos ficticios o agregados; no introducir nombres, cuentas, ubicaciones ni otros datos personales en código, capturas o Moodle."
+  },
+  {
+    "numero": 17,
+    "titulo": "Planificador de reparto solidario",
+    "tema_numeros": [
+      16,
+      12,
+      13
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Parejas con entrega individual",
+    "relato": "Una red solidaria simulada reparte lotes entre centros ficticios con recursos limitados. El programa debe explicar decisiones y evitar cantidades negativas.",
+    "reto": "Integrar entrada, cálculos, decisiones y bucles para producir un plan verificable bajo distintas restricciones.",
+    "producto": "Prototipo individual y banco común de escenarios ficticios.",
+    "archivo": "practica_17_reparto.py",
+    "preparacion": [
+      "Descargar requisitos y escenarios sin datos reales.",
+      "En pareja, convertir cada requisito en una comprobación observable."
+    ],
+    "pasos": [
+      "Modelar cantidades y límites con nombres y tipos adecuados.",
+      "Escribir funciones de validación y cálculo separadas de la entrada.",
+      "Implementar el reparto iterativo con condición de terminación.",
+      "Devolver None si un escenario es inválido y explicarlo en la interfaz.",
+      "Probar lista vacía, demandas duplicadas, recursos exactos y máximos.",
+      "Comparar resultados con otra implementación y resolver discrepancias.",
+      "Completar en Moodle trazas, casos y diagnóstico."
+    ],
+    "comprobaciones": [
+      "No se generan cantidades negativas.",
+      "El algoritmo termina y conserva el total disponible.",
+      "None identifica escenarios inválidos sin confundirse con cero recursos.",
+      "Se cubren vacío, duplicados y límites."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 16,
+        "seccion": "Integración de programas"
+      },
+      {
+        "tema": 15,
+        "seccion": "Funciones verificables"
+      }
+    ],
+    "entrega": "Subir practica_17_reparto.py y completar la verificación Moodle; nombres_de_archivo con guion bajo.",
+    "moodle": {
+      "actividad": "Cuestionario de verificación posterior al trabajo local: se exige adjuntar o conservar la hoja de predicciones/trazas y ejecutar el programa antes de responder.",
+      "tipos_pregunta": [
+        "Cloze",
+        "opción múltiple",
+        "respuesta corta",
+        "calculada"
+      ],
+      "numero_items": 10,
+      "intentos": 2,
+      "calificacion": "Mejor intento; cada ítem vale lo mismo. El segundo intento usa nuevos valores o variantes equivalentes.",
+      "retroalimentacion": "Tras cada intento indica el requisito o concepto que revisar, sin mostrar código completo ni una clave reutilizable.",
+      "evidencia": "Predicciones de salida, trazas, resultados numéricos, selección de casos de prueba, fragmentos completados y diagnósticos contrastados con la ejecución local."
+    },
+    "rubrica": [],
+    "accesibilidad": "Instrucciones numeradas, lenguaje directo, salida legible en orden lineal, etiquetas textuales además de color o formato y posibilidad de ampliar fuente o usar lector de pantalla.",
+    "privacidad": "Trabajar únicamente con datos ficticios o agregados; no introducir nombres, cuentas, ubicaciones ni otros datos personales en código, capturas o Moodle."
+  },
+  {
+    "numero": 18,
+    "titulo": "Panel textual de movilidad",
+    "tema_numeros": [
+      16,
+      14,
+      15
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Individual",
+    "relato": "Un ayuntamiento imaginario publica recuentos agregados de movilidad y necesita un panel textual accesible. No se manejan matrículas, trayectos ni identificadores reales.",
+    "reto": "Leer datos definidos en el propio archivo, resumirlos mediante funciones y generar tablas y barras de texto verificables.",
+    "producto": "Programa modular y captura o texto de cuatro salidas de prueba.",
+    "archivo": "practica_18_movilidad.py",
+    "preparacion": [
+      "Descargar conjuntos de datos agregados ficticios.",
+      "Revisar pautas de tablas de texto accesibles."
+    ],
+    "pasos": [
+      "Representar registros con colecciones apropiadas.",
+      "Crear funciones para validar, resumir y seleccionar máximos.",
+      "Devolver None para conjunto vacío o registro inválido.",
+      "Generar tabla con encabezados y alternativa textual a las barras.",
+      "Probar vacío, duplicados de categoría, empate y valor máximo.",
+      "Revisar con lectura lineal y resolver los ítems Moodle."
+    ],
+    "comprobaciones": [
+      "El resumen conserva los totales de entrada.",
+      "Empates y duplicados siguen una regla documentada.",
+      "Vacío e inválido retornan None en la lógica.",
+      "La información no depende solo de longitud visual o color."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 16,
+        "seccion": "Integración y comunicación de resultados"
+      },
+      {
+        "tema": 15,
+        "seccion": "Funciones y pruebas"
+      }
+    ],
+    "entrega": "Subir practica_18_movilidad.py y completar la verificación Moodle; nombres_de_archivo con guion bajo.",
+    "moodle": {
+      "actividad": "Cuestionario de verificación posterior al trabajo local: se exige adjuntar o conservar la hoja de predicciones/trazas y ejecutar el programa antes de responder.",
+      "tipos_pregunta": [
+        "Cloze",
+        "opción múltiple",
+        "respuesta corta",
+        "calculada"
+      ],
+      "numero_items": 10,
+      "intentos": 2,
+      "calificacion": "Mejor intento; cada ítem vale lo mismo. El segundo intento usa nuevos valores o variantes equivalentes.",
+      "retroalimentacion": "Tras cada intento indica el requisito o concepto que revisar, sin mostrar código completo ni una clave reutilizable.",
+      "evidencia": "Predicciones de salida, trazas, resultados numéricos, selección de casos de prueba, fragmentos completados y diagnósticos contrastados con la ejecución local."
+    },
+    "rubrica": [],
+    "accesibilidad": "Instrucciones numeradas, lenguaje directo, salida legible en orden lineal, etiquetas textuales además de color o formato y posibilidad de ampliar fuente o usar lector de pantalla.",
+    "privacidad": "Trabajar únicamente con datos ficticios o agregados; no introducir nombres, cuentas, ubicaciones ni otros datos personales en código, capturas o Moodle."
+  },
+  {
+    "numero": 19,
+    "titulo": "Auditoría del festival digital",
+    "tema_numeros": [
+      16,
+      13,
+      14,
+      15
+    ],
+    "modalidad": "autocorregible_moodle",
+    "sesiones": 2,
+    "agrupamiento": "Parejas",
+    "relato": "Un festival escolar ficticio recibe un programa de inscripción deliberadamente defectuoso. El equipo auditor debe revelar errores con pruebas y proponer cambios verificables.",
+    "reto": "Analizar, probar y depurar un programa integrado sin reescribirlo por completo.",
+    "producto": "Versión corregida individual, informe de incidencias compartido y pruebas.",
+    "archivo": "practica_19_auditoria.py",
+    "preparacion": [
+      "Descargar versión defectuosa, requisitos y plantilla de incidencias.",
+      "Crear una copia individual y acordar un protocolo de reproducción."
+    ],
+    "pasos": [
+      "Leer requisitos y localizar módulos relacionados sin editar todavía.",
+      "Diseñar casos para vacío, duplicado, cupo exacto, cupo excedido e inválido.",
+      "Reproducir y documentar cada incidencia con pasos mínimos.",
+      "Corregir primero contratos y retornos, usando None para ausencia o invalidez indicada.",
+      "Corregir decisiones, bucles y manipulación de colecciones.",
+      "Ejecutar todas las pruebas tras cada cambio.",
+      "Completar en Moodle diagnósticos y pruebas de regresión."
+    ],
+    "comprobaciones": [
+      "Cada corrección responde a una incidencia reproducida.",
+      "La suite incluye vacío, duplicados y fronteras de cupo.",
+      "Los retornos cumplen el contrato y no usan 0 como error.",
+      "No se introducen regresiones en funciones ya válidas."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 16,
+        "seccion": "Revisión de un producto integrado"
+      },
+      {
+        "tema": 15,
+        "seccion": "Depuración y regresión"
+      }
+    ],
+    "entrega": "Subir practica_19_auditoria.py y completar la verificación Moodle; nombres_de_archivo con guion bajo.",
+    "moodle": {
+      "actividad": "Cuestionario de verificación posterior al trabajo local: se exige adjuntar o conservar la hoja de predicciones/trazas y ejecutar el programa antes de responder.",
+      "tipos_pregunta": [
+        "Cloze",
+        "opción múltiple",
+        "respuesta corta",
+        "calculada"
+      ],
+      "numero_items": 10,
+      "intentos": 2,
+      "calificacion": "Mejor intento; cada ítem vale lo mismo. El segundo intento usa nuevos valores o variantes equivalentes.",
+      "retroalimentacion": "Tras cada intento indica el requisito o concepto que revisar, sin mostrar código completo ni una clave reutilizable.",
+      "evidencia": "Predicciones de salida, trazas, resultados numéricos, selección de casos de prueba, fragmentos completados y diagnósticos contrastados con la ejecución local."
+    },
+    "rubrica": [],
+    "accesibilidad": "Instrucciones numeradas, lenguaje directo, salida legible en orden lineal, etiquetas textuales además de color o formato y posibilidad de ampliar fuente o usar lector de pantalla.",
+    "privacidad": "Trabajar únicamente con datos ficticios o agregados; no introducir nombres, cuentas, ubicaciones ni otros datos personales en código, capturas o Moodle."
+  },
+  {
+    "numero": 20,
+    "titulo": "Centro de decisiones del barrio",
+    "tema_numeros": [
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "modalidad": "rubrica_docente",
+    "sesiones": 3,
+    "agrupamiento": "Grupos de 3",
+    "relato": "Un barrio ficticio quiere una herramienta local para comparar propuestas de mejora a partir de datos agregados inventados. El producto final debe ser transparente, accesible y no tomar decisiones automáticas sobre personas.",
+    "reto": "Diseñar y construir una aplicación de consola que valide propuestas, calcule indicadores, filtre y ordene opciones, y explique una recomendación reproducible.",
+    "producto": "Aplicación final, especificación, datos ficticios, suite de pruebas, manual accesible y memoria de decisiones.",
+    "archivo": "practica_20_centro_decisiones.py",
+    "preparacion": [
+      "Formar grupos y acordar roles rotatorios, calendario de tres sesiones y normas de integración.",
+      "Elegir uno de los contextos ficticios ofrecidos y descargar la plantilla de requisitos.",
+      "Crear criterios de aceptación y un reparto de archivos con copias locales."
+    ],
+    "pasos": [
+      "Definir usuarios, alcance, estructuras de datos y contratos de funciones.",
+      "Construir un prototipo vertical que recorra entrada, cálculo y salida.",
+      "Implementar validación, decisiones, bucles y procesamiento de colecciones por funciones.",
+      "Usar None para consulta sin datos o entrada inválida según contrato, y tratarlo en la interfaz.",
+      "Crear pruebas para vacío, duplicados, empate, valores mínimos y máximos e inválidos.",
+      "Realizar pruebas cruzadas, auditoría de accesibilidad y revisión de privacidad.",
+      "Corregir incidencias, ejecutar la suite completa y preparar una demostración de tres minutos.",
+      "Entregar todos los archivos con nombres mediante guion bajo y atribuciones."
+    ],
+    "comprobaciones": [
+      "La aplicación satisface criterios de aceptación de los cinco temas.",
+      "Las recomendaciones muestran datos y reglas que las justifican.",
+      "La suite cubre vacío, duplicados, empates, límites e inválidos.",
+      "Los contratos, incluido None, se aplican de forma consistente.",
+      "El producto es utilizable por lectura lineal y no contiene datos personales.",
+      "La memoria distingue aportaciones y recursos reutilizados."
+    ],
+    "apoyo_teorico": [
+      {
+        "tema": 16,
+        "seccion": "Proyecto integrador"
+      },
+      {
+        "tema": 12,
+        "seccion": "Integración, pruebas y comunicación"
+      },
+      {
+        "tema": 13,
+        "seccion": "Integración, pruebas y comunicación"
+      },
+      {
+        "tema": 14,
+        "seccion": "Integración, pruebas y comunicación"
+      },
+      {
+        "tema": 15,
+        "seccion": "Integración, pruebas y comunicación"
+      }
+    ],
+    "entrega": "Subir practica_20_centro_decisiones.py junto con los productos indicados, usando solo nombres_con_guion_bajo.",
+    "moodle": null,
+    "rubrica": [
+      {
+        "criterio": "Flujo completo y recomendación transparente",
+        "peso": 35,
+        "niveles": {
+          "4": "Supera 7 de 7 comprobaciones: valida propuestas, calcula los indicadores especificados, filtra, ordena con la regla acordada, muestra una recomendación con datos y regla que la justifican, devuelve None ante consulta sin datos o entrada inválida y trata ese None sin bloquear la interfaz.",
+          "3": "Supera 6 de las 7 comprobaciones; necesariamente justifica la recomendación y aplica y trata None según contrato.",
+          "2": "Supera 3, 4 o 5 de las 7 comprobaciones, o presenta una recomendación sin mostrar los datos o la regla aplicada.",
+          "1": "Supera 0, 1 o 2 de las 7 comprobaciones, o el prototipo no completa el recorrido entrada-cálculo-salida."
+        }
+      },
+      {
+        "criterio": "Especificación, datos y diseño integrador",
+        "peso": 25,
+        "niveles": {
+          "4": "Cumple 6 de 6 decisiones: alcance y usuario definidos, registros agregados con estructura uniforme, contratos de validación/cálculo/consulta, funciones separadas para validar, calcular, filtrar y ordenar, interfaz separada de la lógica y regla explícita para duplicados y empates.",
+          "3": "Cumple 5 de las 6 decisiones y mantiene interfaz, lógica y contratos distinguibles.",
+          "2": "Cumple 3 o 4 de las 6 decisiones; una misma sección mezcla entrada, cálculo y ordenación, o no existe regla explícita para duplicados o empates.",
+          "1": "Cumple 0, 1 o 2 de las 6 decisiones; no hay especificación verificable o las estructuras impiden relacionar propuestas con indicadores."
+        }
+      },
+      {
+        "criterio": "Suite de aceptación, límites y pruebas cruzadas",
+        "peso": 25,
+        "niveles": {
+          "4": "Registra entrada, esperado y obtenido para 7 de 7 casos: flujo normal, colección vacía con None, propuesta duplicada, empate, valor mínimo, valor máximo e inválido con None; la suite completa pasa tras la prueba cruzada y se documenta al menos una incidencia y su resolución.",
+          "3": "Registra y supera 6 de los 7 casos, incluidos vacío, duplicado, empate y los dos retornos None; ejecuta la suite tras la prueba cruzada.",
+          "2": "Registra 3, 4 o 5 de los 7 casos, o no indica resultados esperados; no demuestra una ejecución completa posterior a las correcciones.",
+          "1": "Registra 0, 1 o 2 de los 7 casos con esperado y obtenido, o no entrega una suite ejecutable."
+        }
+      },
+      {
+        "criterio": "Manual, demostración, accesibilidad y privacidad",
+        "peso": 15,
+        "niveles": {
+          "4": "Cumple 7 de 7 evidencias: manual con instalación y uso, memoria que enlaza decisiones con requisitos, demostración de hasta 3 minutos, salida interpretable por lectura lineal, etiquetas textuales sin depender del color, datos exclusivamente ficticios y agregados, y atribución de recursos con aportaciones de los 3 integrantes.",
+          "3": "Cumple 6 de las 7 evidencias; necesariamente preserva lectura lineal y utiliza solo datos ficticios y agregados.",
+          "2": "Cumple 3, 4 o 5 de las 7 evidencias y usa datos ficticios; falta el manual o la memoria, o una parte de la salida depende del color o de su posición visual.",
+          "1": "Cumple 0, 1 o 2 de las 7 evidencias, no hay manual ni memoria, o se incluyen datos personales o una decisión automática sobre personas."
+        }
+      }
+    ],
+    "accesibilidad": "Instrucciones numeradas, lenguaje directo, salida legible en orden lineal, etiquetas textuales además de color o formato y posibilidad de ampliar fuente o usar lector de pantalla.",
+    "privacidad": "Trabajar únicamente con datos ficticios o agregados; no introducir nombres, cuentas, ubicaciones ni otros datos personales en código, capturas o Moodle."
+  }
+]
